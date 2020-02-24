@@ -1,0 +1,33 @@
+.navbar {
+  width: 100vw;
+  display: flex;
+  position: fixed;
+  height: 120px;
+  background-color:#000;
+  color:#818181;
+  font-family:Josefin Sans;
+}
+.navbar-logo-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-logo {
+    height: 120px;
+  position: absolute;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5vw;
+}
+.navbar-navigation {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.individual-option{
+    width:6vw;
+    text-align:center;
+}
