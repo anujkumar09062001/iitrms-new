@@ -18,6 +18,9 @@ class Homepage extends Component {
           <div className="homepage-projects-images"></div>
           <div className="homepage-projects-viewall">VIEW ALL PROJECTS</div>
         </div>
+        <div className="testimonials">
+            <div className=""></div>
+        </div>
       </div>
     );
   }
