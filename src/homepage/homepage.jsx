@@ -51,8 +51,10 @@ class Homepage extends Component {
             </div>
           </div>
           <div className="homepage-sponsors-viewall">
+            <a className="homepage-hyperlink" href="#">
             VIEW ALL SPONSORS
             <hr></hr>
+            </a>
           </div>
         </div>
       </div>
