@@ -3,7 +3,7 @@
   width: 100vw;
   background-image: url("../assests/car.png");
 }
-.homepage-projects-heading {
+.homepage-heading {
   height: 182px;
   width: 100vw;
   text-align: center;
@@ -22,16 +22,77 @@
   height: 658px;
 }
 .homepage-projects-viewall {
-    height: 120px;
-    width: 100vw;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #C4C4C4;
-    color: #515151;
-    font-size: 24px;
-    line-height: 59px;
-    font-family: 'Segoe UI';
-    letter-spacing: 0.05rem;
-  }
+  height: 120px;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c4c4c4;
+  color: #515151;
+  font-size: 24px;
+  line-height: 59px;
+  font-family: "Segoe UI";
+  letter-spacing: 0.05rem;
+}
+.homepage-testimonials {
+  height: 817px;
+  background-color: #000;
+}
+.homepage-testimonials-firstpart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 10vw 0px 0vw;
+}
+.homepage-testimonials-photo {
+  border-radius: 50%;
+  background-color: grey;
+  width: 262px !important;
+  height: 262px;
+}
+.homepage-testimonials-comment {
+  color: #959595;
+  font-style: Italic;
+  font-family: Josefin Sans;
+  padding-left: 173px;
+  font-size: 48px;
+  line-height: 48px;
+  width: 900px;
+  padding-bottom: 120px;
+}
+
+.homepage-testimonials-identity {
+  text-align: center;
+}
+.homepage-testimonials-post {
+  font-size: 24px;
+  line-height: 24px;
+  font-family: Josefin Sans;
+  color: #959595;
+}
+.homepage-testimonials-name {
+  color: white;
+  font-size: 36px;
+  line-height: 36px;
+  font-family: Josefin Sans;
+  padding-top: 60px;
+}
+.homepage-sponsors {
+  height: 817px;
+  background-color: #000;
+}
+.homepage-sponsors-all {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.colored-sponsors{
+  width:444px;
+  height: 375px;
+  background-color: #959595;  
+}
+.gold-heading{
+  
+}
