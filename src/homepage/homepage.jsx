@@ -65,7 +65,7 @@ class Homepage extends Component {
             </div>
           </div>
           <div className="homepage-blogs-allblogs">
-            <div className="homepage-blogs-blog">
+          <div className="homepage-blogs-blog">
               <div className="homepage-blogs-category">Electrical</div>
               <div className="homepage-blogs-blog-heading">
                 Our Battery management System
@@ -110,7 +110,7 @@ class Homepage extends Component {
                 Description related to the event
               </div>
             </div>
-            <div className="hoempage-events-event">
+            <div className="homepage-events-event">
               <div className="homepage-events-event-category">Raceday</div>
               <div className="homepage-events-event-date">26/02</div>
               <div className="homepage-events-event-heading">
