@@ -52,9 +52,74 @@ class Homepage extends Component {
           </div>
           <div className="homepage-sponsors-viewall">
             <a className="homepage-hyperlink" href="#">
-            VIEW ALL SPONSORS
-            <hr></hr>
+              VIEW ALL SPONSORS
+              <hr className="sponsors-hr"></hr>
             </a>
+          </div>
+        </div>
+        <div className="homepage-blogs">
+          <div className="homepage-blogs-heading">
+            <div className="homepage-blogs-mainheading">From the Blog</div>
+            <div className="homepage-blogs-seeall">
+              SEE ALL VIEWS<hr className="homepage-blogs-seeall-line"></hr>
+            </div>
+          </div>
+          <div className="homepage-blogs-allblogs">
+            <div className="homepage-blogs-blog">
+              <div className="homepage-blogs-category">Electrical</div>
+              <div className="homepage-blogs-blog-heading">
+                Our Battery management System
+              </div>
+            </div>
+            <div className="homepage-blogs-blog">
+              <div className="homepage-blogs-category">Subsystem</div>
+              <div className="homepage-blogs-blog-heading">
+                The Structural Subsystem
+              </div>
+            </div>
+            <div className="homepage-blogs-blog">
+              <div className="homepage-blogs-category">Subsystem</div>
+              <div className="homepage-blogs-blog-heading">
+                The Aerodynamic Subsystem
+              </div>
+            </div>
+          </div>
+          <div className="fbtimeline">
+            <iframe
+              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fiitrms.in%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=211383719974958"
+              width="340"
+              height="500"
+              style={{ border: "none", overflow: "hidden" }}
+              scrolling="no"
+              frameborder="0"
+              allowTransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
+        </div>
+        <div className="homepage-events">
+          <div className="homepage-events-heading">Events</div>
+          <div className="hoempage-events-all">
+            <div className="hoempage-events-event">
+              <div className="homepage-events-event-category">FB LIVE</div>
+              <div className="homepage-events-event-date">26/02</div>
+              <div className="homepage-events-event-heading">
+                Heading of the event
+              </div>
+              <div className="homepage-events-event-description">
+                Description related to the event
+              </div>
+            </div>
+            <div className="hoempage-events-event">
+              <div className="homepage-events-event-category">Raceday</div>
+              <div className="homepage-events-event-date">26/02</div>
+              <div className="homepage-events-event-heading">
+                Heading of the event
+              </div>
+              <div className="homepage-events-event-description">
+                Description related to the event
+              </div>
+            </div>
           </div>
         </div>
       </div>
