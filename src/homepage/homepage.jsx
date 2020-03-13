@@ -65,7 +65,7 @@ class Homepage extends Component {
             </div>
           </div>
           <div className="homepage-blogs-allblogs">
-          <div className="homepage-blogs-blog">
+            <div className="homepage-blogs-blog">
               <div className="homepage-blogs-category">Electrical</div>
               <div className="homepage-blogs-blog-heading">
                 Our Battery management System
@@ -84,8 +84,44 @@ class Homepage extends Component {
               </div>
             </div>
           </div>
+        </div>
+        <div className="homepage-events">
+          <div className="homepage-events-heading">Events</div>
+          <div className="homepage-events-all">
+            <div className="homepage-events-event">
+              <div className="homepage-events-event-category">FB LIVE</div>
+              <div className="homepage-events-event-individual">
+                <div className="homepage-events-event-date">26/02</div>
+                <div className="homepage-events-event-content">
+                  <div className="homepage-events-event-heading">
+                    Heading of the event
+                  </div>
+                  <br></br>
+                  <div className="homepage-events-event-description">
+                    Description related to the event
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="homepage-events-event">
+              <div className="homepage-events-event-category">Raceday</div>
+              <div className="homepage-events-event-individual">
+                <div className="homepage-events-event-date">26/02</div>
+                <div className="homepage-events-event-content">
+                  <div className="homepage-events-event-heading">
+                    Heading of the event
+                  </div>
+                  <br></br>
+                  <div className="homepage-events-event-description">
+                    Description related to the event
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="fbtimeline">
             <iframe
+              class="fb_iframe"
               src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fiitrms.in%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=211383719974958"
               width="340"
               height="500"
@@ -97,28 +133,81 @@ class Homepage extends Component {
             ></iframe>
           </div>
         </div>
-        <div className="homepage-events">
-          <div className="homepage-events-heading">Events</div>
-          <div className="hoempage-events-all">
-            <div className="hoempage-events-event">
-              <div className="homepage-events-event-category">FB LIVE</div>
-              <div className="homepage-events-event-date">26/02</div>
-              <div className="homepage-events-event-heading">
-                Heading of the event
-              </div>
-              <div className="homepage-events-event-description">
-                Description related to the event
-              </div>
+        <div className="homepage-contact">
+          <div className="homepage-contact-intro">
+            <div className="homepage-contact-readytotalk">Ready To Talk?</div>
+            <br></br>
+            <div className="homepage-contact-scheduletalk">
+              SCHEDULE A TALK OR JUST SAY HELLO
             </div>
-            <div className="homepage-events-event">
-              <div className="homepage-events-event-category">Raceday</div>
-              <div className="homepage-events-event-date">26/02</div>
-              <div className="homepage-events-event-heading">
-                Heading of the event
-              </div>
-              <div className="homepage-events-event-description">
-                Description related to the event
-              </div>
+          </div>
+          <div className="inputfields">
+            <form className="homepage-contact-form">
+              <input
+                type="text"
+                className="inputbox"
+                name="fname"
+                placeholder="Full Name*"
+              ></input>
+              <br></br>
+              <input
+                type="text"
+                className="inputbox"
+                name="fname"
+                placeholder="Email Address*"
+              ></input>
+              <br></br>
+              <input
+                type="text"
+                className="inputbox"
+                name="fname"
+                placeholder="Phone Number"
+              ></input>
+            </form>
+            <form className="homepage-contact-form">
+              <input
+                type="text"
+                className="messagebox"
+                name="fname"
+                placeholder="write your message here..."
+              ></input>
+            </form>
+          </div>
+          {/* <div className="homepage-contact-submitline">
+            <div className="homepage-contact-box"></div>
+            <div className="homepage-contact-checkbox">
+              Sign me up for latest news, events and more
+            </div>
+          </div> */}
+        </div>
+        <div className="homepage-map">
+          <div className="homepage-map-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13839.94632857758!2d77.8938889!3d29.8646608!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1584076190527!5m2!1sen!2sin"
+              width="1200"
+              height="540"
+              frameborder="0"
+              style={{ border: "0" }}
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            ></iframe>
+          </div>
+          <div className="homepage-map-address">
+            <div className="homepage-map-home-heading">
+              HOME
+            </div>
+            <div className="map-address">
+              Mechanical & Industrial Engineering Department, IIT Roorkee 247667
+              , Uttarakhand, India
+            </div>
+            <div className="map-phone">
+              <span id="phone">P </span>
+              <span>+91 9451039813</span>
+            </div>
+            <div className="map-phone">
+              <span id="phone">M </span>
+              <span>+91 9451039813</span>
             </div>
           </div>
         </div>
