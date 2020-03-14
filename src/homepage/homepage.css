@@ -40,6 +40,24 @@
   padding: 200px 0px;
   background-color: #000;
 }
+.homepage-testimonials-leftslide{
+  width: 30px;
+  height: 40px;
+  position: absolute;
+  border: 1px solid;
+  background-color: #333;
+  margin:350px 0px 0px 0px;
+  cursor: pointer;
+}
+.homepage-testimonials-rightslide{
+  width:30px;
+  height:40px;
+  position: absolute;
+  border: 1px solid;
+  background-color: #333;
+  margin:350px 0px 0px 1850px;
+  cursor: pointer;
+}
 .homepage-testimonials-firstpart {
   display: flex;
   justify-content: center;

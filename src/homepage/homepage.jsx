@@ -2,12 +2,42 @@ import React, { Component } from "react";
 import "./homepage.css";
 import Navbar from "../components/navbar/navbar";
 import CarBackground from "../assests/car.png";
+import testimonials from "./testimonialsData.json";
 
 class Homepage extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      activeIndex: 2
+    };
   }
+  leftscroll = () => {
+    var i = this.state.activeIndex;
+    if (i === 0) {
+      i = testimonials.length - 1;
+      this.setState({
+        activeIndex: i
+      });
+    } else {
+      i--;
+      this.setState({
+        activeIndex: i
+      });
+    }
+  };
+  rightscroll = () => {
+    var i = this.state.activeIndex;
+    if (i === testimonials.length - 1) {
+      this.setState({
+        activeIndex: 0
+      });
+    } else {
+      i++;
+      this.setState({
+        activeIndex: i
+      });
+    }
+  };
   render() {
     return (
       <div className="homepage">
@@ -19,20 +49,42 @@ class Homepage extends Component {
           <div className="homepage-projects-viewall">VIEW ALL PROJECTS</div>
         </div>
         <div className="homepage-testimonials">
+          <button
+            className="homepage-testimonials-leftslide"
+            onClick={this.leftscroll}
+          >
+            <div className="arrow-left"></div>
+          </button>
+          <button
+            className="homepage-testimonials-rightslide"
+            onClick={this.rightscroll}
+          >
+            <div className="arrow-right"></div>
+          </button>
           <div className="homepage-heading">TESTIMONIALS</div>
-          <div className="homepage-testimonials-content">
-            <div className="homepage-testimonials-firstpart">
-              <div className="homepage-testimonials-identity">
-                <div className="homepage-testimonials-photo"></div>
-                <div className="homepage-testimonials-name">Hero Alom</div>
-                <div className="homepage-testimonials-post">Star</div>
-              </div>
-              <div className="homepage-testimonials-comment">
-                "comments in the center"{" "}
-              </div>
-              {/* <div className="homepage-testimonials-button"></div> */}
-            </div>
-          </div>
+          {testimonials.map((testiDetail, index) => {
+            if (index === this.state.activeIndex) {
+              return (
+                <div className="homepage-testimonials-content">
+                  <div className="homepage-testimonials-firstpart">
+                    <div className="homepage-testimonials-identity">
+                      <div className="homepage-testimonials-photo"></div>
+                      <div className="homepage-testimonials-name">
+                        {testiDetail.name}
+                      </div>
+                      <div className="homepage-testimonials-post">
+                        {testiDetail.post}
+                      </div>
+                    </div>
+                    <div className="homepage-testimonials-comment">
+                      {testiDetail.comment}{" "}
+                    </div>
+                    {/* <div className="homepage-testimonials-button"></div> */}
+                  </div>
+                </div>
+              );
+            }
+          })}
         </div>
         <div className="homepage-sponsors">
           <div className="homepage-heading">SPONSORS</div>
@@ -194,9 +246,7 @@ class Homepage extends Component {
             ></iframe>
           </div>
           <div className="homepage-map-address">
-            <div className="homepage-map-home-heading">
-              HOME
-            </div>
+            <div className="homepage-map-home-heading">HOME</div>
             <div className="map-address">
               Mechanical & Industrial Engineering Department, IIT Roorkee 247667
               , Uttarakhand, India

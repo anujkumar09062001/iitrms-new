@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Hero Alom",
+    "post": "actor",
+    "comment": "Looks does not matter"
+  },
+  {
+    "id": 2,
+    "name": "Maanav Seth",
+    "post": "hacker",
+    "comment": "Work while living life"
+  },
+  {
+    "id": 3,
+    "name": "Aditya Srivastava",
+    "post": "designer",
+    "comment": "Pls believe me! I can design!"
+  }
+]

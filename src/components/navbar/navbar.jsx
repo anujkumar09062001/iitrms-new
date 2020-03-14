@@ -1,22 +1,22 @@
-import React ,{Component} from "react";
+import React, { Component } from "react";
 import "./navbar.css";
 // import { Grid, Segment } from 'semantic-ui-react'
 import Image from "../../assests/logo.svg";
 
-class Navbar extends Component { 
-  dropdown1 = () => {
-    console.log(1);
-    var x = document.getElementsByClassName("navbar-navigation");
-    console.log(x);
-    x.display = "block";
-    if(x.display === "block"){
-      console.log(2);
-      x.display = 'none'
-    }
-    else {
-      x.display = "block"
-    }
-  }
+class Navbar extends Component {
+  // dropdown1 = () => {
+  //   console.log(1);
+  //   var x = document.getElementsByClassName("navbar-navigation");
+  //   console.log(x);
+  //   x.display = "block";
+  //   if(x.display === "block"){
+  //     console.log(2);
+  //     x.display = 'none'
+  //   }
+  //   else {
+  //     x.display = "block"
+  //   }
+  // }
   render() {
     return (
       <div className="navbar">
@@ -57,11 +57,13 @@ class Navbar extends Component {
             </a>
           </div>
         </div>
-        <a href="javascript:void(0);" onClick={this.dropdown1()}><div className="dropdown" >
-          <div className="individual_bar"></div>
-          <br></br>
-          <div className="individual_bar"></div>
-        </div></a>
+        <a href="javascript:void(0);">
+          <div className="dropdown">
+            <div className="individual_bar"></div>
+            <br></br>
+            <div className="individual_bar"></div>
+          </div>
+        </a>
       </div>
     );
   }
