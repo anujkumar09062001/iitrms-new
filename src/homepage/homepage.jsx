@@ -8,7 +8,7 @@ class Homepage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeIndex: 2
+      activeIndex: 2,
     };
   }
   leftscroll = () => {
@@ -112,9 +112,9 @@ class Homepage extends Component {
         <div className="homepage-blogs">
           <div className="homepage-blogs-heading">
             <div className="homepage-blogs-mainheading">From the Blog</div>
-            <div className="homepage-blogs-seeall">
+            <a><div className="homepage-blogs-seeall">
               SEE ALL VIEWS<hr className="homepage-blogs-seeall-line"></hr>
-            </div>
+            </div></a>
           </div>
           <div className="homepage-blogs-allblogs">
             <div className="homepage-blogs-blog">
@@ -236,7 +236,7 @@ class Homepage extends Component {
           <div className="homepage-map-map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13839.94632857758!2d77.8938889!3d29.8646608!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1584076190527!5m2!1sen!2sin"
-              width="1200"
+              width="100%"
               height="540"
               frameborder="0"
               style={{ border: "0" }}
