@@ -1,0 +1,37 @@
+.rms-footer{
+    background-color:#000000;
+    margin-top:25px;
+  
+}
+.rms-footer-main{
+    width:70%;
+    font-size:1.1em;
+    color:white
+
+}
+.rms-footer-number-1,.rms-footer-number-2{
+    padding-top:5px;
+    font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 1.1em;
+color:white
+
+}
+#rms-footer-number-sign{
+    color:#6C6C6C !important;
+    margin-right:1.4%
+}
+.rms-footer-social-links{
+    margin-top:1.7% !important;
+}
+.rms-footer-social{
+    margin-left:1% !important;
+}
+.rms-footer-social-fb,.rms-footer-social-in{
+    margin-left:2.5% !important;
+}
+.rms-footer-copyright{
+    color: #474747;
+font-size:1.2em
+}
