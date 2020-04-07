@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./navbar.css";
 // import { Grid, Segment } from 'semantic-ui-react'
-import Image from "../../assests/logo.svg";
+import Image from "../../assets/logo.svg";
 
 class Navbar extends Component {
   constructor(props) {

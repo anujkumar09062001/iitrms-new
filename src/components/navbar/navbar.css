@@ -2,15 +2,16 @@
   width: 100vw;
   display: flex;
   position: fixed;
-  height: 14.5vh;
+  height: 110px;
   background-color: #000;
   color: #818181;
   font-family: Josefin Sans;
+  z-index: 5 !important;
 }
 .navbar-logo-container {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 .navbar-logo {
   height: 120px;

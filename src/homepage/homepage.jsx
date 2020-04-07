@@ -1,13 +1,67 @@
 import React, { Component } from "react";
 import "./homepage.css";
 import Navbar from "../components/navbar/navbar";
-import CarBackground from "../assests/car.png";
+import Back1 from "../assets/slider1.jpg";
+import Back2 from "../assets/slider2.jpg";
+import Back3 from "../assets/slider3.jpg";
+import Back4 from "../assets/slider4.jpg";
+import Back5 from "../assets/slider5.jpg";
+import Back6 from "../assets/slider6.jpg";
+import Back7 from "../assets/slider7.jpg";
+import Back8 from "../assets/slider8.jpg";
 import testimonials from "./testimonialsData.json";
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
+
 
 class Homepage extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      backdata: 
+      [
+          {
+              "id": 0,
+              "image":Back1,
+              "text":"qwertyuiop"
+          },
+          {
+              "id": 1,
+              "image":Back2,
+              "text":""
+          },
+          {
+              "id": 2,
+              "image":Back3,
+              "text":""
+          },
+          {
+              "id": 3,
+              "image":Back4,
+              "text":""
+          },
+          {
+              "id": 4,
+              "image":Back5,
+              "text":""
+          },
+          {
+              "id": 5,
+              "image":Back6,
+              "text":""
+          },
+          {
+              "id": 6,
+              "image":Back7,
+              "text":""
+          },
+          {
+              "id": 7,
+              "image":Back8,
+              "text":""
+          }
+      ],
+      activeIndexHome: 0,
       activeIndex: 2,
     };
   }
@@ -34,18 +88,89 @@ class Homepage extends Component {
     } else {
       i++;
       this.setState({
-        activeIndex: i
+        activeIndex: i  
       });
     }
   };
-  render() {
-    return (
+leftscrollHome = () => {
+  var i = this.state.activeIndexHome;
+  if (i === 0) {
+    i = testimonials.length - 1;
+    this.setState({
+      activeIndexHome: i
+    });
+  } else {
+    i--;
+    this.setState({
+      activeIndexHome: i
+    });
+  }
+};
+rightscrollHome = () => {
+  var i = this.state.activeIndexHome;
+  if (i === this.state.backdata.length - 1) {
+    this.setState({
+      activeIndexHome: 0
+    });
+  } else {
+    i++;
+    this.setState({
+      activeIndexHome: i
+    });
+  }
+};
+render(){
+ ;     return (
       <div className="homepage">
-        <Navbar></Navbar>
-        <div className="intro-slider"></div>
+        
+        {/* {this.state.backdata.map((introDetail,index)=>{
+          if(index === this.state.activeIndexHome){
+            return(
+              <div>
+              <button
+              className="homepage-projects-leftslide"
+                onClick={this.leftscrollHome}
+                >
+                <div className="arrow-left"></div>
+                </button>
+                <button
+                className="homepage-projects-rightslide"
+                onClick={this.rightscrollHome}
+                >
+                <div className="arrow-right"></div>
+                </button>
+                <div className="intro-slider" style={{backgroundImage: `url(${introDetail.image})`, backgroundSize:"cover", backgroundRepeat:"no-repeat"}}>"oDetail.id}</div>
+                </div>)
+              }
+            })} */}
+        <div className="intro-slider">
+            <Navbar></Navbar>
+          <AwesomeSlider>
+            <div className="sliderphoto" data-src={Back1} />
+            <div className="sliderphoto" data-src={Back2} />
+            <div className="sliderphoto" data-src={Back3} />
+            <div className="sliderphoto" data-src={Back4} />
+            <div className="sliderphoto" data-src={Back5} />
+            <div className="sliderphoto" data-src={Back6} />
+            <div className="sliderphoto" data-src={Back7} />
+            <div className="sliderphoto" data-src={Back8} />
+          </AwesomeSlider>
+        </div>
+
+        
         <div className="homepage-projects">
+          
           <div className="homepage-heading">PROJECTS</div>
-          <div className="homepage-projects-images"></div>
+          <div className="homepage-projects-images" >
+            <div className="homepage-projects-image-row">
+              <div className="homepage-projects-image1"><a className="projects-image" ></a></div>
+              <div className="homepage-projects-image2"><a className="projects-image"></a></div>
+            </div>
+            <div className="homepage-projects-image-row">
+              <div className="homepage-projects-image3"><a className="projects-image"></a></div>
+              <div className="homepage-projects-image4"><a className="projects-image"></a></div>
+            </div>
+          </div>
           <div className="homepage-projects-viewall">VIEW ALL PROJECTS</div>
         </div>
         <div className="homepage-testimonials">

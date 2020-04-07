@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Grid, Image, GridRow } from "semantic-ui-react"
 import "./footer.css"
-import linkedIn from "../../assests/instagram.png"
-import fB from "../../assests/fb.png"
-import Insta from "../../assests/insta.png"
-import Twitter from "../../assests/twitter.png"
+import linkedIn from "../../assets/linkedin.svg"
+import fB from "../../assets/facebook.png"
+import Insta from "../../assets/insta.svg"
+import Twitter from "../../assets/twitter.svg"
 class FooterRms extends Component {
     constructor() {
         super();
