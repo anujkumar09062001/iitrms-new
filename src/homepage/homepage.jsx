@@ -9,6 +9,17 @@ import Back5 from "../assets/slider5.jpg";
 import Back6 from "../assets/slider6.jpg";
 import Back7 from "../assets/slider7.jpg";
 import Back8 from "../assets/slider8.jpg";
+import IITR from "../assets/iitrlogo.svg";
+import Melasta from "../assets/melasta.svg";
+import Cft from "../assets/cft.svg";
+import Goodluck from "../assets/goodluck.svg";
+import Mathworks from "../assets/mathworks.svg";
+import Mrf from "../assets/mrf.svg";
+import CP from "../assets/century.svg";
+import Gripumps from "../assets/gri-pump.svg";
+import Ipg from "../assets/ipg.svg";
+import Solid from "../assets/sw.svg";
+import Bender from "../assets/bender.svg";
 import testimonials from "./testimonialsData.json";
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
@@ -216,15 +227,35 @@ render(){
           <div className="homepage-sponsors-all">
             <div className="homepage-sponsors-golden">
               <div className="gold-heading">GOLD</div>
-              <div className="colored-sponsors"></div>
+              <br></br>
+              <br></br>
+              <div className="colored-sponsors">
+                <img className="sponsor-image" src={IITR}></img>
+                <img className="sponsor-image" src={Melasta}></img>
+              </div>
             </div>
             <div className="homepage-sponsors-silver">
               <div className="silver-heading">SILVER</div>
-              <div className="colored-sponsors"></div>
+              <br></br>
+              <br></br>
+              <div className="colored-sponsors">
+              <img className="sponsor-image" src={Cft}></img>
+              <img className="sponsor-image" src={Goodluck}></img>
+              </div>
             </div>
             <div className="homepage-sponsors-bronze">
               <div className="bronze-heading">BRONZE</div>
-              <div className="colored-sponsors"></div>
+              <br></br>
+              <br></br>
+              <div className="colored-sponsors">
+              <img className="sponsor-image" src={Mathworks}></img>
+              <img className="sponsor-image" src={Mrf}></img>
+              <img className="sponsor-image" src={CP}></img>
+              <img className="sponsor-image" src={Gripumps}></img>
+              <img className="sponsor-image" src={Ipg}></img>
+              <img className="sponsor-image" src={Solid}></img>
+              <img className="sponsor-image" src={Bender}></img>
+              </div>
             </div>
           </div>
           <div className="homepage-sponsors-viewall">

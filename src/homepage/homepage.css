@@ -236,8 +236,10 @@
 .colored-sponsors {
   width: 444px;
   margin-bottom: 100px;
-  height: 375px;
-  background-color: #959595;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 .gold-heading {
   text-align: center;
@@ -263,6 +265,14 @@
   font-family: Josefin Sans;
   padding-bottom: 10px;
 }
+.sponsor-image{
+  padding-top:20px; 
+}
+/* @media only screen and (max-width: 600px){
+  .image-melasta{
+    width:100px;
+  }
+} */
 .homepage-sponsors-viewall {
   text-align: center;
   font-size: 18px;
@@ -295,7 +305,6 @@
 @media only screen and (max-width: 600px) {
   .colored-sponsors {
     width: 300px;
-    height: 250px;
   }
 }
 .homepage-blogs {
