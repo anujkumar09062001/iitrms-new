@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./homepage.css";
+import { Link } from "react-router-dom";
 import Navbar from "../components/navbar/navbar";
 import Back1 from "../assets/slider1.jpg";
 import Back2 from "../assets/slider2.jpg";
@@ -21,56 +22,54 @@ import Ipg from "../assets/ipg.svg";
 import Solid from "../assets/sw.svg";
 import Bender from "../assets/bender.svg";
 import testimonials from "./testimonialsData.json";
-import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/styles.css';
-
+import AwesomeSlider from "react-awesome-slider";
+import "react-awesome-slider/dist/styles.css";
 
 class Homepage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      backdata: 
-      [
-          {
-              "id": 0,
-              "image":Back1,
-              "text":"qwertyuiop"
-          },
-          {
-              "id": 1,
-              "image":Back2,
-              "text":""
-          },
-          {
-              "id": 2,
-              "image":Back3,
-              "text":""
-          },
-          {
-              "id": 3,
-              "image":Back4,
-              "text":""
-          },
-          {
-              "id": 4,
-              "image":Back5,
-              "text":""
-          },
-          {
-              "id": 5,
-              "image":Back6,
-              "text":""
-          },
-          {
-              "id": 6,
-              "image":Back7,
-              "text":""
-          },
-          {
-              "id": 7,
-              "image":Back8,
-              "text":""
-          }
+      backdata: [
+        {
+          id: 0,
+          image: Back1,
+          text: "qwertyuiop",
+        },
+        {
+          id: 1,
+          image: Back2,
+          text: "",
+        },
+        {
+          id: 2,
+          image: Back3,
+          text: "",
+        },
+        {
+          id: 3,
+          image: Back4,
+          text: "",
+        },
+        {
+          id: 4,
+          image: Back5,
+          text: "",
+        },
+        {
+          id: 5,
+          image: Back6,
+          text: "",
+        },
+        {
+          id: 6,
+          image: Back7,
+          text: "",
+        },
+        {
+          id: 7,
+          image: Back8,
+          text: "",
+        },
       ],
       activeIndexHome: 0,
       activeIndex: 2,
@@ -81,12 +80,12 @@ class Homepage extends Component {
     if (i === 0) {
       i = testimonials.length - 1;
       this.setState({
-        activeIndex: i
+        activeIndex: i,
       });
     } else {
       i--;
       this.setState({
-        activeIndex: i
+        activeIndex: i,
       });
     }
   };
@@ -94,46 +93,45 @@ class Homepage extends Component {
     var i = this.state.activeIndex;
     if (i === testimonials.length - 1) {
       this.setState({
-        activeIndex: 0
+        activeIndex: 0,
       });
     } else {
       i++;
       this.setState({
-        activeIndex: i  
+        activeIndex: i,
       });
     }
   };
-leftscrollHome = () => {
-  var i = this.state.activeIndexHome;
-  if (i === 0) {
-    i = testimonials.length - 1;
-    this.setState({
-      activeIndexHome: i
-    });
-  } else {
-    i--;
-    this.setState({
-      activeIndexHome: i
-    });
-  }
-};
-rightscrollHome = () => {
-  var i = this.state.activeIndexHome;
-  if (i === this.state.backdata.length - 1) {
-    this.setState({
-      activeIndexHome: 0
-    });
-  } else {
-    i++;
-    this.setState({
-      activeIndexHome: i
-    });
-  }
-};
-render(){
- ;     return (
+  leftscrollHome = () => {
+    var i = this.state.activeIndexHome;
+    if (i === 0) {
+      i = testimonials.length - 1;
+      this.setState({
+        activeIndexHome: i,
+      });
+    } else {
+      i--;
+      this.setState({
+        activeIndexHome: i,
+      });
+    }
+  };
+  rightscrollHome = () => {
+    var i = this.state.activeIndexHome;
+    if (i === this.state.backdata.length - 1) {
+      this.setState({
+        activeIndexHome: 0,
+      });
+    } else {
+      i++;
+      this.setState({
+        activeIndexHome: i,
+      });
+    }
+  };
+  render() {
+    return (
       <div className="homepage">
-        
         {/* {this.state.backdata.map((introDetail,index)=>{
           if(index === this.state.activeIndexHome){
             return(
@@ -155,7 +153,7 @@ render(){
               }
             })} */}
         <div className="intro-slider">
-            <Navbar></Navbar>
+          <Navbar></Navbar>
           <AwesomeSlider>
             <div className="sliderphoto" data-src={Back1} />
             <div className="sliderphoto" data-src={Back2} />
@@ -167,19 +165,35 @@ render(){
             <div className="sliderphoto" data-src={Back8} />
           </AwesomeSlider>
         </div>
-
-        
         <div className="homepage-projects">
-          
           <div className="homepage-heading">PROJECTS</div>
-          <div className="homepage-projects-images" >
-            <div className="homepage-projects-image-row">
-              <div className="homepage-projects-image1"><a className="projects-image" ></a></div>
-              <div className="homepage-projects-image2"><a className="projects-image"></a></div>
-            </div>
-            <div className="homepage-projects-image-row">
-              <div className="homepage-projects-image3"><a className="projects-image"></a></div>
-              <div className="homepage-projects-image4"><a className="projects-image"></a></div>
+          <div className="homepage-projects-images">
+            <div className="homepage-projects-column1"></div>
+            <div className="homepage-projects-column2">
+              <div className="homepage-projects-image-row">
+                <Link to="/project/0">
+                  <div className="homepage-projects-image1">
+                    <a className="projects-image"></a>
+                  </div>
+                </Link>
+                <Link to="/project/1">
+                  <div className="homepage-projects-image2">
+                    <a className="projects-image"></a>
+                  </div>
+                </Link>
+              </div>
+              <div className="homepage-projects-image-row">
+                <Link to="/project/2">
+                  <div className="homepage-projects-image3">
+                    <a className="projects-image"></a>
+                  </div>
+                </Link>
+                <Link to="/project/3">
+                  <div className="homepage-projects-image4">
+                    <a className="projects-image"></a>
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
           <div className="homepage-projects-viewall">VIEW ALL PROJECTS</div>
@@ -239,8 +253,8 @@ render(){
               <br></br>
               <br></br>
               <div className="colored-sponsors">
-              <img className="sponsor-image" src={Cft}></img>
-              <img className="sponsor-image" src={Goodluck}></img>
+                <img className="sponsor-image" src={Cft}></img>
+                <img className="sponsor-image" src={Goodluck}></img>
               </div>
             </div>
             <div className="homepage-sponsors-bronze">
@@ -248,13 +262,13 @@ render(){
               <br></br>
               <br></br>
               <div className="colored-sponsors">
-              <img className="sponsor-image" src={Mathworks}></img>
-              <img className="sponsor-image" src={Mrf}></img>
-              <img className="sponsor-image" src={CP}></img>
-              <img className="sponsor-image" src={Gripumps}></img>
-              <img className="sponsor-image" src={Ipg}></img>
-              <img className="sponsor-image" src={Solid}></img>
-              <img className="sponsor-image" src={Bender}></img>
+                <img className="sponsor-image" src={Mathworks}></img>
+                <img className="sponsor-image" src={Mrf}></img>
+                <img className="sponsor-image" src={CP}></img>
+                <img className="sponsor-image" src={Gripumps}></img>
+                <img className="sponsor-image" src={Ipg}></img>
+                <img className="sponsor-image" src={Solid}></img>
+                <img className="sponsor-image" src={Bender}></img>
               </div>
             </div>
           </div>
@@ -268,9 +282,11 @@ render(){
         <div className="homepage-blogs">
           <div className="homepage-blogs-heading">
             <div className="homepage-blogs-mainheading">From the Blog</div>
-            <a><div className="homepage-blogs-seeall">
-              SEE ALL VIEWS<hr className="homepage-blogs-seeall-line"></hr>
-            </div></a>
+            <a>
+              <div className="homepage-blogs-seeall">
+                SEE ALL VIEWS<hr className="homepage-blogs-seeall-line"></hr>
+              </div>
+            </a>
           </div>
           <div className="homepage-blogs-allblogs">
             <div className="homepage-blogs-blog">
