@@ -1,3 +1,8 @@
+.homepage-navbar-set {
+  margin-top: -100px;
+
+  position: absolute;
+}
 .intro-slider {
   width: 100vw;
   z-index: -1;
@@ -64,6 +69,8 @@
   display: flex;
   width: 100vw;
   /* height: 20vw; */
+  position: relative;
+  z-index: 5;
   background-image: url("../assets/projdisplay.jpg");
   background-size: cover;
 }
@@ -73,28 +80,29 @@
   height: 20vw;
 }
 .homepage-projects-image1 {
-  background-image: url("../assets/proj1.jpg");
-  width: 30vw;
+  background-image: url("../assets/proj7.jpg");
+  width: 37vw;
   height: 29vw;
   background-size: cover;
   z-index: 0;
-  margin-top: -100px;
+  margin-top: -50px;
+  margin-left: -100px;
   position: relative;
   -webkit-filter: grayscale(1);
   -webkit-transition: 0.3s ease-in-out;
   cursor: pointer;
 }
 .homepage-projects-image2 {
-  background-image: url("../assets/proj2.jpg");
+  background-image: url("../assets/slider3.jpg");
   width: 50vw;
   height: 20vw;
-  background-size: 40vw;
+  background-size: 31vw;
   -webkit-filter: grayscale(1);
   -webkit-transition: 0.3s ease-in-out;
   cursor: pointer;
 }
 .homepage-projects-image3 {
-  background-image: url("../assets/proj3.jpg");
+  background-image: url("../assets/proj6.jpg");
   width: 20vw;
   height: 20vw;
   background-size: cover;
@@ -135,40 +143,41 @@
 }
 @media only screen and (max-width: 600px) {
   .intro-slider {
-    margin-top: 50px;
+    margin-top: 100px;
   }
   .homepage-projects-image-row {
     flex-direction: column;
+    width: 100vw;
+    overflow: hidden;
   }
   .homepage-projects-column1 {
     display: none;
   }
   .homepage-projects-image1 {
-    width: 100vw;
-    height: 400px;
-    margin-top: 0px;
+    width: 180vw;
+    height: 350px;
     background-size: cover;
   }
   .homepage-projects-image2 {
     width: 100vw;
-    height: 400px;
+    height: 300px;
     margin-top: 0px;
     background-size: cover;
   }
   .homepage-projects-image3 {
     width: 100vw;
-    height: 400px;
+    height: 300px;
     margin-top: 0px;
     background-size: cover;
   }
   .homepage-projects-image4 {
     width: 100vw;
-    height: 400px;
+    height: 300px;
     margin-top: 0px;
     background-size: cover;
   }
   .homepage-projects-image-row {
-    height: 100vw;
+    height: 600px;
   }
 }
 .homepage-testimonials {

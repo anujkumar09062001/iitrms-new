@@ -82,32 +82,34 @@ class Navbar extends Component {
           // style={{ display: this.state.activeHam ? "none" : "flex" }}
         >
           <div class="individual-option">
-            <Link to="/">HOME</Link>
+            <Link to="/" style={{ textDecoration: "none", color: "#818181" }}>
+              <a className="link">HOME</a>
+            </Link>
           </div>
           <div class="individual-option">
-            <a href="#" class="link">
-              PROJECTS
-            </a>
+            <Link to="/project/0">
+              <a className="link">PROJECTS</a>
+            </Link>
           </div>
           <div class="individual-option">
-            <a href="#" class="link">
-              TEAM
-            </a>
+            <Link to="/team">
+              <a className="link">TEAM</a>
+            </Link>
           </div>
           <div class="individual-option">
-            <a href="#" class="link">
-              BLOG
-            </a>
+            <Link to="/">
+              <a className="link">BLOG</a>
+            </Link>
           </div>
           <div class="individual-option">
-            <a href="#" class="link">
-              CONTACT
-            </a>
+            <Link to="/">
+              <a className="link">CONTACT</a>
+            </Link>
           </div>
           <div class="individual-option">
-            <a href="#" class="link">
-              SPONSORS
-            </a>
+            <Link to="/partners">
+              <a className="link">SPONSORS</a>
+            </Link>
           </div>
         </div>
         <a onClick={this.myfunc}>

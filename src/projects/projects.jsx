@@ -24,7 +24,7 @@ class Project extends Component {
           </div>
         </div>
         {ProjectDetailText.map((allinfo) => {
-          console.log(this.props.image);
+          // console.log(this.props.image);
           if (allinfo.id === this.props.projectid) {
             // var A = this.props.image;
             return (

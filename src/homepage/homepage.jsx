@@ -152,8 +152,10 @@ class Homepage extends Component {
                 </div>)
               }
             })} */}
-        <div className="intro-slider">
+        <div className="homepage-navbar-set">
           <Navbar></Navbar>
+        </div>
+        <div className="intro-slider">
           <AwesomeSlider>
             <div className="sliderphoto" data-src={Back1} />
             <div className="sliderphoto" data-src={Back2} />
