@@ -24,6 +24,14 @@
 .individual-option {
   width: 100px;
   text-align: center;
+  color: #818181;
+}
+.individual-option:hover{
+  color:#666;
+}
+a{
+  text-decoration: none;
+  color:#818181;
 }
 @media only screen and (min-width: 1000px) {
   .dropdown {

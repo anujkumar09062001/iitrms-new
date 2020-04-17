@@ -1,0 +1,39 @@
+.former-photos-indiv {
+  padding: 10px 30px;
+}
+.former-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10vw 5vw 15vw 5vw;
+}
+@media only screen and (max-width: 600px) {
+  .former-photos-indiv-munjal {
+    width: 300px;
+  }
+  .former-photos-indiv-wilwood {
+    width: 300px;
+  }
+  .former-photos-indiv-valient {
+    width: 300px;
+  }
+  .former-photos-indiv-tidc {
+    width: 300px;
+  }
+  .former-photos-indiv-xilinx {
+    width: 300px;
+  }
+  .former-photos-indiv-mgs {
+    width: 300px;
+  }
+  .former-photos-indiv-wb {
+    width: 300px;
+  }
+  .former-photos-indiv-iotrek {
+    width: 300px;
+  }
+  .former-photos-indiv-phoenix {
+    width: 300px;
+  }
+}

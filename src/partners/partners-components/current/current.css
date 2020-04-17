@@ -1,0 +1,46 @@
+.current-heading {
+  font-family: Josefin Sans;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.current-photos {
+  padding: 150px 50px 200px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.current-photos-indiv {
+  padding: 10px 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .current-photos-indiv-goodluck {
+    width: 280px;
+  }
+  .current-photos-indiv-jlcpcb {
+    width: 280px;
+  }
+  .current-photos-indiv-wilwood {
+    width: 280px;
+  }
+  .current-photos-indiv-simscale {
+    width: 280px;
+  }
+  .current-photos-indiv-gigavac {
+    width: 280px;
+  }
+  .current-photos-indiv-bqf {
+    width: 280px;
+  }
+  .current-photos-indiv-coroplast {
+    width: 280px;
+  }
+  .current-photos-indiv-app {
+    width: 280px;
+  }
+}

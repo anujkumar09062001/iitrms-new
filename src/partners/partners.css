@@ -1,0 +1,30 @@
+.partners-heading {
+  font-family: Gothic A1;
+  padding-top: 200px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  line-height: 60px;
+}
+.partners-categories {
+  display: flex;
+  justify-content: space-around;
+  font-family: Montserrat;
+  font-size: 36px;
+  line-height: 44px;
+  padding: 100px 0px 80px 0px;
+}
+.partners-categories-active{
+  width:100%;
+  height: 3px;
+  background-color: red;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 400px)
+{
+  .partners-categories{
+    font-size: 30px;
+  } 
+}

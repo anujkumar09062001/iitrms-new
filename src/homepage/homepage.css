@@ -2,7 +2,6 @@
   width: 100vw;
   z-index: -1;
   overflow: hidden;
-  /* background-image: "../assets/slider2.jpg"; */
 }
 .sliderphoto {
   z-index: -1 !important;
@@ -25,8 +24,8 @@
 }
 .homepage-projects-images {
   width: 100vw;
-  display:flex;
-  position:-2;
+  display: flex;
+  position: -2;
 }
 .homepage-projects-viewall {
   height: 120px;
@@ -41,7 +40,7 @@
   line-height: 59px;
   font-family: "Segoe UI";
   letter-spacing: 0.05rem;
-  z-index:2;
+  z-index: 2;
 }
 .homepage-projects-leftslide {
   width: 70px;
@@ -61,12 +60,12 @@
   margin: 500px 0px 0px 95vw;
   cursor: pointer;
 }
-.homepage-projects-column1{
+.homepage-projects-column1 {
   display: flex;
   width: 100vw;
   /* height: 20vw; */
   background-image: url("../assets/projdisplay.jpg");
-  background-size:cover;
+  background-size: cover;
 }
 .homepage-projects-image-row {
   display: flex;
@@ -76,7 +75,7 @@
 .homepage-projects-image1 {
   background-image: url("../assets/proj1.jpg");
   width: 30vw;
-  height:29vw;
+  height: 29vw;
   background-size: cover;
   z-index: 0;
   margin-top: -100px;
@@ -138,14 +137,11 @@
   .intro-slider {
     margin-top: 50px;
   }
-  .navbar {
-    margin-top: -50px;
-  }
   .homepage-projects-image-row {
     flex-direction: column;
   }
-  .homepage-projects-column1{
-    display:none;
+  .homepage-projects-column1 {
+    display: none;
   }
   .homepage-projects-image1 {
     width: 100vw;
@@ -221,8 +217,8 @@
   width: 900px;
   padding-bottom: 120px;
 }
-.overflow{
-  overflow:hidden;
+.overflow {
+  overflow: hidden;
   /* height */
 }
 .homepage-testimonials-identity {

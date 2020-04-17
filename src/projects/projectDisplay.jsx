@@ -10,19 +10,19 @@ class ProjectDisplay extends Component {
     projectImages: [
       {
         id: "0",
-        image:  ProjectA ,
+        image: ProjectA,
       },
       {
         id: "1",
-        image:  ProjectB ,
+        image: ProjectB,
       },
       {
         id: "2",
-        image:  ProjectC ,
+        image: ProjectC,
       },
       {
         id: "3",
-        image:  ProjectD ,
+        image: ProjectD,
       },
     ],
   };
@@ -34,7 +34,10 @@ class ProjectDisplay extends Component {
           if (imagesObj.id === this.props.match.params.id) {
             return (
               <div>
-                <Project projectid={this.props.match.params.id} image={imagesObj.image}/>
+                <Project
+                  projectid={this.props.match.params.id}
+                  image={imagesObj.image}
+                />
               </div>
             );
           }

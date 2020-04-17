@@ -7,15 +7,15 @@ class Project extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeindex: 0
+      activeindex: 0,
     };
   }
-  
+
   render() {
     return (
       <div className="project">
         <Navbar></Navbar>
-        
+
         <div className="project-categories">
           <div className="project-categories-featured">Featured</div>
           <div className="project-categories-allprojects">
@@ -31,7 +31,7 @@ class Project extends Component {
               <div className="project-information">
                 <div
                   className="project-information-image"
-                  style={{backgroundImage: `url(${this.props.image})`}}
+                  style={{ backgroundImage: `url(${this.props.image})` }}
                 ></div>
                 <div className="project-text">
                   <div className="project-information-text-heading">

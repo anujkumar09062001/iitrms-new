@@ -30,7 +30,7 @@
 .project-information-image {
   width: 900px;
   height: 350px;
-  margin:100px 0vw 100px 5vw;
+  margin: 100px 0vw 100px 5vw;
   background-size: cover;
 }
 .project-text {
@@ -59,7 +59,6 @@
   letter-spacing: 0.05em;
   color: #6c6c6c;
   display: inline-block;
-  
 }
 .project-information-text-viewspecs-line {
   background: red;

@@ -11,13 +11,13 @@ import Back6 from "../assets/slider6.jpg";
 import Back7 from "../assets/slider7.jpg";
 import Back8 from "../assets/slider8.jpg";
 import IITR from "../assets/iitrlogo.svg";
-import Melasta from "../assets/melasta.svg";
-import Cft from "../assets/cft.svg";
-import Goodluck from "../assets/goodluck.svg";
+import Melasta from "../assets/partners/melasta.svg";
+import Cft from "../assets/partners/cft.svg";
+import Goodluck from "../assets/partners/goodluck.svg";
 import Mathworks from "../assets/mathworks.svg";
 import Mrf from "../assets/mrf.svg";
 import CP from "../assets/century.svg";
-import Gripumps from "../assets/gri-pump.svg";
+import Gripumps from "../assets/partners/gri-pump.svg";
 import Ipg from "../assets/ipg.svg";
 import Solid from "../assets/sw.svg";
 import Bender from "../assets/bender.svg";
@@ -254,7 +254,10 @@ class Homepage extends Component {
               <br></br>
               <div className="colored-sponsors">
                 <img className="sponsor-image" src={Cft}></img>
-                <img className="sponsor-image" src={Goodluck}></img>
+                <img
+                  className="sponsor-image current-photos-indiv-goodluck"
+                  src={Goodluck}
+                ></img>
               </div>
             </div>
             <div className="homepage-sponsors-bronze">
