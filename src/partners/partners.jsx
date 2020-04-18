@@ -34,7 +34,9 @@ class Partners extends Component {
             }}
           >
             Current
-            {this.state.active === "current" ? (<div className="partners-categories-active"></div>): null}
+            {this.state.active === "current" ? (
+              <div className="partners-categories-active"></div>
+            ) : null}
           </div>
           <div
             className="partners-categories-former"
@@ -43,7 +45,9 @@ class Partners extends Component {
             }}
           >
             Former
-            {this.state.active === "former" ? (<div className="partners-categories-active"></div>): null}
+            {this.state.active === "former" ? (
+              <div className="partners-categories-active"></div>
+            ) : null}
           </div>
         </div>
         {this.state.active === "current" ? (

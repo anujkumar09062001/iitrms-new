@@ -13,9 +13,30 @@
   line-height: 45px;
   color: #6c6c6c;
   font-family: Gothic A1;
+  width: 30vw;
+  text-align: center;
+  padding: 26px 0px;
+  border:1px solid #000;
+  border-radius: 5px;
+  margin:20px 60px;
+  -webkit-transition: 0.3s ease-in-out
 }
 .team-allmembers {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.team-all {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 9.5vw;
+}
+.team-subheading:hover {
+  background-color: black;
+  color:white;
+  -webkit-transform: scale(1.1);
+  border-radius: 20% 0px;
 }

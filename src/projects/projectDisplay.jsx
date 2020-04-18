@@ -36,7 +36,7 @@ class ProjectDisplay extends Component {
               <div>
                 <Project
                   projectid={this.props.match.params.id}
-                  image={imagesObj.image} 
+                  image={imagesObj.image}
                 />
               </div>
             );
