@@ -1,0 +1,26 @@
+.category-subheadings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 7vw;
+  font-family: Gothic A1;
+  font-size: 16px;
+}
+.category-subheading {
+  padding: 0px 1vw;
+  cursor: pointer;
+}
+.categories-active {
+  width: 100%;
+  height: 2px;
+  background-color: red;
+  border-radius: 5px;
+}
+.subheading-category-expanded {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 5vw 200px 5vw;
+}

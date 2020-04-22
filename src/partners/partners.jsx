@@ -9,12 +9,12 @@ class Partners extends Component {
     active: "current",
   };
   handleClickCategory = (a) => {
-    if (this.state.active === "former" && a === "current") {
+    if (this.state.active != "current" && a === "current") {
       console.log(a);
       this.setState({
         active: "current",
       });
-    } else if (this.state.active === "current" && a === "former") {
+    } else if (this.state.active != "former" && a === "former") {
       console.log(a);
       this.setState({
         active: "former",

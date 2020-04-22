@@ -1,9 +1,11 @@
 .member {
   padding: 50px 3vw;
+  /* flex: 1 0 21%; */
 }
 .member-image {
   width: 300px;
   height: 300px;
+  border-radius: 150px;
   background-color: #c4c4c4;
 }
 .member-name {
@@ -11,9 +13,13 @@
   line-height: 30px;
   font-family: Gothic A1;
   padding-top: 38px;
+  text-align: center;
 }
 .member-contact {
   padding-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .member-contact-instagram {
   padding-left: 38px;
