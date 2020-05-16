@@ -7,22 +7,28 @@ class Steering extends Component {
   state = {
     steeringData: [
       {
-        name: "Shivam Nirmal",
+        name: "Omkar Raj",
         image: "",
-        fb: "https://www.facebook.com/profile.php?id=100005453106904",
-        lin: "https://www.linkedin.com/in/shivam-nirmal-446b59169",
+        fb: "https://www.facebook.com/omkarraj02",
+        lin: "www.linkedin.com/in/rajomkar02",
       },
       {
-        name: "Raj Narnoli",
+        name: "Prakhar Mishra",
         image: "",
-        fb: "https://www.facebook.com/rajnarnoli",
-        lin: "https://www.linkedin.com/in/raj-narnoli-aa6a0b162/",
+        fb: "https://www.facebook.com/prakhar.mishra.161214",
+        lin: "https://www.linkedin.com/in/prakhar-mishra-409a66174",
       },
       {
-        name: "Kodakandla Dheeraj",
+        name: "Gaurav Mangla",
         image: "",
-        fb: "https://www.facebook.com/kodakandla.dheeraj",
-        lin: "https://www.linkedin.com/in/kodakandla-dheeraj-6095071a3",
+        fb: "https://www.facebook.com/gaurav.mangla.5667",
+        lin: "https://www.linkedin.com/in/gaurav-mangla-516522191",
+      },
+      {
+        name: "Kshitij Gurbhele",
+        image: "",
+        fb: "https://www.facebook.com/profile.php?id=100023120573887",
+        lin: "https://www.linkedin.com/in/kshitij-gurbhele-640522191",
       },
     ],
   };

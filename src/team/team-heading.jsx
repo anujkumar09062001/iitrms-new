@@ -8,7 +8,6 @@ class TeamHeading extends Component {
     return (
       <div className="team">
         <Navbar></Navbar>
-        <div className="team-heading">Our Team</div>
       </div>
     );
   }

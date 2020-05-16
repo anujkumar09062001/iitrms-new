@@ -9,6 +9,7 @@ class TeamCategories extends Component {
     return (
       <div className="team">
         <TeamHeading></TeamHeading>
+        <div className="team-heading">Our Team</div>
         <div className="team-all">
           <div className="team-management">
             <Link to="/team/management">

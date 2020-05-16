@@ -40,9 +40,11 @@ class Navbar extends Component {
     return (
       <div className="navbar">
         <div className="navbar-logo">
+        <Link to="/" style={{ textDecoration: "none", color: "#818181" }}>
           <div className="navbar-logo-container">
             <img src={Image}></img>
           </div>
+          </Link>
         </div>
         <div className="navbar-navigation">
           <div class="individual-option">

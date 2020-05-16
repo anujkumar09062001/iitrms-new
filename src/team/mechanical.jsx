@@ -63,6 +63,7 @@ class Mechanical extends Component {
     return (
       <div className="category">
         <TeamHeading></TeamHeading>
+        <div className="team-heading">Mechanical Team</div>
         {console.log("aya hai idhar")}
         <div className="category-subheadings">
           <div

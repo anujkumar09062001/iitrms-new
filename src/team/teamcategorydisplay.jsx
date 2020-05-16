@@ -24,7 +24,7 @@ class TeamCategoryDisplay extends Component {
       this.setState({
         active: "electrical",
       });
-    } else if (this.props.match.params.teamid === "tech") {
+    } else if (this.props.match.params.teamid === "technical-marketing") {
       this.setState({
         active: "tech",
       });
@@ -35,11 +35,11 @@ class TeamCategoryDisplay extends Component {
     return (
       <div className="qwert">
         <div className="qwerrt"></div>
-        {/* {this.state.active === "management" ? <Management></Management> : null} */}
-        {/* {this.state.active === "marketing" ? <Marketing></Marketing> : null} */}
+        {this.state.active === "management" ? <Management></Management> : null}
+        {this.state.active === "marketing" ? <Marketing></Marketing> : null}
         {this.state.active === "mechanical" ? <Mechanical></Mechanical> : null}
         {this.state.active === "electrical" ? <Electrical></Electrical> : null}
-        {/* {this.state.active === "tech" ? <Tech></Tech> : null} */}
+        {this.state.active === "tech" ? <Tech></Tech> : null}
       </div>
     );
   }

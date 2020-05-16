@@ -7,22 +7,22 @@ class Powertrain extends Component {
   state = {
     powertrainData: [
       {
-        name: "Shivam Nirmal",
+        name: "Pratikesh Thakur",
         image: "",
-        fb: "https://www.facebook.com/profile.php?id=100005453106904",
-        lin: "https://www.linkedin.com/in/shivam-nirmal-446b59169",
+        fb: "https://www.facebook.com/pratikesh.thakur.5",
+        lin: "https://www.linkedin.com/in/pratikesh-prakash/",
       },
       {
-        name: "Raj Narnoli",
+        name: "Rahul Panjwani",
         image: "",
-        fb: "https://www.facebook.com/rajnarnoli",
-        lin: "https://www.linkedin.com/in/raj-narnoli-aa6a0b162/",
+        fb: "https://www.facebook.com/rahul.panjwani.984",
+        lin: "https://www.linkedin.com/in/rahul-panjwani-534521191",
       },
       {
-        name: "Kodakandla Dheeraj",
+        name: "Pradyummna Kulkarni",
         image: "",
-        fb: "https://www.facebook.com/kodakandla.dheeraj",
-        lin: "https://www.linkedin.com/in/kodakandla-dheeraj-6095071a3",
+        fb: "",
+        lin: "",
       },
     ],
   };

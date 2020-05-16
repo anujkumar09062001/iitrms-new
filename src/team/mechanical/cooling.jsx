@@ -7,22 +7,16 @@ class Cooling extends Component {
   state = {
     coolingData: [
       {
-        name: "Shivam Nirmal",
+        name: "Prakhar Mishra",
         image: "",
-        fb: "https://www.facebook.com/profile.php?id=100005453106904",
-        lin: "https://www.linkedin.com/in/shivam-nirmal-446b59169",
+        fb: "https://www.facebook.com/prakhar.mishra.161214",
+        lin: "https://www.linkedin.com/in/prakhar-mishra-409a66174",
       },
       {
-        name: "Raj Narnoli",
+        name: "Jalaj Kumar Madaan",
         image: "",
-        fb: "https://www.facebook.com/rajnarnoli",
-        lin: "https://www.linkedin.com/in/raj-narnoli-aa6a0b162/",
-      },
-      {
-        name: "Kodakandla Dheeraj",
-        image: "",
-        fb: "https://www.facebook.com/kodakandla.dheeraj",
-        lin: "https://www.linkedin.com/in/kodakandla-dheeraj-6095071a3",
+        fb: "https://www.facebook.com/jalaj.madaan",
+        lin: "https://www.linkedin.com/in/jalaj-kumar-madaan-637496176",
       },
     ],
   };

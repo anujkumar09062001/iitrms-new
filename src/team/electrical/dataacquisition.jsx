@@ -7,22 +7,22 @@ class Data extends Component {
   state = {
     dataData: [
       {
-        name: "Shivam Nirmal",
+        name: "Dheeraj Etta ",
         image: "",
-        fb: "https://www.facebook.com/profile.php?id=100005453106904",
-        lin: "https://www.linkedin.com/in/shivam-nirmal-446b59169",
+        fb: "https://www.facebook.com/profile.php?id=100018402732417",
+        lin: "https://www.linkedin.com/in/dheeraj-etta-77a61714a/",
       },
       {
-        name: "Raj Narnoli",
+        name: "Tanisha Sahu",
         image: "",
-        fb: "https://www.facebook.com/rajnarnoli",
-        lin: "https://www.linkedin.com/in/raj-narnoli-aa6a0b162/",
+        fb: "https://www.facebook.com/tanisha390",
+        lin: "https://www.linkedin.com/in/tanisha-sahu-7b2b7a11b/",
       },
       {
-        name: "Kodakandla Dheeraj",
+        name: "Roshan Raja Samuel",
         image: "",
-        fb: "https://www.facebook.com/kodakandla.dheeraj",
-        lin: "https://www.linkedin.com/in/kodakandla-dheeraj-6095071a3",
+        fb: "https://www.facebook.com/ROSHAN.RAJASAMUEL",
+        lin: "https://www.linkedin.com/in/roshan-raja-samuel-581431192",
       },
     ],
   };

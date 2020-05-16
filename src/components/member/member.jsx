@@ -8,7 +8,9 @@ class Member extends Component {
   render() {
     return (
       <div className="member">
-        <div className="member-image"></div>
+        <div className="member-image">
+          <img src={this.props.image} style={{ width: "100%" }}></img>
+        </div>
         <div className="member-name">{this.props.name}</div>
         <div className="member-contact">
           <a href={this.props.fb}>

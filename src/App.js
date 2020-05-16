@@ -24,10 +24,6 @@ function App() {
         <Route exact path="/team" component={Team} />
         <Route path="/partners" component={Partners} />
         <Route path="/team/:teamid" component={TeamCategoryDisplay} />
-        {/* <Route path="/team/management" component={Management} />
-        <Route path="/team/marketing" component={Marketing} />
-        <Route path="/team/mechanical" component={Mechanical} />
-        <Route path="/team/technical-marketing" component={TechMarketing} /> */}
       </BrowserRouter>
       <FooterRms />
     </div>

@@ -7,22 +7,22 @@ class Aero extends Component {
   state = {
     AeroData: [
       {
-        name: "Shivam Nirmal",
+        name: "Utkarsh Mishra",
         image: "",
-        fb: "https://www.facebook.com/profile.php?id=100005453106904",
-        lin: "https://www.linkedin.com/in/shivam-nirmal-446b59169",
+        fb: "https://www.facebook.com/Utkarsh745",
+        lin: "https://www.linkedin.com/in/utkarshamishra/",
       },
       {
-        name: "Raj Narnoli",
+        name: "Amogh Tandon",
         image: "",
-        fb: "https://www.facebook.com/rajnarnoli",
-        lin: "https://www.linkedin.com/in/raj-narnoli-aa6a0b162/",
+        fb: "https://www.facebook.com/amogh.tandon.9",
+        lin: "https://www.linkedin.com/in/amogh-tandon-553603184/",
       },
       {
-        name: "Kodakandla Dheeraj",
+        name: "Paramjeet",
         image: "",
-        fb: "https://www.facebook.com/kodakandla.dheeraj",
-        lin: "https://www.linkedin.com/in/kodakandla-dheeraj-6095071a3",
+        fb: "https://m.facebook.com/paramjeetkumar.lalla",
+        lin: "https://www.linkedin.com/mwlite/in/paramjeet-lalla-968a93176",
       },
     ],
   };

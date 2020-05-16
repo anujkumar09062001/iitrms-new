@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./common-team-component.css";
+import "./team.css";
 import TeamHeading from "./team-heading";
 import Accumulator from "./electrical/accumulator";
 import Battery from "./electrical/battery";
@@ -45,6 +46,7 @@ class Electrical extends Component {
     return (
       <div className="category">
         <TeamHeading></TeamHeading>
+        <div className="team-heading">Electrical Team</div>
         <div className="category-subheadings">
           <div
             className="category-subheading"
@@ -90,6 +92,7 @@ class Electrical extends Component {
               <div className="categories-active"></div>
             ) : null}
           </div>
+          
           <div
             className="category-subheading"
             onClick={() => {
