@@ -1,10 +1,68 @@
 .intro-slider {
   width: 100vw;
   z-index: -1;
+  height: 100vh;
   overflow: hidden;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  position: relative;
+  opacity: 0.8;
+}
+@keyframes fade {
+  0% {
+    opacity: 0.5;
+    animation: ease-out;
+  }
+  60% {
+    opacity: 1;
+    animation: ease-out;
+  }
+  80%{
+    opacity: 1;
+    animation: ease-out;
+  }
+  100% {
+    opacity: 0.8;
+    animation: ease-out;
+  }
 }
 .sliderphoto {
   z-index: -1 !important;
+}
+.intro-text {
+  width: 40vw;
+  /* height: 286px; */
+  position: absolute;
+  background-color: rgb(60, 59, 65);
+  margin: 500px 0 0 173px;
+  opacity: 0.9;
+  border-radius: 5px;
+  font-size: 30px;
+  line-height: 60px;
+  font-family: Josefin Sans;
+  color: #e4e4e4;
+  padding: 30px 60px;
+  animation-name: slide;
+  animation-duration: 1.5s;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+  }
+  20%{
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0.5;
+    left: -1000px;
+  }
+  100% {
+    opacity: 1;
+    left: 0px;
+  }
 }
 .homepage-heading {
   height: 182px;
@@ -46,19 +104,41 @@
   width: 70px;
   height: 100px;
   position: absolute;
-  border: 1px solid;
-  background-color: #333;
-  margin: 500px 0px 0px 2vw;
+  /* border: 1px solid; */
+  /* background-color: #333; */
+  margin: 500px 0px 0px;
   cursor: pointer;
 }
 .homepage-projects-rightslide {
   width: 70px;
   height: 100px;
   position: absolute;
-  border: 1px solid;
-  background-color: #333;
-  margin: 500px 0px 0px 95vw;
+  /* border: 1px solid; */
+  /* background-color: #333; */
+  margin: 500px 0px 0px;
   cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+}
+.arrow-left {
+  /* background-color:white; */
+  border: solid white;
+  width: 50px;
+  height: 50px;
+  border-width: 0px 5px 5px 0px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  margin-left: 50px;
+}
+.arrow-right {
+  /* background-color:white; */
+  border: solid white;
+  width: 50px;
+  height: 50px;
+  border-width: 0px 5px 5px 0px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin: 2px 50px 0px -30px;
 }
 .homepage-projects-column1 {
   display: flex;

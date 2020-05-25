@@ -92,7 +92,7 @@ class Electrical extends Component {
               <div className="categories-active"></div>
             ) : null}
           </div>
-          
+
           <div
             className="category-subheading"
             onClick={() => {
