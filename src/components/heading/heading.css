@@ -1,0 +1,31 @@
+.heading-main {
+  background: rgba(118, 118, 118, 0.8);
+  backdrop-filter: blur(10px);
+  width: fit-content;
+  font-family: Nimbus Sans;
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 30px;
+  line-height: 36px;
+  color: white;
+  display: flex;
+  z-index: 1;
+  position: relative;
+  /* height: ; */
+  width: ;
+}
+.heading-green {
+  background-color: #a4cc3c;
+  width: 15px;
+  margin: 7px 9px;
+  /* position: absolute; */
+  /* height: fit-content; */
+}
+.heading-text {
+  padding: 20px 60px 20px 20px;
+}
+@font-face {
+  font-family: "Nimbus Sans";
+  src: url("Nimbus-Sans-D-OT-Bold_32747.woff") format("woff"),
+    url("Nimbus-Sans-D-OT-Bold_32747.ttf") format("truetype");
+}

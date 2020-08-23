@@ -2,20 +2,22 @@
   width: 100vw;
   display: flex;
   position: fixed;
-  height: 120px;
-  background-color:#000;
-  color:#818181;
-  font-family:Josefin Sans;
+  height: 9vh;
+  background-color: #000;
+  color: #0b0d18;
+  font-family: Josefin Sans;
+  opacity: 0.75;
+  z-index: 2;
 }
 .navbar-logo-container {
-    display:flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .navbar-logo {
-    height: 120px;
+  height: 10vh;
   position: absolute;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding-left: 5vw;
@@ -25,9 +27,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  font-size: 18px;
+  line-height: 18px;
 }
-.individual-option{
-    width:6vw;
-    text-align:center;
+.individual-option {
+  padding: 1.5vw;
+  text-align: center;
+  color: #eaeaea;
+  font-size: 18px;
+  line-height: 18px;
 }

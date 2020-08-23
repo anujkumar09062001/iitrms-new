@@ -1,0 +1,72 @@
+.footer {
+  width: 100%;
+  padding: 60px 10vw;
+  background-color: #1d1f2d;
+  position: relative;
+  display: flex;
+  z-index: -1;
+}
+.footer-left {
+  width: 50%;
+}
+.footer-left-links {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 45px;
+  color: white;
+}
+.footer-left-follow {
+  padding-top: 10px;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 40px;
+  color: #848484;
+}
+.footer-right {
+  width: 50%;
+  color: white;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 29px;
+  padding-left: 5vw;
+}
+.footer-details-line {
+  width: 8px;
+  background-color: #a4cc3c;
+  border-radius: 1px;
+  height: 100px;
+  position: absolute;
+  height: 240px;
+  margin-top: 17px;
+}
+.footer-details {
+  position: relative;
+  z-index: 1;
+  width: 35vw;
+}
+.footer-heading {
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+  font-family: Nimbus Sans;
+  font-style: normal;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.footer-details-contacts {
+  padding: 15px 20px;
+}
+.footer-details-contacts-contact {
+  display: flex;
+  padding: 15px 0;
+}
+@font-face {
+  font-family: "Segoe UI";
+  src: url("Segoe UI.woff") format("woff");
+}
