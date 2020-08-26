@@ -93,21 +93,21 @@ class Blogs extends Component {
       active_subele: 1,
     };
   }
-  handleLeftToggle = () => {
-    //  if()
-  };
+  // handleLeftToggle = () => {
+  //   //  if()
+  // };
 
-  handleRightToggle = () => {
-    // var a = this.state.names_mech.length / 5;
-    // console.log(a);
-    var a = 3;
-    var change = this.state.active_mech;
-    if (this.state.active_mech != a) {
-      this.setState({
-        active_mech: change + 1,
-      });
-    }
-  };
+  // handleRightToggle = () => {
+  //   // var a = this.state.names_mech.length / 5;
+  //   // console.log(a);
+  //   var a = 3;
+  //   var change = this.state.active_mech;
+  //   if (this.state.active_mech != a) {
+  //     this.setState({
+  //       active_mech: change + 1,
+  //     });
+  //   }
+  // };
   render() {
     return (
       <div className="blogs">
@@ -176,7 +176,7 @@ class Blogs extends Component {
           <div className="blogs-mechanical-pages">
             <div
               className="blogs-mechanical-pages-toggle"
-              onClick={this.handleLeftToggle(1)}
+              // onClick={this.handleLeftToggle(1)}
             >
               Previous
             </div>
@@ -208,7 +208,7 @@ class Blogs extends Component {
             </div>
             <div
               className="blogs-mechanical-pages-toggle"
-              onClick={this.handleRightToggle()}
+              // onClick={this.handleRightToggle()}
             >
               Next
             </div>
