@@ -8,10 +8,10 @@ import Blogs from "./blogs/blogs";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Route exact path="/" component={Homepage} />
         <Route path="/blogs" component={Blogs} />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
