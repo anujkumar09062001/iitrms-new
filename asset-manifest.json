@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/iitrms-new/static/css/main.ba05010e.chunk.css",
+    "main.js": "/iitrms-new/static/js/main.4ddf8354.chunk.js",
+    "main.js.map": "/iitrms-new/static/js/main.4ddf8354.chunk.js.map",
+    "runtime-main.js": "/iitrms-new/static/js/runtime-main.cbb6ce12.js",
+    "runtime-main.js.map": "/iitrms-new/static/js/runtime-main.cbb6ce12.js.map",
+    "static/css/2.019b2954.chunk.css": "/iitrms-new/static/css/2.019b2954.chunk.css",
+    "static/js/2.99b871e1.chunk.js": "/iitrms-new/static/js/2.99b871e1.chunk.js",
+    "static/js/2.99b871e1.chunk.js.map": "/iitrms-new/static/js/2.99b871e1.chunk.js.map",
+    "index.html": "/iitrms-new/index.html",
+    "precache-manifest.1cc5c3493b47b93bf27825462b5f2d8d.js": "/iitrms-new/precache-manifest.1cc5c3493b47b93bf27825462b5f2d8d.js",
+    "service-worker.js": "/iitrms-new/service-worker.js",
+    "static/css/2.019b2954.chunk.css.map": "/iitrms-new/static/css/2.019b2954.chunk.css.map",
+    "static/css/main.ba05010e.chunk.css.map": "/iitrms-new/static/css/main.ba05010e.chunk.css.map",
+    "static/js/2.99b871e1.chunk.js.LICENSE.txt": "/iitrms-new/static/js/2.99b871e1.chunk.js.LICENSE.txt",
+    "static/media/homepage.css": "/iitrms-new/static/media/project5.6baef9a1.png",
+    "static/media/heading.css": "/iitrms-new/static/media/Nimbus-Sans-D-OT-Bold_32747.ad8f757c.woff",
+    "static/media/footer.css": "/iitrms-new/static/media/Segoe UI.9a293118.woff",
+    "static/media/bqf.png": "/iitrms-new/static/media/bqf.f9cfcb5f.png",
+    "static/media/semantic.min.css": "/iitrms-new/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/goodluck.png": "/iitrms-new/static/media/goodluck.4d528065.png",
+    "static/media/gripump.svg": "/iitrms-new/static/media/gripump.9e065d38.svg",
+    "static/media/iitrlogo.png": "/iitrms-new/static/media/iitrlogo.e46f7350.png",
+    "static/media/logo.svg": "/iitrms-new/static/media/logo.7e357b99.svg",
+    "static/media/melasta.png": "/iitrms-new/static/media/melasta.e2580eb2.png",
+    "static/media/pcb.png": "/iitrms-new/static/media/pcb.c7602cd6.png",
+    "static/media/solidworks.svg": "/iitrms-new/static/media/solidworks.9a52699b.svg",
+    "static/media/stripped_back.png": "/iitrms-new/static/media/stripped_back.29ce4f39.png",
+    "static/media/stripped_back2.png": "/iitrms-new/static/media/stripped_back2.2a16cd07.png",
+    "static/media/wilwood.png": "/iitrms-new/static/media/wilwood.bc35618f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cbb6ce12.js",
+    "static/css/2.019b2954.chunk.css",
+    "static/js/2.99b871e1.chunk.js",
+    "static/css/main.ba05010e.chunk.css",
+    "static/js/main.4ddf8354.chunk.js"
+  ]
+}
