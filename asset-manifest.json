@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/iitrms-new/static/css/main.ba05010e.chunk.css",
+    "main.css": "/iitrms-new/static/css/main.7e83406a.chunk.css",
     "main.js": "/iitrms-new/static/js/main.4ddf8354.chunk.js",
     "main.js.map": "/iitrms-new/static/js/main.4ddf8354.chunk.js.map",
     "runtime-main.js": "/iitrms-new/static/js/runtime-main.cbb6ce12.js",
@@ -9,10 +9,10 @@
     "static/js/2.99b871e1.chunk.js": "/iitrms-new/static/js/2.99b871e1.chunk.js",
     "static/js/2.99b871e1.chunk.js.map": "/iitrms-new/static/js/2.99b871e1.chunk.js.map",
     "index.html": "/iitrms-new/index.html",
-    "precache-manifest.1cc5c3493b47b93bf27825462b5f2d8d.js": "/iitrms-new/precache-manifest.1cc5c3493b47b93bf27825462b5f2d8d.js",
+    "precache-manifest.5c88751e42131eb8b9c271c203e6e432.js": "/iitrms-new/precache-manifest.5c88751e42131eb8b9c271c203e6e432.js",
     "service-worker.js": "/iitrms-new/service-worker.js",
     "static/css/2.019b2954.chunk.css.map": "/iitrms-new/static/css/2.019b2954.chunk.css.map",
-    "static/css/main.ba05010e.chunk.css.map": "/iitrms-new/static/css/main.ba05010e.chunk.css.map",
+    "static/css/main.7e83406a.chunk.css.map": "/iitrms-new/static/css/main.7e83406a.chunk.css.map",
     "static/js/2.99b871e1.chunk.js.LICENSE.txt": "/iitrms-new/static/js/2.99b871e1.chunk.js.LICENSE.txt",
     "static/media/homepage.css": "/iitrms-new/static/media/project5.6baef9a1.png",
     "static/media/heading.css": "/iitrms-new/static/media/Nimbus-Sans-D-OT-Bold_32747.ad8f757c.woff",
@@ -34,7 +34,7 @@
     "static/js/runtime-main.cbb6ce12.js",
     "static/css/2.019b2954.chunk.css",
     "static/js/2.99b871e1.chunk.js",
-    "static/css/main.ba05010e.chunk.css",
+    "static/css/main.7e83406a.chunk.css",
     "static/js/main.4ddf8354.chunk.js"
   ]
 }
