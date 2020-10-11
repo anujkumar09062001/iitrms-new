@@ -27,7 +27,7 @@
   margin: 8px 30px 8px 7px;
 }
 .homepage-intro-box-contents {
-  padding: 1.20vw 0;
+  padding: 1.2vw 0;
 }
 .homepage-intro-box-contents-heading1 {
   font-family: Nimbus Sans;
@@ -89,28 +89,86 @@
   margin: 13px -5.9vw;
   width: 25vw;
 }
+.homepage-recent-scroll {
+  display: flex;
+  justify-content: center;
+}
+.homepage-recent-scroll-circle {
+  background-color: grey;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 20px;
+}
 .homepage-eventscroller {
   width: 78.5vw;
   height: 73vh;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0, 0, 0, 0.3);
   margin-top: 2vw;
   display: flex;
-  align-items: flex-end;  
-  background-image: url("../assets/Car.png");
+  align-items: flex-end;
+  /* background-image: url("../assets/Car.png"); */
 }
-.homepage-eventscroller-description{
+.homepage-eventscroller-description {
   height: 100px;
   width: 100%;
-  background-color:#40455F;
+  background-color: #40455f;
   opacity: 0.8;
-  backdrop-filter: blur(20px); 
+  backdrop-filter: blur(20px);
   font-family: Josefin Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 20px;
-color:white;
-padding: 30px 10vw 
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: white;
+  padding: 30px 10vw;
+}
+.homepage-eventline {
+  height: 6px;
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 2px;
+  background-color: #a4cc3c;
+}
+.homepage-eventscroller-leftslide {
+  width: 70px;
+  height: 100px;
+  position: absolute;
+  border: 1px;
+  background-color: rgba(0, 0, 0, 0);
+  margin: -33vh 0px 0px 1vw;
+  cursor: pointer;
+}
+.homepage-eventscroller-rightslide {
+  width: 70px;
+  height: 100px;
+  position: absolute;
+  border: 1px;
+  background-color: rgba(0, 0, 0, 0);
+  margin: -33vh 0 0 73vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+}
+.arrow-left {
+  /* background-color:white; */
+  border: solid white;
+  width: 50px;
+  height: 50px;
+  border-width: 0px 5px 5px 0px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  margin-left: 20px;
+}
+.arrow-right {
+  /* background-color:white; */
+  border: solid white;
+  width: 50px;
+  height: 50px;
+  border-width: 0px 5px 5px 0px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin: 2px 8px 0px 0px;
 }
 .homepage-projects {
   height: fit-content;
@@ -163,6 +221,9 @@ padding: 30px 10vw
   margin: 13px 60vw;
   z-index: -1;
 }
+.homepage-achievement-eventscroller {
+  width: 55vw !important;
+}
 .homepage-achievements-cars {
   display: flex;
   justify-content: center;
@@ -185,6 +246,59 @@ padding: 30px 10vw
   justify-content: center;
 }
 .homepage-achievements-allachieve {
+  height: 73vh;
+  width: 20vw;
+  background: grey;
+  margin: 2vw 0 0 2vw;
+  border-radius: 5px;
+  color: #eaeaea;
+}
+.homepage-allevents-heading {
+  width: 100%;
+  height: 16.8%;
+  font-family: Nimbus Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.8vw;
+  line-height: 30px;
+  background-color: #a4cc3c;
+  color: white;
+  text-align: center;
+  padding: 25px 0px;
+  border-radius: 5px;
+}
+.homepage-allevents-event1 {
+  width: 100%;
+  height: 16.8%;
+  font-size: 2vw;
+  font-family: Nimbus Sans;
+  background-color: #40455f;
+  display: flex;
+  border-radius: 2px;
+}
+.homepage-allevents-event2 {
+  width: 100%;
+  height: 16.55%;
+  background: rgba(164, 204, 60, 0.3);
+  display: flex;
+  font-size: 2vw;
+  /* line-height: 36px; */
+  font-family: Nimbus Sans;
+}
+.homepage-allevents-event-rank {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.homepage-allevents-event-position {
+  font-size: 1vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 0 35px 0 20px;
+  text-align: center;
 }
 .homepage-partners-allpartners {
   background: rgba(0, 0, 0, 0.5);
@@ -203,8 +317,8 @@ padding: 30px 10vw
   justify-content: center;
   /* width: 200px; */
 }
-@media only screen and (max-width: 1600px){
-  .homepage-recent-stripped{
+@media only screen and (max-width: 1600px) {
+  .homepage-recent-stripped {
     width: 20vw;
   }
 }

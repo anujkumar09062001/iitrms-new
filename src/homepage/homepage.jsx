@@ -100,11 +100,32 @@ class Homepage extends Component {
         <div className="homepage-recent">
           <img className="homepage-recent-stripped" src={Stripped}></img>
           <Heading text="RECENT EVENTS"></Heading>
+          <div className="homepage-recent-scroll">
+            <div className="homepage-recent-scroll-circle"></div>
+            <div className="homepage-recent-scroll-circle"></div>
+            <div className="homepage-recent-scroll-circle"></div>
+            <div className="homepage-recent-scroll-circle"></div>
+            <div className="homepage-recent-scroll-circle"></div>
+          </div>
           <div style={{ display: "flex", zIndex: "1", position: "relative" }}>
             <div>
               <div className="homepage-eventscroller">
-                
-                <div className="homepage-eventscroller-description">IITRMS holds an online team meeting on Zoom with Lorem Ipsum. Nulla volutpat enim, urna, nunc urna vitae sit in.</div>
+                <div className="homepage-eventscroller-description">
+                  IITRMS holds an online team meeting on Zoom with Lorem Ipsum.
+                  Nulla volutpat enim, urna, nunc urna vitae sit in.
+                </div>
+                <button
+                  className="homepage-eventscroller-leftslide"
+                  // onClick={this.leftscroll}
+                >
+                  <div className="arrow-left"></div>
+                </button>
+                <button
+                  className="homepage-eventscroller-rightslide"
+                  // onClick={this.rightscroll}
+                >
+                  <div className="arrow-right"></div>
+                </button>
               </div>
             </div>
           </div>
@@ -158,7 +179,7 @@ class Homepage extends Component {
           <Heading text="ACHIEVEMENTS"></Heading>
           <div style={{ display: "flex", zIndex: "1", position: "relative" }}>
             <div>
-              <div className="homepage-eventscroller"></div>
+              <div className="homepage-achievement-eventscroller homepage-eventscroller"></div>
               <div className="homepage-eventline"></div>
               <div className="homepage-achievements-cars">
                 <div className="homepage-achievements-cars-car">RMSE'19</div>
@@ -169,15 +190,27 @@ class Homepage extends Component {
               </div>
             </div>
             <div className="homepage-achievements-allachieve">
-              <div className="homepage-achievements-2020"></div>
-              <div className="homepage-achievements-2019"></div>
-
-              {/* <div className="homepage-allevents-event"></div>
-              <div className="homepage-allevents-event"></div>
-              <div className="homepage-allevents-event"></div>
-              <div className="homepage-allevents-event"></div>
-              <div className="homepage-allevents-event"></div>
-              <div className="homepage-allevents-event"></div> */}
+              <div className="homepage-allevents-heading">FORMULA GREEN<br></br><span style={{fontSize: "20px" }}>2020</span></div>
+              <div className="homepage-allevents-event1">
+                <div className="homepage-allevents-event-rank">1st</div>
+                <div className="homepage-allevents-event-position">Acceleration Event</div>
+              </div>
+              <div className="homepage-allevents-event2">
+                <div className="homepage-allevents-event-rank">2nd</div>
+                <div className="homepage-allevents-event-position">Business Presentation</div>
+              </div>
+              <div className="homepage-allevents-event1">
+                <div className="homepage-allevents-event-rank">3rd</div>
+                <div className="homepage-allevents-event-position">Overall Competition</div>
+              </div>
+              <div className="homepage-allevents-event2">
+                <div className="homepage-allevents-event-rank">3rd</div>
+                <div className="homepage-allevents-event-position">Engg. Design Event</div>
+              </div>
+              <div className="homepage-allevents-event1">
+                <div className="homepage-allevents-event-rank">2nd</div>
+                <div className="homepage-allevents-event-position">Cost Presentation</div>
+              </div>
             </div>
           </div>
         </div>
