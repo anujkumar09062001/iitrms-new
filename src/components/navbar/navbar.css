@@ -27,13 +27,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 1vw;
   line-height: 18px;
 }
 .individual-option {
   padding: 1.5vw;
   text-align: center;
   color: #eaeaea;
-  font-size: 18px;
+  font-size: 0.97vw;
   line-height: 18px;
 }

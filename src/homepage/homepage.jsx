@@ -26,6 +26,7 @@ import Linkedin from "../assets/linkedin2.png";
 import Insta from "../assets/Insta2.png";
 import Twitter from "../assets/twitter2.png";
 import Youtube from "../assets/youtube2.png";
+import Car from "../assets/Car.png";
 
 class Homepage extends Component {
   constructor(props) {
@@ -36,6 +37,16 @@ class Homepage extends Component {
     return (
       <div className="homepage">
         <Navbar></Navbar>
+        <div
+          style={{
+            width: "100vw",
+            height: "100vh",
+            position: "fixed",
+            backgroundImage: `url(${Car})`,
+            zIndex: "-2",
+            backgroundSize: "cover",
+          }}
+        ></div>
         <div className="homepage-intro">
           <div
             style={{
@@ -43,7 +54,8 @@ class Homepage extends Component {
               justifyContent: "center",
               alignItems: "center",
               flexDirection: "column",
-              height: "inherit",
+              height: "90vh",
+              paddingTop: "15vh",
             }}
           >
             <div className="homepage-intro-box">
@@ -60,9 +72,18 @@ class Homepage extends Component {
                 </div>
               </div>
             </div>
-            <div style={{ width: "674px" }}>
+            <div style={{ width: "36vw" }}>
               <div className="homepage-intro-explore">Explore Our Projects</div>
             </div>
+          </div>
+          <div
+            style={{
+              width: "100vw",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
             <div className="homepage-intro-socials">
               Connect on Social Media
               <div>
@@ -75,35 +96,20 @@ class Homepage extends Component {
             </div>
           </div>
         </div>
+
         <div className="homepage-recent">
           <img className="homepage-recent-stripped" src={Stripped}></img>
           <Heading text="RECENT EVENTS"></Heading>
           <div style={{ display: "flex", zIndex: "1", position: "relative" }}>
             <div>
-              <div className="homepage-eventscroller"></div>
-              <div className="homepage-eventline"></div>
-              <div className="homepage-eventdetail">
-                <div className="homepage-eventdate">
-                  <div style={{}}>25</div>
-                  <div style={{ fontSize: "20px" }}>May</div>
-                  <div style={{ fontSize: "20px" }}>2020</div>
-                </div>
-                <div className="homepage-eventdescription">
-                  Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-                  Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum{" "}
-                </div>
+              <div className="homepage-eventscroller">
+                
+                <div className="homepage-eventscroller-description">IITRMS holds an online team meeting on Zoom with Lorem Ipsum. Nulla volutpat enim, urna, nunc urna vitae sit in.</div>
               </div>
-            </div>
-            <div className="homepage-allevents">
-              <div className="homepage-allevents-event"></div>
-              <div className="homepage-allevents-event"></div>
-              <div className="homepage-allevents-event"></div>
-              <div className="homepage-allevents-event"></div>
-              <div className="homepage-allevents-event"></div>
-              <div className="homepage-allevents-event"></div>
             </div>
           </div>
         </div>
+
         <div className="homepage-projects">
           <img
             className="homepage-recent-stripped2 homepage-recent-stripped"
