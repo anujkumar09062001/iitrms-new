@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/iitrms-new/static/css/main.7da6eb0b.chunk.css",
-    "main.js": "/iitrms-new/static/js/main.ba30a97f.chunk.js",
-    "main.js.map": "/iitrms-new/static/js/main.ba30a97f.chunk.js.map",
+    "main.css": "/iitrms-new/static/css/main.29d566b5.chunk.css",
+    "main.js": "/iitrms-new/static/js/main.9febd518.chunk.js",
+    "main.js.map": "/iitrms-new/static/js/main.9febd518.chunk.js.map",
     "runtime-main.js": "/iitrms-new/static/js/runtime-main.cbb6ce12.js",
     "runtime-main.js.map": "/iitrms-new/static/js/runtime-main.cbb6ce12.js.map",
     "static/css/2.019b2954.chunk.css": "/iitrms-new/static/css/2.019b2954.chunk.css",
-    "static/js/2.a2243243.chunk.js": "/iitrms-new/static/js/2.a2243243.chunk.js",
-    "static/js/2.a2243243.chunk.js.map": "/iitrms-new/static/js/2.a2243243.chunk.js.map",
+    "static/js/2.f1893dcd.chunk.js": "/iitrms-new/static/js/2.f1893dcd.chunk.js",
+    "static/js/2.f1893dcd.chunk.js.map": "/iitrms-new/static/js/2.f1893dcd.chunk.js.map",
     "index.html": "/iitrms-new/index.html",
-    "precache-manifest.d127caaba464423d7dcc4cf7f0cb0874.js": "/iitrms-new/precache-manifest.d127caaba464423d7dcc4cf7f0cb0874.js",
+    "precache-manifest.ab0e769197cededf49b6525710d1c447.js": "/iitrms-new/precache-manifest.ab0e769197cededf49b6525710d1c447.js",
     "service-worker.js": "/iitrms-new/service-worker.js",
     "static/css/2.019b2954.chunk.css.map": "/iitrms-new/static/css/2.019b2954.chunk.css.map",
-    "static/css/main.7da6eb0b.chunk.css.map": "/iitrms-new/static/css/main.7da6eb0b.chunk.css.map",
-    "static/js/2.a2243243.chunk.js.LICENSE.txt": "/iitrms-new/static/js/2.a2243243.chunk.js.LICENSE.txt",
+    "static/css/main.29d566b5.chunk.css.map": "/iitrms-new/static/css/main.29d566b5.chunk.css.map",
+    "static/js/2.f1893dcd.chunk.js.LICENSE.txt": "/iitrms-new/static/js/2.f1893dcd.chunk.js.LICENSE.txt",
     "static/media/Car.png": "/iitrms-new/static/media/Car.ff139e0e.png",
     "static/media/heading.css": "/iitrms-new/static/media/Nimbus-Sans-D-OT-Bold_32747.ad8f757c.woff",
     "static/media/footer.css": "/iitrms-new/static/media/Segoe UI.9a293118.woff",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.cbb6ce12.js",
     "static/css/2.019b2954.chunk.css",
-    "static/js/2.a2243243.chunk.js",
-    "static/css/main.7da6eb0b.chunk.css",
-    "static/js/main.ba30a97f.chunk.js"
+    "static/js/2.f1893dcd.chunk.js",
+    "static/css/main.29d566b5.chunk.css",
+    "static/js/main.9febd518.chunk.js"
   ]
 }
