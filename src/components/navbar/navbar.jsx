@@ -19,7 +19,7 @@ export default function Navbar() {
         <Link to="/">
           <div class="individual-option">PROJECTS</div>
         </Link>
-        <Link to="/">
+        <Link to="/sponsors">
           <div class="individual-option">SPONSORS</div>
         </Link>
         <Link to="/blogs">
