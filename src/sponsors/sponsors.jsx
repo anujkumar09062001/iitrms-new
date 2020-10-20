@@ -96,7 +96,7 @@ class Sponsors extends Component {
         <div className="sponsors-former">
           <div className="sponsors-indiv-heading">FORMER SPONSORS</div>
           <div className="sponsors-former-all">
-          <div
+            <div
               style={{
                 width: "15vw",
                 display: "flex",

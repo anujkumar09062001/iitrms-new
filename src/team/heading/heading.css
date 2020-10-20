@@ -1,0 +1,19 @@
+.teamheading {
+  display: flex;
+  padding-bottom: 90px;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: Nimbus Sans;
+  color: #b4b4b4;
+  align-items: center;
+  justify-content: space-between;
+}
+.teamheading-text {
+  margin: 0 5vw 0 0;
+  width: fit-content;
+  white-space: nowrap;
+}
+.teamheading-line {
+  border: 2px solid #58585c;
+  width: 100%;
+}

@@ -1,0 +1,22 @@
+.team-choice {
+  padding: 150px 12vw 0 12vw;
+  display: flex;
+  justify-content: space-around;
+  font-family: Nimbus Sans;
+  font-size: 30px;
+  line-height: 36px;
+  color: #515258;
+}
+.team-current,
+.team-alumini {
+  padding: 20px 40px;
+}
+.team-members {
+  padding: 120px 10vw;
+  background: #1d1f2d;
+}
+.team-members-members {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}

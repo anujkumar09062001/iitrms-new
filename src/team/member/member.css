@@ -1,0 +1,25 @@
+.member {
+  padding: 20px;
+}
+.member-image {
+  width: 200px;
+  height: 250px;
+  background: white;
+  border-radius: 8px;
+}
+.member-name {
+  font-size: 18px;
+  line-height: 18px;
+  font-family: Josefin Sans;
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+}
+.member-position {
+  font-size: 16px;
+  line-height: 16px;
+  font-family: Josefin Sans;
+  color: #a4cc3c;
+  text-align: center;
+  padding-top: 10px;
+}

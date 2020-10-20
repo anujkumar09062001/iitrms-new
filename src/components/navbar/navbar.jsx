@@ -25,10 +25,10 @@ export default function Navbar() {
         <Link to="/blogs">
           <div class="individual-option">BLOG</div>
         </Link>
-        <Link to="/">
+        <Link to="/team">
           <div class="individual-option">TEAM</div>
         </Link>
-        <Link to="/">
+        <Link to="/contact">
           <div class="individual-option">CONTACT</div>
         </Link>
       </div>
