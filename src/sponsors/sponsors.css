@@ -16,11 +16,13 @@
   align-items: center;
   color: white;
 }
+.sponsors-powered,
 .sponsors-title,
 .sponsors-gold,
 .sponsors-silver,
 .sponsors-bronze,
-.sponsors-former {
+.sponsors-former,
+.sponsors-partners {
   padding: 90px 0 0 0;
 }
 .sponsors-title-all {
@@ -29,19 +31,37 @@
   padding: 60px 0 0 0;
 }
 .sponsors-title-all-indiv {
-  width: 250px;
-  height: 250px;
+  width: 400px;
+  height: 400px;
   background: #2d2f39;
+  border-radius: 10px;
+  transition-property: box-shadow;
+  transition-duration: 0.2s;
+  text-decoration: none;
 }
+.sponsors-title-all-indiv:hover,
+.sponsors-gold-all-indiv:hover,
+.sponsors-silver-all-indiv:hover,
+.sponsors-bronze-all-indiv:hover {
+  box-shadow: 5px 5px 20px;
+  /* width: 260px; */
+  /* height: 260px; */
+}
+
 .sponsors-gold-all {
   display: flex;
   justify-content: space-evenly;
   padding: 60px 0 0 0;
 }
 .sponsors-gold-all-indiv {
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   background: #2d2f39;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  transition-property: box-shadow;
+  transition-duration: 0.2s;
 }
 .sponsors-silver-all {
   display: flex;
@@ -49,19 +69,52 @@
   padding: 60px 0 0 0;
 }
 .sponsors-silver-all-indiv {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   background: #2d2f39;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  transition-property: box-shadow;
+  transition-duration: 0.2s;
 }
 .sponsors-bronze-all {
   display: flex;
   justify-content: space-evenly;
   padding: 60px 0 90px 0;
+  flex-wrap: wrap;
 }
 .sponsors-bronze-all-indiv {
   width: 250px;
   height: 250px;
   background: #2d2f39;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  transition-property: box-shadow;
+  transition-duration: 0.2s;
+}
+.sponsors-partners-all {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px 0 90px 0;
+  flex-wrap: wrap;
+}
+.sponsors-partners-all-indiv {
+  width: 250px;
+  height: 250px;
+  background: #2d2f39;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  transition-property: box-shadow;
+  transition-duration: 0.2s;
+}
+.sponsors-image {
+  width: inherit;
+  padding: 25px;
 }
 .sponsors-support {
   padding: 90px 0 90px 0;
@@ -91,7 +144,7 @@
   text-align: center;
 }
 .sponsors-former-all {
-  background: #2D2F39;
+  background: #2d2f39;
   backdrop-filter: blur(15px);
   border-radius: 5px;
   width: 75vw;

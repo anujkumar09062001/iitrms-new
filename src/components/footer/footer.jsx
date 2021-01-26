@@ -14,20 +14,33 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="footer-left">
+        <br></br>
+        <br></br>
         <div className="footer-left-links">
           <div>Sponsorship Brochure</div>
-          <div>IIT Roorkee wesite</div>
-          <div>About Formula SAE</div>
-          <div>Website Information</div>
+          <a href="www.iitr.ac.in">
+            <div style={{color: "white"}}>IIT Roorkee website</div>
+          </a>
+          <div style={{color: "white"}}>About Formula SAE</div>
         </div>
         <div className="footer-left-follow">
           Follow us on
           <div className="footer-left-handles">
-            <img style={{ padding: "0 15px 0 0 " }} src={Facebook}></img>
-            <img style={{ padding: "0 15px" }} src={Linkedin}></img>
-            <img style={{ padding: "0 15px" }} src={Insta}></img>
-            <img style={{ padding: "0 15px" }} src={Twitter}></img>
-            <img style={{ padding: "0 15px" }} src={Youtube}></img>
+            <a href="https://www.facebook.com/iitrms.in/">
+              <img style={{ padding: "0 15px 0 0 " }} src={Facebook}></img>
+            </a>
+            <a href="https://www.linkedin.com/company/iitrms/?originalSubdomain=in">
+              <img style={{ padding: "0 15px" }} src={Linkedin}></img>
+            </a>
+            <a href="https://www.instagram.com/iitroorkeemotorsports/?hl=en">
+              <img style={{ padding: "0 15px" }} src={Insta}></img>
+            </a>
+            <a href="https://twitter.com/iitrms_iitr?lang=en">
+              <img style={{ padding: "0 15px" }} src={Twitter}></img>
+            </a>
+            <a href="https://www.youtube.com/channel/UCX5M-zh5cSpROSOE2ciV1yQ">
+              <img style={{ padding: "0 15px" }} src={Youtube}></img>
+            </a>
           </div>
           © Copyright 2018 | Team IIT Roorkee Motorsports | All Rights Reserved
         </div>
@@ -45,15 +58,15 @@ export default function Footer() {
           <div className="footer-details-contacts">
             <div className="footer-details-contacts-contact">
               <span>
-                <img src={Mail} style={{ padding: " 0px 20px" }}></img>
+                <img src={Mail} style={{ padding: " 0px 20px",}}></img>
               </span>
               <div>iitrms@iitr.ac.in</div>
             </div>
             <div className="footer-details-contacts-contact">
               <span>
-                <img src={Phone} style={{ padding: " 0px 20px" }}></img>
+                <img src={Phone} style={{ padding: " 10px 20px" }}></img>
               </span>
-              <div>+91 73022 02065 / +91 99203 38488</div>
+              <div>Rahesh Hudiya - +91 73022 02065 <br></br>Shivendru Mathur - +91 99203 38488</div>
             </div>
             <div className="footer-details-contacts-contact">
               <span>

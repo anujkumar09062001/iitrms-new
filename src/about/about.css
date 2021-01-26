@@ -1,0 +1,23 @@
+.about {
+    background-color: #232536;
+    padding: 100px 20vw 200px;
+    color: white;
+  }
+  .about-heading {
+    font-family: Nimbus Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    padding: 100px 0 60px 0;
+    /* text-align: center; */
+  }
+  .about-info {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    padding: 60px 0 40px 0;
+  }

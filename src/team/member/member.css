@@ -21,5 +21,13 @@
   font-family: Josefin Sans;
   color: #a4cc3c;
   text-align: center;
-  padding-top: 10px;
+  padding: 10px 0;
+}
+.member-contact {
+  width: inherit;
+  background-color: #393c49;
+  border-radius: 30px;
+  padding: 10px;
+  /* display: flex; */
+  justify-content: space-evenly;
 }

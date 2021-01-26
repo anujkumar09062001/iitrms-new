@@ -15,12 +15,30 @@
   align-items: center;
 }
 .navbar-logo {
+  /* width: 100px; */
   height: 10vh;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-left: 5vw;
+  margin-top: -5px;
+}
+.navbar-logo-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index:-1;
+}
+.navbar-logo2 {
+  width: 95%;
+  height: 10vh;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: -5px;
+  z-index:-1;
 }
 .navbar-navigation {
   width: 100vw;
@@ -36,4 +54,5 @@
   color: #eaeaea;
   font-size: 0.97vw;
   line-height: 18px;
+  z-index: 3;
 }

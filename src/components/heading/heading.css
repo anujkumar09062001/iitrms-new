@@ -29,3 +29,9 @@
   src: url("Nimbus-Sans-D-OT-Bold_32747.woff") format("woff"),
     url("Nimbus-Sans-D-OT-Bold_32747.ttf") format("truetype");
 }
+@media only screen and (max-width: 1300px){
+  .heading-main{
+    font-size: 2vw;
+    line-height: 2vw;
+  } 
+}

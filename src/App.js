@@ -7,12 +7,16 @@ import Blogs from "./blogs/blogs";
 import Sponsors from "./sponsors/sponsors";
 import Team from "./team/team";
 import Contact from "./contact/contact";
+import Cars from "./cars/cars";
+import About from "./about/about";
 
 function App() {
   return (
     <div>
       <HashRouter>
         <Route exact path="/" component={Homepage} />
+        <Route path="/about" component={About} />
+        <Route path="/cars" component={Cars} />
         <Route path="/blogs" component={Blogs} />
         <Route path="/sponsors" component={Sponsors} />
         <Route path="/team" component={Team} />

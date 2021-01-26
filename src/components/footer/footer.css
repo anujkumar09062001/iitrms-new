@@ -15,7 +15,7 @@
   font-weight: normal;
   font-size: 22px;
   line-height: 45px;
-  color: white;
+  color: white !important;
 }
 .footer-left-follow {
   padding-top: 10px;
