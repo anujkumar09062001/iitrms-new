@@ -37,10 +37,13 @@
 
     <link rel="stylesheet" href="../css/index.css" />
     <link rel="stylesheet" href="../css/team.css" />
+    <link rel="stylesheet" href="../css/heading.css" />
+    <link rel="stylesheet" href="../css/member.css" />
+    <link rel="stylesheet" href="../css/electrical.css" />
 </head>
 
 <body>
-    <div className="team">
+    <div class="team">
         <div class="navbar">
             <div class="navbar-logo">
               <div class="navbar-logo-container">
@@ -70,27 +73,83 @@
               </div>
             </div>
         </div>
-        <div className="blogs-heading">
-            <div className="blogs-heading1">IIT Roorkee Motorsports TEAM</div>
-            <div className="blogs-heading2">
+        <div class="blogs-heading">
+            <div class="blogs-heading1">IIT Roorkee Motorsports TEAM</div>
+            <div class="blogs-heading2">
                 The people who made this possible
             </div>
         </div>
-        <div className="team-members">
-            <div className="team-members-faculty">
-                <TeamHeading text="FACULTY ADVISORS"></TeamHeading>
-                <div className="team-members-members">
-                    <TeamMember name="Arup Kumar Das" position="Professor"
-                        website="https://www.iitr.ac.in/~ME/Das_Arup_Kumar"></TeamMember>
+        <div class="team-members">
+            <div class="team-members-faculty">
+              <div class="teamheading">
+                <div class="teamheading-text">FACULTY ADVISORS</div>
+                <div class="teamheading-line"></div>
+              </div>
+                <div class="team-members-members">
+                    <!-- <TeamMember name="Arup Kumar Das" position="Professor"
+                        website="https://www.iitr.ac.in/~ME/Das_Arup_Kumar"></TeamMember> -->
+                        <div class="member">
+                          <div class="member-image"></div>
+                          <div class="member-name">Arup Kumar Das</div>
+                          <div class="member-position">Professor</div>
+                          <div style={{ display: "flex", justifyContent: "center" }}>
+                            <div class="member-contact">
+                              {props.website ? (
+                                <a href={props.website}>
+                                  <img
+                                    style={{ width: "50px", padding: "0px 10px" }}
+                                    src={Email}
+                                  ></img>
+                                </a>
+                              ) : (
+                                ""
+                              )}
+                              {props.email ? (
+                                <a href="mailto: {props.email}">
+                                  <img
+                                    style={{ width: "50px", padding: "0px 10px" }}
+                                    src={Email}
+                                  ></img>
+                                </a>
+                              ) : (
+                                ""
+                              )}
+                              {props.fb ? (
+                                <a href={props.fb}>
+                                  <img
+                                    style={{ width: "50px", padding: "0px 10px" }}
+                                    src={Fb}
+                                  ></img>
+                                </a>
+                              ) : (
+                                ""
+                              )}
+                              {props.linkedin ? (
+                                <a href={props.linkedin}>
+                                  <img
+                                    style={{ width: "50px", padding: "0px 10px" }}
+                                    src={Linkedin}
+                                  ></img>
+                                </a>
+                              ) : (
+                                ""
+                              )}
+                            </div>
+                          </div>
+                        </div>
                     <TeamMember name="Akshay Dvivedi" position="Professor"
                         website="https://www.iitr.ac.in/~ME/Akshay_Dvivedi"></TeamMember>
                     <TeamMember name="Prof. Pramod Agrawal" position="Professor"
                         website="https://ee.iitr.ac.in/~EE/pramgfee"></TeamMember>
                 </div>
             </div>
-            <div className="team-members-keyMem">
-                <TeamHeading text="KEY MEMBERS"></TeamHeading>
-                <div className="team-members-members">
+            <div class="team-members-keyMem">
+                <!-- <TeamHeading text="KEY MEMBERS"></TeamHeading> -->
+                <div class="teamheading">
+                  <div class="teamheading-text">KEY MEMBERS</div>
+                  <div class="teamheading-line"></div>
+                </div>
+                <div class="team-members-members">
                     <TeamMember name="Rahesh Hudiya" position="Team Leader" email="rhudiya@me.iitr.ac.in"
                         fb="https://www.facebook.com/rahesh.hudiya.3"
                         linkedin="https://www.linkedin.com/in/rahesh-hudiya-a55a80148"></TeamMember>
@@ -104,29 +163,454 @@
                         linkedin="https://www.linkedin.com/in/mohit-kumar-gupta-26a47414a"></TeamMember>
                 </div>
             </div>
-            <div className="team-members-electrical">
-                <TeamHeading text="ELECTRICAL"></TeamHeading>
-                <Accumulator></Accumulator>
-                <Battery></Battery>
-                <Shutdown></Shutdown>
-                <Data></Data>
-                <Motor></Motor>
+            <div class="team-members-electrical">
+                <!-- <TeamHeading text="ELECTRICAL"></TeamHeading> -->
+                <div class="teamheading">
+                  <div class="teamheading-text">ELECTRICAL</div>
+                  <div class="teamheading-line"></div>
+                </div>
+
+                <!-- <Accumulator></Accumulator> -->
+                <div class="accumulator">
+                  <div onClick={this.HandleOpen} class="team-members-sub-heading">
+                    Accumulator
+                  </div>
+                  <div
+                    style={{ display: this.state.open ? "flex" : "none" }}
+                    class="team-members-members"
+                  >
+                    <TeamMember
+                      name="Shivam Nirmal"
+                      position="Head"
+                      fb="https://www.facebook.com/profile.php?id=100005453106904"
+                      linkedin="https://www.linkedin.com/in/shivam-nirmal-446b59169"
+                    ></TeamMember>
+                    <TeamMember
+                      name="Raj Narnoli"
+                      position="Member"
+                      fb="https://www.facebook.com/rajnarnoli"
+                      linkedin="https://www.linkedin.com/in/raj-narnoli-aa6a0b162/"
+                    ></TeamMember>
+                    <TeamMember
+                      name="Kodakandla Dheeraj"
+                      position="Member"
+                      fb="https://www.facebook.com/kodakandla.dheeraj"
+                      linkedin="https://www.linkedin.com/in/kodakandla-dheeraj-6095071a3"
+                    ></TeamMember>
+                    <TeamMember
+                      name="Pobbati Surendra"
+                      position="Member"
+                      fb="https://www.facebook.com/surendra.sunny.786"
+                      linkedin="https://www.linkedin.com/in/surendra-pobbati-ba39061a8"
+                    ></TeamMember>
+                    <TeamMember
+                      name="Anurag Patra"
+                      position="Member"
+                      fb="https://www.facebook.com/anurag.patra.370"
+                      linkedin="https://www.linkedin.com/in/anurag-patra-25536b193"
+                    ></TeamMember>
+                  </div>
+                </div>
+
+                <!-- <Battery></Battery> -->
+                <div class="battery">
+                  <div onClick={this.HandleOpen} class="team-members-sub-heading">
+                    Battery Management System
+                  </div>
+                  <div
+                    style={{ display: this.state.open ? "flex" : "none" }}
+                    class="team-members-members"
+                  >
+                    <TeamMember
+                      name="Raj Narnoli"
+                      position="Head"
+                      fb="https://www.facebook.com/rajnarnoli"
+                      linkedin="https://www.linkedin.com/in/raj-narnoli-aa6a0b162/"
+                    ></TeamMember>
+                    <TeamMember
+                      name="Mohit Kumar Gupta"
+                      position="Member"
+                      fb="https://www.facebook.com/profile.php?id=100013203939940"
+                      linkedin="https://www.linkedin.com/in/mohit-kumar-gupta-26a47414a"
+                    ></TeamMember>
+                    <TeamMember
+                      name="Roshan Raja Samuel"
+                      position="Member"
+                      fb="https://www.facebook.com/ROSHAN.RAJASAMUEL"
+                      linkedin="https://www.linkedin.com/in/roshan-raja-samuel-581431192"
+                    ></TeamMember>
+                    <TeamMember
+                      name="Aditya Sharma"
+                      position="Member"
+                      fb="https://www.facebook.com/profile.php?id=100037764519567"
+                      linkedin="https://www.linkedin.com/in/aditya-sharma-13ab531a2"
+                    ></TeamMember>
+                    <TeamMember
+                      name="Spandan Gera"
+                      position="Member"
+                      fb="https://www.facebook.com/spandan.gera.3"
+                    ></TeamMember>
+                  </div>
+                </div>
+
+
+                <!-- <Shutdown></Shutdown> -->
+                <div class="shutdown">
+                  <div onClick={this.HandleOpen} class="team-members-sub-heading">
+                    Shutdown & Control Unit
+                  </div>
+                  <div
+                    style={{ display: this.state.open ? "flex" : "none" }}
+                    class="team-members-members"
+                  >
+                    <TeamMember
+                      name="Mohit Kumar Gupta"
+                      position="Member"
+                      fb="https://www.facebook.com/profile.php?id=100013203939940"
+                      linkedin="https://www.linkedin.com/in/mohit-kumar-gupta-26a47414a"
+                    ></TeamMember>
+                    <TeamMember
+                      name="Sangeet Yadav"
+                      position="Member"
+                      fb="https://www.facebook.com/sangeet.yadav.505523"
+                      linkedin="https://www.linkedin.com/in/sangeet-yadav-0aa1171a4"
+                    ></TeamMember>
+                    <TeamMember
+                      name="Yash Asati"
+                      position="Member"
+                      fb="https://www.facebook.com/yash.asati.77"
+                      linkedin="https://www.linkedin.com/in/yash-asati-b004131b4"
+                    ></TeamMember>
+                    <TeamMember
+                      name="Vivek"
+                      position="Member"
+                      fb="https://www.facebook.com/profile.php?id=100039483767416"
+                      linkedin=""
+                    ></TeamMember>
+                    <TeamMember
+                      name="Jaswant Singh"
+                      position="Member"
+                      fb="https://www.facebook.com/profile.php?id=100025506660917"
+                      linkedin="https://www.linkedin.com/in/jaswant-singh-a70058195"
+                    ></TeamMember>
+                  </div>
+                </div>
+
+                <!-- <Data></Data> -->
+                <div class="data">
+                  <div onClick={this.HandleOpen} class="team-members-sub-heading">
+                    Data Acquisition System
+                  </div>
+                  <div
+                    style={{ display: this.state.open ? "flex" : "none" }}
+                    class="team-members-members"
+                  >
+                    <TeamMember
+                      name="Dheeraj Etta"
+                      position="Head"
+                      fb="https://www.facebook.com/profile.php?id=100018402732417"
+                      linkedin="https://www.linkedin.com/in/dheeraj-etta-77a61714a/"
+                    ></TeamMember>
+                    <TeamMember
+                      name="Tanisha Sahu"
+                      position="Member"
+                      fb="https://www.facebook.com/tanisha390"
+                      linkedin="https://www.linkedin.com/in/tanisha-sahu-7b2b7a11b/"
+                    ></TeamMember>
+                    <TeamMember
+                      name="Roshan Raja Samuel"
+                      position="Member"
+                      fb="https://www.facebook.com/ROSHAN.RAJASAMUEL"
+                      linkedin="https://www.linkedin.com/in/roshan-raja-samuel-581431192"
+                    ></TeamMember>
+                    <TeamMember
+                      name="Hrusheekesh"
+                      position="Member"
+                      fb="https://www.facebook.com/hrushee.kamsani.3"
+                      linkedin="https://www.linkedin.com/in/kamsani-hrusheekesh-reddy-67993318b"
+                    ></TeamMember>
+                    <TeamMember
+                      name="shreyank banakar"
+                      position="Member"
+                      fb=""
+                    ></TeamMember>
+                  </div>
+                </div>
+
+
+                <!-- <Motor></Motor> -->
+                <div class="motor">
+                  <div onClick={this.HandleOpen} class="team-members-sub-heading">
+                    Motor and Motor Controller
+                  </div>
+                  <div
+                    style={{ display: this.state.open ? "flex" : "none" }}
+                    class="team-members-members"
+                  >
+                     <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                  </div>
+                </div>
             </div>
 
-            <div className="team-members-mechanical">
-                <TeamHeading text="MECHANICAL"></TeamHeading>
-                <Powertrain></Powertrain>
-                <Vehicle></Vehicle>
-                <Braking></Braking>
-                <Steering></Steering>
-                <Suspension></Suspension>
-                <Structural></Structural>
-                <Aero></Aero>
+            <div class="team-members-mechanical">
+                <!-- <TeamHeading text="MECHANICAL"></TeamHeading> -->
+                <div class="teamheading">
+                  <div class="teamheading-text">MECHANICAL</div>
+                  <div class="teamheading-line"></div>
+                </div>
+                
+                <!-- <Powertrain></Powertrain> -->
+                <div class="powertrain">
+                  <div onClick={this.HandleOpen} class="team-members-sub-heading">
+                    Powertrain
+                  </div>
+                  <div
+                    style={{ display: this.state.open ? "flex" : "none" }}
+                    class="team-members-members"
+                  >
+                    <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                  </div>
+                </div>
+                
+                <!-- <Vehicle></Vehicle> -->
+                <div class="vehicle">
+                  <div onClick={this.HandleOpen} class="team-members-sub-heading">
+                    Vehicle Dynamics
+                  </div>
+                  <div
+                    style={{ display: this.state.open ? "flex" : "none" }}
+                    class="team-members-members"
+                  >
+                    <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                  </div>
+                </div>
+
+                <!-- <Braking></Braking> -->
+                <div class="braking">
+                  <div onClick={this.HandleOpen} class="team-members-sub-heading">
+                    Braking
+                  </div>
+                  <div
+                    style={{ display: this.state.open ? "flex" : "none" }}
+                    class="team-members-members"
+                  >
+                    <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                  </div>
+                </div>
+
+                <!-- <Steering></Steering> -->
+                <div class="steering">
+                  <div onClick={this.HandleOpen} class="team-members-sub-heading">
+                    Steering
+                  </div>
+                  <div
+                    style={{ display: this.state.open ? "flex" : "none" }}
+                    class="team-members-members"
+                  >
+                    <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                  </div>
+                </div>
+
+                <!-- <Suspension></Suspension> -->
+
+                <div class="suspension">
+                  <div onClick={this.HandleOpen} class="team-members-sub-heading">
+                    Suspension
+                  </div>
+                  <div
+                    style={{ display: this.state.open ? "flex" : "none" }}
+                    class="team-members-members"
+                  >
+                    <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                  </div>
+                </div>
+
+                <!-- <Structural></Structural> -->
+                <div class="structural">
+                  <div onClick={this.HandleOpen} class="team-members-sub-heading">
+                    Structural
+                  </div>
+                  <div
+                    style={{ display: this.state.open ? "flex" : "none" }}
+                    class="team-members-members"
+                  >
+                    <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                  </div>
+                </div>
+
+                <!-- <Aero></Aero> -->
+                <div class="aero">
+                  <div onClick={this.HandleOpen} class="team-members-sub-heading">
+                    Aerodynamics and Cooling
+                  </div>
+                  <div
+                    style={{ display: this.state.open ? "flex" : "none" }}
+                    class="team-members-members"
+                  >
+                    <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                        <TeamMember
+                          name="Rahesh Hudiya"
+                          position="Team Leader"
+                        ></TeamMember>
+                  </div>
+                </div>
             </div>
 
-            <div className="team-members-marketing">
-                <TeamHeading text="MARKETING"></TeamHeading>
-                <div className="team-members-members">
+            <div class="team-members-marketing">
+                <!-- <TeamHeading text="MARKETING"></TeamHeading> -->
+                <div class="teamheading">
+                  <div class="teamheading-text">MARKETING</div>
+                  <div class="teamheading-line"></div>
+                </div>
+                <div class="team-members-members">
                     <TeamMember name="Rahesh Hudiya" position="Team Leader" email="rhudiya@me.iitr.ac.in"
                         fb="https://www.facebook.com/rahesh.hudiya.3"
                         linkedin="https://www.linkedin.com/in/rahesh-hudiya-a55a80148"></TeamMember>
