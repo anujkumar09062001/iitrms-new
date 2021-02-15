@@ -264,28 +264,28 @@ body {
     height: 25vw;
   } */
 .homepage-projects-project1 {
-  background-image: url("./photos/project1.jpeg");
+  background-image: url("../photos/project1.jpeg");
   background-size: cover;
   width: 98%;
   background-position-y: -50px;
 }
 .homepage-projects-project2 {
-  background-image: url("./photos/project2.jpg");
+  background-image: url("../photos/project2.jpg");
   background-size: cover;
   background-position-x: -150px;
 }
 .homepage-projects-project3 {
-  background-image: url("./photos/project3.png");
+  background-image: url("../photos/project3.png");
   background-size: cover;
   background-position-x: -120px;
 }
 .homepage-projects-project4 {
-  background-image: url("./photos/project4.png");
+  background-image: url("../photos/project4.png");
   background-size: cover;
   background-position-x: -20px;
 }
 .homepage-projects-project5 {
-  background-image: url("./photos/project5.jpg");
+  background-image: url("../photos/project5.jpg");
   background-size: cover;
   background-position-x: -90px;
 }
