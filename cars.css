@@ -1,0 +1,48 @@
+.cars-all {
+  background-color: #232536;
+  padding: 100px 20vw 200px;
+  color: white;
+}
+.cars-car {
+  padding-top: 100px;
+}
+.cars-car-heading {
+  font-family: Nimbus Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+}
+.cars-car-info {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: justify;
+  padding: 20px 0 40px 0;
+}
+.cars-car-achievement,
+.cars-car-tech {
+  width: 100%;
+  text-align: center;
+  font-family: Nimbus Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 32px;
+  background-color: #2d2f39;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.cars-car-arrow {
+  background: #2d2f39;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid white;
+  position: absolute;
+  margin: -21px 0px 0 52.5vw;
+}
