@@ -31,3 +31,14 @@
   /* display: flex; */
   justify-content: space-evenly;
 }
+
+
+.member-contact img{
+  width: "50px";
+  padding: "0px 10px";
+}
+
+.member-box{
+  display: "flex";
+  justify-content: "center"; 
+}
