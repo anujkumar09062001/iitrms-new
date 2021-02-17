@@ -7,7 +7,7 @@ body {
 .intro-slider {
   height: 100vh;
   width: 100vw;
-  /* background-image: url("../assets/car.png"); */
+  background-image: url("./photos/car.png");
 }
 .navbar {
   width: 100vw;
@@ -523,7 +523,7 @@ a {
   z-index: 1;
   position: relative;
   /* height: ; */
-  width: ;
+  /* width: ; */
 }
 .heading-green {
   background-color: #a4cc3c;
