@@ -264,28 +264,28 @@ body {
     height: 25vw;
   } */
 .homepage-projects-project1 {
-  background-image: url("./photos/project1.jpeg");
+  background-image: url("../photos/project1.jpeg");
   background-size: cover;
   width: 98%;
   background-position-y: -50px;
 }
 .homepage-projects-project2 {
-  background-image: url("./photos/project2.jpg");
+  background-image: url("../photos/project2.jpg");
   background-size: cover;
   background-position-x: -150px;
 }
 .homepage-projects-project3 {
-  background-image: url("./photos/project3.png");
+  background-image: url("../photos/project3.png");
   background-size: cover;
   background-position-x: -120px;
 }
 .homepage-projects-project4 {
-  background-image: url("./photos/project4.png");
+  background-image: url("../photos/project4.png");
   background-size: cover;
   background-position-x: -20px;
 }
 .homepage-projects-project5 {
-  background-image: url("./photos/project5.jpg");
+  background-image: url("../photos/project5.jpg");
   background-size: cover;
   background-position-x: -90px;
 }
@@ -523,7 +523,6 @@ a {
   z-index: 1;
   position: relative;
   /* height: ; */
-  width: ;
 }
 .heading-green {
   background-color: #a4cc3c;
@@ -535,6 +534,140 @@ a {
 .heading-text {
   padding: 1.2vw 4vw 1.2vw 1.2vw;
 }
+
+.blogs-heading {
+  height: 310px;
+  padding: 160px 12vw;
+  background-color: #9d9fa8;
+}
+.blogs-heading1 {
+  font-family: Nimbus Sans;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 45px;
+  color: white;
+}
+.blogs-heading2 {
+  font-family: Nimbus Sans;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 26px;
+  color: white;
+}
+.blogs-mechanical {
+  padding: 60px 12vw;
+}
+.blogs-mechanical-heading {
+  font-family: Nimbus Sans;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 42px;
+  color: #3e3e3e;
+}
+.blogs-mechanical-intro {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 25px;
+  color: #666;
+  padding: 32px 350px 32px 0;
+}
+.blogs-mechanical-stripped {
+  position: absolute;
+  margin-left: -180px;
+}
+.blogs-mechanical-category {
+  background: #f3f4f9;
+  border-radius: 2px;
+  display: flex;
+  margin: 30px 0;
+}
+.blogs-mechanical-category-line1 {
+  width: 10px;
+  height: inherit;
+  background-color: #a4cc3c;
+}
+.blogs-mechanical-category-name {
+  font-family: Nimbus Sans;
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 35px;
+  line-height: 42px;
+  color: #3e3e3e;
+  padding: 10px 34px;
+}
+.blogs-mechanical-category-line2 {
+  border: 1px solid #9d9fa8;
+  height: 40px;
+  margin-top: 10px;
+}
+.blogs-mechanical-category-dates {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 25px;
+  color: #9d9fa8;
+  padding: 20px;
+}
+.blogs-mechanical-category-arrow {
+  width: 10px;
+  height: 10px;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 20px solid #9d9fa8;
+  margin: 14px 20px;
+}
+.blogs-mechanical-category-more {
+  display: flex;
+  width: 76%;
+  justify-content: flex-end;
+  position: absolute;
+}
+.blogs-mechanical-category-more {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 25px;
+  color: #9d9fa8;
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+.blogs-mechanical-pages {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+.blogs-mechanical-pages-toggle {
+  background: #393c49;
+  border-radius: 4px;
+  width: 125px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  padding: 22px 0;
+  margin: 0 20px;
+}
+.blogs-mechanical-pages-number {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  color: #393c49;
+  padding: 0 26px;
+}
+
 @font-face {
   font-family: "Nimbus Sans";
   src: url("Nimbus-Sans-D-OT-Bold_32747.woff") format("woff"),

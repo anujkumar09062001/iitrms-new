@@ -1,0 +1,8 @@
+.team-members-sub-heading{
+    background-color: #393c49;
+    border-radius: 30px;
+    width: fit-content;
+    padding: 10px 30px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
