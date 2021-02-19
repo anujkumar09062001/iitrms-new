@@ -1,35 +1,33 @@
 <head>
   <meta charset="utf-8">
-  <link rel="icon" href="/iitrms-new/favicon.ico">
+  <link rel="icon" href="../favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#000000">
   <meta name="description" content="Web site created using create-react-app">
-  <link rel="apple-touch-icon" href="/iitrms-new/logo192.png">
+  <link rel="apple-touch-icon" href="../photo/logo.png">
   <!--
     manifest.json provides metadata used when your web app is installed on a
     user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
   -->
-  <link rel="manifest" href="/iitrms-new/manifest.json">
-  <link rel="stylesheet" href="./about-page.css">
-  <link rel="stylesheet" href="./blogs.css">
-  <link rel="stylesheet" href="./cars.css">
-  <link rel="stylesheet" href="./contact.css">
-  <link rel="stylesheet" href="./index.css">
-  <link rel="stylesheet" href="./App.css">
-  <link rel="stylesheet" href="./drop1.css">
-  <link href="/iitrms-new/static/css/2.019b2954.chunk.css" rel="stylesheet">
-  <link href="/iitrms-new/static/css/main.b632fa36.chunk.css" rel="stylesheet">
+  <link rel="manifest" href="../manifest.json">
+  <link rel="stylesheet" href="../css/about-page.css">
+  <link rel="stylesheet" href="../css/blogs.css">
+  <link rel="stylesheet" href="../css/cars.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/App.css">
+  <link href="../static/css/2.019b2954.chunk.css" rel="stylesheet">
+  <link href="../static/css/main.b632fa36.chunk.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Josefin+Sans" />
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Segoe+UI" />
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat" />
   <title>React App</title>
 
 </head>
-<div class="cars">
+<div class="about-main">
   <div class="navbar">
     <div class="navbar-logo">
       <div class="navbar-logo-container">
-        <img src='./photos/iitrlogo.png' style="width:3.5vw">
+        <img src='../photos/iitrlogo.png' style="width:3.5vw">
       </div>
     </div>
     <div class="navbar-navigation">
@@ -51,316 +49,74 @@
     </div>
     <div class="navbar-logo2">
       <div class="navbar-logo-container2">
-        <img src="./photos/logo.svg" style="width:7vw;z-index:-1">
+        <img src="../photos/logo.svg" style="width:7vw;z-index:-1">
       </div>
     </div>
   </div>
   <div class="blogs-heading">
-    <div class="blogs-heading1">OUR CARS</div>
-    <div class="blogs-heading2">
-      The exceptional results of our endless efforts
-    </div>
+    <div class="blogs-heading1">ABOUT US</div>
+    <div class="blogs-heading2">Who we are and what we do?</div>
   </div>
-  <div class="cars-all">
-    <div class="cars-car">
-      <div class="cars-car-heading" id="rmse19">
-        RMSE'19
+  <div class="about">
+    <div class="about-us">
+      <div class="about-heading">Introduction</div>
+      <div class="about-image">
+          <img src="../photos/team.png" style="width: 100%;">
       </div>
-      <div class="cars-car-info">
-        With an aim to improve the overall design and focusing on the
-        electric powertrain, the team developed its third electric racecar
-        RMSE19. It is ergonomically designed safe and durable for track
-        racing. With a 100kW motor, RMSE19 can accelerate from 0-100kmph
-        in just 3.8 seconds and reach a max. speed of 140kmph. The team
-        participated in Formula Green 2020 held at Kari Motor Speedway,
-        Coimbatore in February 2020.
-      </div>
-      <div class="cars-car-image">
-        <img src="./photos/project1.jpeg" style=" width: 100%"></img>
-      </div>
-      <div class="achievements">
-        <div class="cars-car-achievement">
-          <div class="cars-car-achievement-heading">ACHIEVEMENTS</div>
-          <div class="cars-car-arrow" role="button" onclick="showdiv('one_achievements')"></div>
-        </div>
-        <div class="achievements-all" id="one_achievements">
-          <div style="font-size: 28px; padding: 20px;">FORMULA GREEN - 2020</div>
-          <div>1st in Acceleration Event</div>
-          <div>2nd in Acceleration Event</div>
-          <div>1st in Cost Presentation</div>
-          <div>3rd in Overall Competition</div>
-          <div>3rd in Engineering Design Event</div>
-        </div>
-      </div>
-      <div class="achievements">
-        <div class="cars-car-achievement">
-          <div class="cars-car-achievement-heading">TECHNICAL SPECIFICATIONS</div>
-          <div class="cars-car-arrow" role="button" onclick="showdiv('one_tech')"></div>
-        </div>
-        <div class="achievements-all" style="text-align: left" id="one_tech">
-          <div>Maximum power system voltage: <span class="tech-numbers">537.6V</span> <br>Battery Box Energy: <span class="tech-numbers">7.1kWh</span> <br>Peak motor power: <span class="tech-numbers">100kW</span> <br>Peak motor torque: <span class="tech-numbers">230 Nm</span><br>Maximum speed: <span class="tech-numbers">140kmph</span> <br>Accelerates 0-100 kmph in <span class="tech-numbers">3.8s</span> <br>Decelerates 72-0 kmph in <span class="tech-numbers">0.9s</span> <br>Weight (without driver): <span class="tech-numbers">270 kg</span><br>Minimum Turning Radius: <span class="tech-numbers">2.8m</span> <br>In house developed Battery Management System, which can manage up to 16 cells and supports Passive Cell Balancing <br>State of the art Data Acquisition system, from which the data acquired can be logged online through Wi-Fi <br>Water-propelled cooling system for motor and motor controller <br>Air-cooled battery box <br>Bodyworks: Glass Fibre Reinforced Plastic <br>Light and ergonomic carbon fibre steering wheel</div>
-          <div class="technical-col">
-          </div>
-        </div>
-      </div>
-    <div class="cars-car">
-      <div class="cars-car-heading" id="saber">
-        SABER
-      </div>
-      <div class="cars-car-info">
-        Being the best team among electric cars in India, we showcased our
-        ability again by building a fully electric car to run across the
-        tracks of Formula Green 2017 in Coimbatore. Saber, due to its
-        unbeatable designing as well as awesome technical support, was
-        able to beat the fastest team in competition by a gap of 31 second
-        in friendly run. Panel was so impressed by its unique aero cooling
-        system, cost effectiveness as well as hard work and dedication of
-        Team that they gave us an Honorary entry in the next Formula Green
-        Competition.
-      </div>
-      <div class="cars-car-image">
-        <img src="./photos/project2.jpg" style=" width: 100%"></img>
-      </div>
-      <div class="achievements">
-        <div class="cars-car-achievement">
-          <div class="cars-car-achievement-heading">ACHIEVEMENTS</div>
-          <div class="cars-car-arrow" role="button" onclick="showdiv('two_achievements')"></div>
-        </div>
-        <div class="achievements-all" id="two_achievements">
-          <div style="font-size: 28px; padding: 20px;">FORMULA GREEN - 2017</div>
-          <div>The only team at the competition with an air cooling system</div>
-          <div>Completed one lap in 2 min 17 sec beating the fastest lap of 2 min 48 sec in a friendly test run</div>
-        </div>
-      </div>
-      <div class="achievements">
-        <div class="cars-car-achievement">
-          <div class="cars-car-achievement-heading">TECHNICAL SPECIFICATIONS</div>
-          <div class="cars-car-arrow" role="button" onclick="showdiv('two_tech')"></div>
-        </div>
-        <div class="achievements-all" style="text-align: left" id="two_tech">
-          <div>
-            Maximum power system voltage: <span className="tech-numbers">91.2V</span> <br/>
-            DC Nominal Power-system voltage: <span className="tech-numbers">76.8V</span> <br/>
-            DC Control-system voltage: <span className="tech-numbers">12V DC, 24V DC, 5V DC</span> <br/>
-            Accumulator configuration: <span className="tech-numbers">24 S1P</span><br/>
-            Total Accumulator Capacity: <span className="tech-numbers">90AH</span> <br/>
-            Motor type: <span className="tech-numbers">Brushless DC Motor</span> <br/>
-            Number of motors: <span className="tech-numbers">1</span> <br/>
-            Maximum combined motor power: <span className="tech-numbers">30KW</span><br/>
-            Continuous motor power: <span className="tech-numbers">12KW</span> <br/>
-            Peak stall torque: <span className="tech-numbers">90Nm</span> <br/>
-          </div>
-        </div>
+      <div class="about-info">
+        IIT Roorkee Motorsports is the official Formula Student Electric
+        team of IIT Roorkee which participates in the world’s largest
+        Inter-Collegiate Engineering competition conducted by Formula
+        Society of Automotive Engineers (FSAE), by designing, fabricating
+        an open-wheel formula-style electric racecar. Our passion is not
+        for cars alone; it is fuelled by our desire to use engineering and
+        technology to change the mobility sector in India.
+        <br />
+        <br />
+        With the same thrill, our seniors started the team in 2010 and
+        made its debut in 2011 by participating in FSAE Australasia held
+        in Melbourne, Australia with an internal combustion engine car.
+        The team further participated in Formula Student UK - 2013 with a
+        Hybrid Car followed by FSAE Australasia in 2015 with a fully
+        Electric car. Continuing with the legacy, the team participated in
+        Formula Green 2020 held in Coimbatore.
+        <br />
+        <br />
+        The team has different divisions such as Electrical, Mechanical,
+        Marketing & Operations and Design & Web Development, which works
+        in their respective departments.
       </div>
     </div>
-    <div class="cars-car">
-      <div class="cars-car-heading" id="bolt">
-        BOLT
+    <div class="about-compi">
+      <div class="about-heading">About the Competition</div>
+      <div class="about-image">
+          <img src="../photos/competition.png" style="width: 100%;">
       </div>
-      <div class="cars-car-info">
-        With the automotive industry shifting towards electric vehicles
-        and increasing climate change concerns, we developed an
-        all-electric vehicle - BOLT in 2015 and participated in FSAE
-        Australasia, held in Melbourne (Australia). The long term aim of
-        the team was to advance the technology of electric vehicles so
-        that they may become cheaper and more efficient compared to
-        gasoline-powered conventional cars. The car design was finalised
-        after rigorous simulation and analysis of mechanical and
-        electrical systems using software like Ansys, SolidWorks, ADAMS,
-        MATLAB, Labsim and Multisim. After all this hardwork and patience,
-        the team finally got its reward, being number one Indian team in
-        the Formula Student electric rankings.
-      </div>
-      <div class="cars-car-image">
-        <img src="./photos/project3.png" style=" width: 100%"></img>
-      </div>
-      <div class="achievements">
-        <div class="cars-car-achievement">
-          <div class="cars-car-achievement-heading">ACHIEVEMENTS</div>
-          <div class="cars-car-arrow" role="button" onclick="showdiv('three_achievements')"></div>
-        </div>
-        <div class="achievements-all" id="three_achievements">
-          <div style="font-size: 28px; padding: 20px;">FSAE AUSTRALIA 2015</div>
-          <div>Ranked 4th overall (EV)</div>
-          <div>Ranked 2nd in Cost (EV)</div>
-          <div>Ranked 4th in Design (EV)</div>
-          <div>Ranked 4th in Business Presentation (EV)</div>
-          <div>
-            The team won the ’CAMS Inspiring Motorsports Award’ from CAMS
-            Confederation of Australian Motorsports for Best Design among
-            first-year electric teams.
-          </div>
-          <div>
-            IIT Roorkee Motorsports became the highest-ranked Formula Student
-            Electric Team in India after this competition till 2019.
-          </div>
-        </div>
-      </div>
-      <div class="achievements">
-        <div class="cars-car-achievement">
-          <div class="cars-car-achievement-heading">TECHNICAL SPECIFICATIONS</div>
-          <div class="cars-car-arrow" role="button" onclick="showdiv('three_tech')"></div>
-        </div>
-        <div class="achievements-all" style="text-align: left" id="three_tech">
-          <div>
-            Top Speed: <span className="tech-numbers">100kmph</span> <br />
-            Acceleration:{" "}
-            <span className="tech-numbers">0-60kmph in 7.6 sec</span> <br />
-            Range: <span className="tech-numbers">35-40 km</span> <br />
-            Type of cells:{" "}
-            <span className="tech-numbers">Lithium Yttrium polymer</span>
-            <br />
-            Battery Specs:{" "}
-            <span className="tech-numbers">78.6 V, 8.6 kWh, 90Ah</span> <br />
-            Motor Specs: Peak power- <span className="tech-numbers">
-              30 kW
-            </span>{" "}
-            ; Peak Torque-<span className="tech-numbers">90 Nm</span>
-            <br />
-            Weight: <span className="tech-numbers">240 kg</span> <br />
-            Turning radius: <span className="tech-numbers">1.2m</span>
-            <br />
-            Wheelbase: <span className="tech-numbers">1550 mm</span> <br />
-            Frame/Chassis: AISI 1080 TIG-welded tubular frame <br />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="cars-car">
-      <div class="cars-car-heading" id="rmse13">
-        RMS13
-      </div>
-      <div class="cars-car-info">
-        Taking a step further from IC Engine car, the team developed a
-        plug-in series hybrid electric powertrain based race car and
-        successfully participated at the international level in the
-        Formula Student UK held at the Silverstone F1 Racetrack, UK from
-        5-7 July 2013. It was organized by the Institution of Mechanical
-        Engineers (IMechE) in association with Jaguar Land Rover, Mercedes
-        AMG, Shell etc. A total of 149 international teams from
-        prestigious universities around the globe were registered in the
-        event, and IIT Roorkee Motorsports was the only team with a hybrid
-        electric vehicle in the competition.
-      </div>
-      <div class="cars-car-image">
-        <img src="./photos/project4.png" style=" width: 100%"></img>
-      </div>
-      <div class="achievements">
-        <div class="cars-car-achievement">
-          <div class="cars-car-achievement-heading">ACHIEVEMENTS</div>
-          <div class="cars-car-arrow" role="button" onclick="showdiv('four_achievements')"></div>
-        </div>
-        <div class="achievements-all" id="four_achievements">
-          <div style="font-size: 28px; padding: 20px;">FORMULA STUDENT UK 2013</div>
-          <div>The only hybrid car in FS UK 2013</div>
-          <div>Winner IMechE Formula Student award of 2500 GBP</div>
-          <div>1st in Cost and Business Presentation among Indian Teams</div>
-          <div>2nd overall as well as design among Indian Teams</div>
-        </div>
-      </div>
-      <div class="achievements">
-        <div class="cars-car-achievement">
-          <div class="cars-car-achievement-heading">TECHNICAL SPECIFICATIONS</div>
-          <div class="cars-car-arrow" role="button" onclick="showdiv('four_tech')"></div>
-        </div>
-        <div class="achievements-all" style="text-align: left" id="four_tech">
-          <div>
-            Wheelbase: <span className="tech-numbers">1550mm</span> <br />
-            Track Width: Front- <span className="tech-numbers">1325mm</span>;
-            Rear- <span className="tech-numbers">1275mm</span> <br />
-            Weight (without driver):{" "}
-            <span className="tech-numbers">300 kg</span>
-            <br />
-            Weight Distribution: ( Front :Rear){" "}
-            <span className="tech-numbers">52:48</span> <br />
-            Battery Specs:{" "}
-            <span className="tech-numbers">
-              72V, 48Ah battery with chassis nominal power around 8kW
-            </span>
-            <br />
-            Engine Type:{" "}
-            <span className="tech-numbers">
-              Bajaj Discover 125 cc Carburetor engine
-            </span>{" "}
-            <br />
-            Compression Ratio: <span className="tech-numbers">9.8:1</span>{" "}
-            <br />
-            Peak Engine RPM: <span className="tech-numbers">8000</span> <br />
-            Motor: <span className="tech-numbers">
-              Motenergy ME0913 BLDC
-            </span>{" "}
-            <br />
-            Motor Power:{" "}
-            <span className="tech-numbers">
-              12kW continuous, 30kW peak
-            </span>{" "}
-            <br />
-            Frame/Chassis:{" "}
-            <span className="tech-numbers">
-              AISI 1020 TIG-welded tubular frame
-            </span>{" "}
-            <br />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="cars-car">
-      <div class="cars-car-heading" id="fiitr">
-        FIITR-11
-      </div>
-      <div class="cars-car-info">
-        With hearts filled with passion and an aim to fabricate a
-        formula-style racecar, FIITR-11, our first IC engine car was
-        launched in 2011. The team participated in Formula SAE Australasia
-        2011 held in Melbourne in December and was the only Indian team
-        among the 30 registered international teams to participate in the
-        event. IIT Roorkee Motorsports became the first Indian Team to
-        complete the endurance event.
-      </div>
-      <div class="cars-car-image">
-        <img src="./photos/project5.jpg" style=" width: 100%"></img>
-      </div>
-      <div class="achievements">
-        <div class="cars-car-achievement">
-          <div class="cars-car-achievement-heading">ACHIEVEMENTS</div>
-          <div class="cars-car-arrow" role="button" onclick="showdiv('five_achievements')"></div>
-        </div>
-        <div class="achievements-all" id="five_achievements">
-          <div style="font-size: 28px; padding: 20px;">FSAE AUSTRALIA 2011</div>
-          <div>1st in Fuel Economy</div>
-          <div>1st Indian Team to finish final 32 lap race in Australia</div>
-          <div>7th position in Cost Presentation</div>
-          <div>
-            The car was also exhibited in the design Pavillion of AUTO EXPO
-            2012, New Delhi
-          </div>
-        </div>
-      </div>
-      <div class="achievements">
-        <div class="cars-car-achievement">
-          <div class="cars-car-achievement-heading">TECHNICAL SPECIFICATIONS</div>
-          <div class="cars-car-arrow" role="button" onclick="showdiv('five_tech')"></div>
-        </div>
-        <div class="achievements-all" style="text-align: left" id="five_tech">
-          <div>
-            Wheelbase: <span className="tech-numbers">1700mm</span> <br />
-            Track Width: Front- <span className="tech-numbers">1400mm</span>;
-            Rear- <span className="tech-numbers">1350mm</span> <br />
-            Weight (with driver):{" "}
-            <span className="tech-numbers">327 kg</span>
-            Engine Used: <span className="tech-numbers">Royal Enfield 500cc Electra Unit Construction Engine</span>
-            <br />
-            Frame/Chassis: <span className="tech-numbers">AISI 1020 TIG-welded tubular frame</span> <br />
-            Tire 20x7-13 R25B Hoosier <br />
-            Suspension: Double unequal A-arm, Front Pull Rod and Rear, Push Rod actuated <br />
-          </div>
-        </div>
+      <div class="about-info">
+        Formula Society of Automotive Engineers (FSAE) is the world’s
+        largest student engineering design competition which enables
+        students with the unique opportunity to develop their skills in
+        technical designing, manufacturing, research work, team
+        management, communication and business operations such as
+        budgeting and market research in a real world environment. The
+        unique combination of real world pressures to meet the deadlines,
+        design, fabricate, assemble, test a formula style race car and to
+        make it compete at the international level requires a great deal
+        of skills and helps the students build an overall personality
+        while working under great deal of pressure. These skills are very
+        important in the current corporate world and hence the formula
+        students are highly sought after across the corporate sectors
+        especially in engineering mobility industry. The Car is judged on
+        the basis of Static and Dynamic events. Static events consist of
+        Design, Cost and Business Presentation which enables student to
+        show their Planning, marketing strategies and overall design of
+        the vehicle. The dynamic events consist of Skid-pad, Acceleration,
+        Autocrosss, Efficiency and Endurance. This provides teams to
+        directly compete with the design and performance.
       </div>
     </div>
   </div>
-</div>
   <div style="width: 100vw; height: 40px; background-color: rgb(157, 159, 168);"></div>
-  
   <div class="footer">
     <div class="footer-left">
       <br>
@@ -400,10 +156,10 @@
         <div class="footer-details-line"></div>
         <div class="footer-details-contacts">
           <div class="footer-details-contacts-contact"><span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAXCAYAAAAYyi9XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADySURBVHgB7ZU7DoJAFEXvGEp6XYC99LoAe+2114ZKt2BlRS+9C8DKxgW4ABfAAuzxPp1JiIERgoMxepLL8Enm5MHMQ2VZ5gNYMQEj565ImMjjYcGM4J4x4ytWeNQ3rjou6BmHl7t5UUqFcACL2kJ/sg5a5qPCgKXP8Gb0nH1znV80hpQJ+T1TNIDzDjgs87IyoUH2TVxXrPe1VDUtem4TCiLbUXpANdmQwxqWBvJKaLBWyzlkn5luZaWqUJCmsKc0fpJNOMxRsS3WERrui4rpomBRuBA24rc6zV/4vUJXf/lS4RntkYhwg0evdIm8xRMT3QDxJVkwkZxnfAAAAABJRU5ErkJggg==" style="padding:0px 20px"></span>
-            <div>iitrms@iitr.ac.in</div>
+            <div class="center-align">iitrms@iitr.ac.in</div>
           </div>
           <div class="footer-details-contacts-contact"><span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAbCAYAAABiFp9rAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFrSURBVHgBvZYxdsIwDIZ/Z2YvB8heDtC9OUD3dunUA9C9UycWOnWBPeywt3sOwAFyAPYgvSjgmCQKieB/T89gK3xIimy7oigmAF7JEjL+XCkj+3bO5TCQI9BcIE1iyDvBDhipiOypY31KFsNADJooPg8wAmk1mMIItMedQFpEWmp7g7SIRr9xFehf8VnDAiQ9krWsmzVsJGPWAtnCSBVoE8ynlpATSNL3582bvGkXIJEfVUJ74Ay3AFFUXCc/XR8wVBR8/8G5b2KKygxWA0mt/L55IVgCA4URMSylIfWm5hYw1zQpp+4C9bNoSX9i0+L/SMMnyg2Ys5LLyNvbjp7bN4I82C/qu/eKHloHfrH4dWnpulbpRxiyCGCnu4RAeF3ru9wpDlVkfK8Ij3yuY3ihaZUK8oBvKG9Lg9QbJDBO4RcGXFiuAnlAThlH1/eYPwwCeUDeD59R1q+rVttRoAYo99NMoJxe7qUd2eoIOD5u2bLevswAAAAASUVORK5CYII=" style="padding:10px 20px"></span>
-            <div>Rahesh Hudiya - +91 73022 02065
+            <div class="center-align">Rahesh Hudiya - +91 73022 02065
               <br>Shivendru Mathur - +91 99203 38488</div>
           </div>
           <div class="footer-details-contacts-contact"><span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAhCAYAAAAyCTAQAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAG1SURBVHgBrZardoNAEIaHnMj45gHiG9/4xtTlAeqjqlJfFVXTqJqiasBTVcMDEM8DUI+n/8BAgLDDJfufM4dkl/3mssuAQ4qyLLvHZSO2EGPFYoHjOGfTekeBvsKW1K8E9gUnP71wgPe47Gi8PDg4GeEAv1FRgqmK4OCl/DOrgfc3gllr4VzgGHikaaXo0g68dQWHnsmu8ujncjL6TkUKC2B/sDsqyqetWXH0c/zYkq4QdsRGpeUAFrq4HEjfowcuy0q5IWmDWfL/SEVGJq0ZrqUXtsEtB4GydsnwhXJDTLq0+QXDtdS0krHUg9AH32DztMy0wxAzPCI9sn3XBJweSI88ngtci2ArT5xHRZacyY76n42zI2l/k76xU/Q0kyMVkV3xSyQte4tPdpW/OHI4vHDktqKPhHfp55BLdlRxKril6MMy6gZcdKLb1FjfgMMr9wqPpsnH+sQIF3HNEhqn/POiPXgFr/XqMTp2teauyMvNHVoev76JvXDRkPIkAH+YJo1wSZM/cEwtuZyn0XBxwJGbHi63fTpGwcUB175df1/G7Qit+R32C/sk2+K+Lw6GfFbn+gf3eJSLQg7JhAAAAABJRU5ErkJggg==" style="padding:0px 20px"></span>
@@ -413,24 +169,9 @@
       </div>
     </div>
   </div>
-
+</div>
 <style>
-  .achievements-all{
-    display: none;
-  }
   .blogs-heading {
-    height: 71px;
+    height: 10vh;
   }
 </style>
-<script>
-function showdiv(div_id) {
-  console.log("doen")
-var div = document.getElementById(div_id);
-if (div.style.display === "none"){
-div.style.display = 'block';
-}
-else {
-  div.style.display = 'none';
-}
-}
-</script>

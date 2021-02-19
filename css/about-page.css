@@ -1,0 +1,43 @@
+
+.about {
+    background-color: #232536;
+    padding: 100px 20vw 200px;
+    color: white;
+}
+.about-heading {
+    font-family: Nimbus Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    padding: 100px 0 60px 0;
+    /* text-align: center; */
+  }
+.about-info {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    padding: 60px 0 40px 0;
+}
+@media(max-width:768px) {
+  .about {
+    padding: 10vh 15vw 15vh;
+  }
+  .about-heading {
+    padding: 10vh 0 8vh;
+  }
+}
+@media(max-width:480px) {
+  .about {
+    padding: 10vh 0 15vh;
+  }
+  .about-heading {
+    padding: 10vh 12vw 8vh;
+  }
+  .about-info {
+    padding: 60px 12vw 40px ;
+  }
+}
