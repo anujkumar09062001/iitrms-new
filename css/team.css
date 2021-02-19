@@ -14,11 +14,22 @@
   .team-members {
     padding: 120px 10vw;
     background: #1d1f2d;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
   }
+
   .team-members-members {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
   }
   .team-members-sub-heading{
     font-family: Nimbus Sans;
