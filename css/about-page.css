@@ -1,4 +1,61 @@
-
+.navbar {
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    height: 9vh;
+    background-color: #000;
+    color: #0b0d18;
+    font-family: Josefin Sans;
+    opacity: 0.75;
+    z-index: 2;
+  }
+  .navbar-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-logo {
+    /* width: 100px; */
+    height: 10vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5vw;
+    margin-top: -5px;
+  }
+  .navbar-logo-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+  }
+  .navbar-logo2 {
+    width: 95%;
+    height: 10vh;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -5px;
+    z-index: -1;
+  }
+  .navbar-navigation {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    line-height: 18px;
+  }
+  .individual-option {
+    padding: 1.5vw;
+    text-align: center;
+    color: #eaeaea;
+    font-size: 0.97vw;
+    line-height: 18px;
+    z-index: 3;
+  }
 .about {
     background-color: #232536;
     padding: 100px 20vw 200px;
@@ -21,23 +78,4 @@
     line-height: 25px;
     text-align: justify;
     padding: 60px 0 40px 0;
-}
-@media(max-width:768px) {
-  .about {
-    padding: 10vh 15vw 15vh;
-  }
-  .about-heading {
-    padding: 10vh 0 8vh;
-  }
-}
-@media(max-width:480px) {
-  .about {
-    padding: 10vh 0 15vh;
-  }
-  .about-heading {
-    padding: 10vh 12vw 8vh;
-  }
-  .about-info {
-    padding: 60px 12vw 40px ;
-  }
 }
