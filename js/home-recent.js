@@ -1,8 +1,32 @@
-function homeRecent(text) {
-    var x = document.getElementById("");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
+var slideIndex = 1;
+var slideIndex2 = 1;
+showDivs(slideIndex);
+showDivs2(slideIndex2);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+  showDivs2(slideIndex2 += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("slides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
   }
+  x[slideIndex-1].style.display = "block";  
+}
+
+
+function showDivs2(n) {
+  var i;
+  var x = document.getElementsByClassName("slides2");
+  if (n > x.length) {slideIndex2 = 1}
+  if (n < 1) {slideIndex2 = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex2-1].style.display = "block";  
+}

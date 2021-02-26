@@ -17,15 +17,15 @@
   border: 2px solid #58585c;
   width: 100%;
 }
-@media(max-width:768px){
+@media (max-width: 768px) {
   .teamheading {
-    display: block
+    display: block;
   }
   .teamheading-text {
-    white-space: unset
+    white-space: unset;
   }
   .team-members-sub-heading {
-    margin-left:auto !important;
+    margin-left: auto !important;
     margin-right: auto !important;
   }
 }
