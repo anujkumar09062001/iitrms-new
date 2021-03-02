@@ -28,8 +28,9 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  /* align-items: center; */
+  width: 100%;
+  justify-content:space-between;
+  align-items: center;
 }
 .team-members-sub-heading {
   font-family: Nimbus Sans;
@@ -42,7 +43,9 @@
   text-align: center;
 }
 .team-members-mechanical,
-.team-members-electrical {
+.team-members-electrical,
+.team-members-faculty,
+.team-members-keyMem {
   padding-bottom: 100px;
   display: flex;
   flex-direction: column;

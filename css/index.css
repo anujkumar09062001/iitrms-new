@@ -504,7 +504,7 @@ a {
   text-decoration: none;
 }
 .footer {
-  width: 80vw;
+  /* width: 80vw; */
   padding: 60px 10vw;
   background-color: #1d1f2d;
   position: relative;
