@@ -197,7 +197,7 @@ body {
   letter-spacing: -0.03em;
   color: #2d2f39;
   padding: 0.85vw 2vw;
-  width: fit-content;
+  width: max-content;
   margin: 34px 0px;
 }
 .homepage-intro-socials {
@@ -578,7 +578,7 @@ a {
 .heading-main {
   background: rgba(118, 118, 118, 0.8);
   backdrop-filter: blur(10px);
-  width: fit-content;
+  width: max-content;
   font-family: Nimbus Sans;
   font-style: normal;
   /* font-weight: 600; */
