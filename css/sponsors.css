@@ -52,12 +52,14 @@
   display: flex;
   justify-content: space-evenly;
   padding: 60px 0 0 0;
+    flex-wrap: wrap;
 }
 .sponsors-gold-all-indiv {
   width: 350px;
   height: 350px;
   background: #2d2f39;
   display: flex;
+  margin: 20px;
   align-items: center;
   border-radius: 10px;
   transition-property: box-shadow;
