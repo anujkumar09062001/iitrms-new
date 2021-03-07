@@ -49,7 +49,7 @@ class About extends Component {
             </div>
           </div>
           <div className="about-compi">
-            <div className="about-heading">About the Competition</div>
+            <div className="about-heading">About Formula Student</div>
             <div className="about-image">
               <img src={Compi} style={{ width: "100%" }} />
             </div>

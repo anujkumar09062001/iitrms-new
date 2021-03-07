@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import Navbar from "../components/navbar/navbar";
 import "./cars.css";
-import Car from "../assets/Car.png";
-import Project1 from "../assets/project1.jpeg";
-import Project2 from "../assets/project2.jpg";
-import Project3 from "../assets/project3.png";
-import Project4 from "../assets/project4.png";
-import Project5 from "../assets/project5.jpg";
+
+import RMSE19 from "../assets/RMSE19.JPG";
+import SABER_1 from "../assets/SABER_1.jpg";
+import BOLT_1 from "../assets/BOLT_1.jpg";
+import RMS13 from "../assets/RMS13.jpg";
+import FIITR_11 from "../assets/FIITR_11.jpg";
 import Footer from "../components/footer/footer";
 import Drop1 from "./drop1/drop1";
 import Drop2 from "./drop2/drop2";
@@ -37,7 +37,7 @@ class Cars extends Component {
         <div className="cars-all">
           <div className="cars-car">
             <div className="cars-car-heading" id="rmse19">
-              RMSE'19
+              RMSE 19
             </div>
             <div className="cars-car-info">
               With an aim to improve the overall design and focusing on the
@@ -49,7 +49,7 @@ class Cars extends Component {
               Coimbatore in February 2020.
             </div>
             <div className="cars-car-image">
-              <img src={Project1} style={{ width: "100%" }}></img>
+              <img src={RMSE19} style={{ width: "100%" }}></img>
             </div>
             <Drop1 text="ACHIEVEMENTS" show="1"></Drop1>
             <Drop1 text="TECHNICAL SPECIFICATIONS" show="2"></Drop1>
@@ -70,7 +70,7 @@ class Cars extends Component {
               Competition.
             </div>
             <div className="cars-car-image">
-              <img src={Project2} style={{ width: "100%" }}></img>
+              <img src={SABER_1} style={{ width: "100%" }}></img>
             </div>
             <Drop2 text="ACHIEVEMENTS" show="1"></Drop2>
             <Drop2 text="TECHNICAL SPECIFICATIONS" show="2"></Drop2>
@@ -94,7 +94,7 @@ class Cars extends Component {
               the Formula Student electric rankings.
             </div>
             <div className="cars-car-image">
-              <img src={Project3} style={{ width: "100%" }}></img>
+              <img src={BOLT_1} style={{ width: "100%" }}></img>
             </div>
             <Drop3 text="ACHIEVEMENTS" show="1"></Drop3>
             <Drop3 text="TECHNICAL SPECIFICATIONS" show="2"></Drop3>
@@ -116,7 +116,7 @@ class Cars extends Component {
               electric vehicle in the competition.
             </div>
             <div className="cars-car-image">
-              <img src={Project4} style={{ width: "100%" }}></img>
+              <img src={RMS13} style={{ width: "100%" }}></img>
             </div>
             <Drop4 text="ACHIEVEMENTS" show="1"></Drop4>
             <Drop4 text="TECHNICAL SPECIFICATIONS" show="2"></Drop4>
@@ -135,7 +135,7 @@ class Cars extends Component {
               complete the endurance event.
             </div>
             <div className="cars-car-image">
-              <img src={Project5} style={{ width: "100%" }}></img>
+              <img src={FIITR_11} style={{ width: "100%" }}></img>
             </div>
             <Drop5 text="ACHIEVEMENTS" show="1"></Drop5>
             <Drop5 text="TECHNICAL SPECIFICATIONS" show="2"></Drop5>
