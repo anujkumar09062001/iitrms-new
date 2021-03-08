@@ -5,6 +5,7 @@ import Team from "../assets/team.png";
 import Compi from "../assets/competition.png";
 import Footer from "../components/footer/footer";
 
+
 class About extends Component {
   constructor(props) {
     super(props);

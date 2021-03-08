@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "../components/navbar/navbar";
 import "./cars.css";
-
 import RMSE19 from "../assets/RMSE19.JPG";
 import SABER_1 from "../assets/SABER_1.jpg";
 import BOLT_1 from "../assets/BOLT_1.jpg";

@@ -26,7 +26,7 @@ import Linkedin from "../assets/linkedin2.png";
 import Insta from "../assets/Insta2.png";
 import Twitter from "../assets/twitter2.png";
 import Youtube from "../assets/youtube2.png";
-import Car from "../assets/car.png";
+import Car from "../assets/Car.png";
 import { NavHashLink as Link } from "react-router-hash-link";
 import Event1 from "../assets/event 1.jpg";
 import Event2 from "../assets/event 2.jpg";
