@@ -553,7 +553,6 @@ a {
   text-decoration: none;
 }
 .footer {
-  /* width: 80vw; */
   padding: 60px 10vw;
   background-color: #1d1f2d;
   position: relative;
@@ -754,7 +753,7 @@ a {
   display: flex;
   align-items: center;
   text-align: right;
-}
+} 
 .blogs-mechanical-pages {
   width: 100%;
   height: 100%;
@@ -955,3 +954,4 @@ a {
     margin-right: auto;
   }
 }
+
