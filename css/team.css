@@ -32,6 +32,19 @@
   justify-content:space-between;
   align-items: center;
 }
+
+.team-members-members2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  /* justify-content:space-aroun; */
+  align-items: center;
+}
+
 .team-members-sub-heading {
   font-family: Nimbus Sans;
   font-size: 30px;
@@ -56,4 +69,9 @@
   .team-members-members {
     justify-content: center;
   }
+}
+
+
+.member-name a{
+  color: white;
 }
