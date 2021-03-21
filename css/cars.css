@@ -37,7 +37,10 @@
   border-radius: 5px;
   cursor: pointer;
 }
-.achievements-all:hover {
+.cars-car-achievement:hover {
+  background-color: #a4cc3c;
+}
+.cars-car-achievement:hover .cars-car-arrow {
   background-color: #a4cc3c;
 }
 .cars-car-arrow {
