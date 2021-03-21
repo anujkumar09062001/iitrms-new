@@ -79,3 +79,8 @@
   text-align: justify;
   padding: 60px 0 40px 0;
 }
+@media (min-width: 200px) and (max-width: 600px) {
+  .about {
+    padding: 100px 12vw 200px;
+  }
+}
