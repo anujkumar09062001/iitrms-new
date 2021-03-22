@@ -129,6 +129,15 @@ body {
   border-radius: 25px;
 }
 
+.homepage-intro-container {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-image: url('../photos/car.png');
+  z-index: -2;
+  background-size: cover;
+}
+
 .homepage-intro {
   /* background-image: url("../assets/Car.png"); */
   height: 100vh;
@@ -209,12 +218,16 @@ body {
   margin-top: -241px;
 }
 
-.homepage-social-icons:hover img {
+.homepage-social-icons img{
+  padding: 20px 10px
+}
+
+.homepage-social-icons:hover img{
   transform: scale(1.1);
 }
 
 .homepage-recent {
-  height: 110vh;
+  height: 100vh;
   width: 79.5%;
   background-color: #1d1f2d;
   padding: 3.5vw 10vw;
@@ -243,6 +256,11 @@ body {
   margin-top: 4vw;
   display: flex;
   align-items: flex-end;
+}
+.homepage-eventscroller-flex {
+  /* display: flex;  */
+  z-index: 1; 
+  position: relative
 }
 .homepage-eventscroller-description {
   height: 100px;
@@ -619,6 +637,12 @@ a {
   display: flex;
   padding: 15px 0;
 }
+.footer-left-follow-mobile {
+  display: none;
+}
+.center-align-mobile {
+  display: none;
+}
 @font-face {
   font-family: "Segoe UI";
   src: url("Segoe UI.woff") format("woff");
@@ -789,6 +813,8 @@ a {
 }
 .slides {
   width: 58.5vw;
+  height: 100%; 
+  margin: 0 auto;
 }
 
 @font-face {
@@ -856,12 +882,25 @@ a {
   .footer-details-line {
     display: none;
   }
+    /* Footer */
+    .footer-left-follow {
+      display: none;
+    }
+    .footer-left-follow-mobile {
+      display: block;
+    }
 }
 
 @media screen and (max-width: 720px) {
   /* .navbar-navigation {
     display: none;
   } */
+
+
+  /* Homepage intro */
+  .homepage-intro-container {
+    background-image: url('../photos/car-mobile.png');
+  }
 
   /* Achievements */
   .homepage-achievement-image {
@@ -883,17 +922,21 @@ a {
   }
   .homepage-allevents-event-position {
     font-size: 18px;
+
   }
-  .homepage-achievements-cars-car {
-    width: 11vw;
+  .homepage-intro-box {
+    width: 300px;
   }
 
   /* Homepage intro */
   .homepage-intro-box-contents-heading1 {
     font-size: 24px;
+    line-height: 30px;
   }
   .homepage-intro-box-contents-heading2 {
+    margin-top: 10px;
     font-size: 18px;
+    line-height: 20px;
   }
   .homepage-intro-box-contents-heading3 {
     font-size: 18px;
@@ -901,11 +944,107 @@ a {
   .homepage-intro-explore {
     font-size: 18px;
   }
+  .homepage-intro-socials {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .homepage-intro-socials img {
+    transform: scale(0.8);
+    padding: 0;
+  }
+  .homepage-intro-socials:hover img {
+    transform: scale(1);
+  }
+  .homepage-intro-explore-box {
+    margin-bottom: 100px;
+  }
+  .homepage-intro-explore {
+    padding: 5px 10px;
+  }
 
+  /* Recent */
+  .homepage-recent {
+    height: auto;
+    padding-bottom: 300px;
+  }
+  .heading-main{
+    width: 180px;
+    font-size: 12px;
+    margin: 20px 0;
+  }
+  .heading-green {
+    width: 7px;
+  }
+  .heading-text {
+    padding: 10px 10px;
+  }
+  .slides {
+    margin: 0;
+    height: 250px;
+  }
+  .slides2 {
+    height: 150px;
+    font-size: 18px;
+  }
+  .homepage-eventscroller img {
+    width: 100%;
+  }
+  .arrow-left{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+  .arrow-right {
+    width: 20px;
+    height: 20px;    
+    margin-right: 5px;
+  }
+  .homepage-eventscroller {
+    display: block;
+    height: auto;
+    /* height: 74vh; */
+  }
+  .homepage-eventscroller-rightslide {
+    margin:50px 0 0 59vw;
+  }
+  .homepage-eventscroller-leftslide {
+    margin: 40px 0 0 0;
+  }
   .dropdown-button {
     display: block;
   }
+  /* Our Cars */
+  .homepage-projects-project-heading {
+    font-size: 18px;
+    line-height: 40px;
+  }
 
+    /* Achievements */
+    .homepage-achievement-image {
+      display: none;
+    }
+    .homepage-achievement {
+      flex-direction: column-reverse;
+    }
+    .homepage-achievements-allachieve {
+      width: 75vw;
+      margin-bottom: 50px;
+    }
+    .homepage-allevents-heading {
+      font-size: 18px;
+      padding-bottom: 0;
+    }
+    .homepage-allevents-event1, .homepage-allevents-event2 {
+      font-size: 16px;
+    }
+    .homepage-allevents-event-position {
+      font-size: 13px;
+    }
+    .homepage-achievements-cars-car {
+      width: 65px;
+      margin: 10px 5px;
+    }
+  
   .dropdown:hover #dropdown-content {
     display: block;
   }
@@ -934,6 +1073,17 @@ a {
   .homepage-partners-allpartners img {
     width: 150px;
   }
+  .homepage-partners-partner-flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Footer */
+  .center-align {display: none;}
+  .center-align-mobile {
+    display: block;
+  }
+
 }
 
 @media (max-width: 537px) {
