@@ -27,7 +27,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.navbar-logo-container img{
+.navbar-logo-container img {
   width: 70px;
   height: 7vh;
 }
@@ -127,7 +127,7 @@ body {
   color: white !important;
   padding: 1vw;
   border-radius: 25px;
-} 
+}
 
 .homepage-intro {
   /* background-image: url("../assets/Car.png"); */
@@ -209,7 +209,7 @@ body {
   margin-top: -241px;
 }
 
-.homepage-social-icons:hover img{
+.homepage-social-icons:hover img {
   transform: scale(1.1);
 }
 
@@ -348,19 +348,18 @@ body {
     width: 100vw;
     height: 25vw;
   } */
-  .homepage-projects-horizontal-flex1 img {
-    
-    width: 100%;
-    /* height: 100%; */
-    /* height: 450px; */
-    background-position: center;
-  }
-  .homepage-projects-horizontal-flex2 img {
-    width: 100%;
-    /* height: 100%; */
-    /* height: 300px; */
-    background-position: center;
-  }
+.homepage-projects-horizontal-flex1 img {
+  width: 100%;
+  /* height: 100%; */
+  /* height: 450px; */
+  background-position: center;
+}
+.homepage-projects-horizontal-flex2 img {
+  width: 100%;
+  /* height: 100%; */
+  /* height: 300px; */
+  background-position: center;
+}
 
 .homepage-projects-project1 {
   flex: 0.5;
@@ -368,13 +367,13 @@ body {
 .homepage-projects-project2 {
   flex: 0.5;
 }
-.homepage-projects-project3{
+.homepage-projects-project3 {
   flex: 0.385;
 }
-.homepage-projects-project4{
+.homepage-projects-project4 {
   flex: 0.3075;
 }
-.homepage-projects-project5{
+.homepage-projects-project5 {
   flex: 0.3075;
 }
 
@@ -391,7 +390,6 @@ body {
   background-size: cover;
   background-position-x: -150px;
   flex: 0.35; */
-
 }
 
 /* .homepage-projects-project3 {
@@ -513,7 +511,7 @@ body {
   padding: 0 35px 0 20px;
   text-align: center;
 }
- /* .homepage-partners-allpartners {
+/* .homepage-partners-allpartners {
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(15px);
   border-radius: 5px;
@@ -528,8 +526,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;  */
-  /* width: 200px; */
- /* }   */
+/* width: 200px; */
+/* }   */
 
 .homepage-partners-allpartners {
   margin-top: 34px;
@@ -541,7 +539,6 @@ body {
   align-items: center;
   grid-gap: 50px;
   background: rgba(0, 0, 0, 0.5);
-
 }
 
 .homepage-partners-allpartners img {
@@ -589,7 +586,7 @@ a {
   line-height: 29px;
   padding-left: 5vw;
 }
-.footer-stripped img{
+.footer-stripped img {
   width: 100%;
 }
 .footer-details-line {
@@ -753,7 +750,7 @@ a {
   display: flex;
   align-items: center;
   text-align: right;
-} 
+}
 .blogs-mechanical-pages {
   width: 100%;
   height: 100%;
@@ -880,7 +877,8 @@ a {
   .homepage-allevents-heading {
     font-size: 24px;
   }
-  .homepage-allevents-event1, .homepage-allevents-event2 {
+  .homepage-allevents-event1,
+  .homepage-allevents-event2 {
     font-size: 20px;
   }
   .homepage-allevents-event-position {
@@ -891,7 +889,7 @@ a {
   }
 
   /* Homepage intro */
-  .homepage-intro-box-contents-heading1  {
+  .homepage-intro-box-contents-heading1 {
     font-size: 24px;
   }
   .homepage-intro-box-contents-heading2 {
@@ -931,7 +929,7 @@ a {
 
   /* Our proud partners */
   .homepage-partners-allpartners {
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
   .homepage-partners-allpartners img {
     width: 150px;
@@ -954,4 +952,3 @@ a {
     margin-right: auto;
   }
 }
-
