@@ -28,12 +28,13 @@ body {
   align-items: center;
 }
 .navbar-logo-container img {
-  width: 70px;
-  height: 7vh;
+  width: 55px;
+  height: 55px;
 }
 .navbar-logo {
-  /* width: 100px; */
+  /* width: 300px; */
   height: 10vh;
+  /* width: auto; */
   position: absolute;
   display: flex;
   justify-content: center;
@@ -69,6 +70,7 @@ body {
   line-height: 18px;
 }
 
+
 .dropdown {
   border: 2px solid white;
 }
@@ -87,7 +89,7 @@ body {
 #dropdown-content {
   position: absolute;
   text-align: center;
-  /* border:1px solid white; */
+  border:1px solid white;
   z-index: 2;
   top: 5%;
   right: 6%;
@@ -96,7 +98,7 @@ body {
   width: 20vw;
   display: none;
   transition-duration: 2s;
-}
+} 
 
 #dropdown-content a {
   display: block;
@@ -110,7 +112,7 @@ body {
   text-decoration: underline;
   text-decoration-color: white;
   color: lightgrey;
-}
+} 
 
 .individual-option {
   padding: 1vw;
@@ -1010,9 +1012,7 @@ a {
   .homepage-eventscroller-leftslide {
     margin: 40px 0 0 0;
   }
-  .dropdown-button {
-    display: block;
-  }
+  
   /* Our Cars */
   .homepage-projects-project-heading {
     font-size: 18px;
@@ -1044,27 +1044,39 @@ a {
       width: 65px;
       margin: 10px 5px;
     }
+    
+
+    /* navbar classes*/
+    .navbar-logo-container img {
+      width: 48px;
+      height: 48px;
+    }
+
+    .navbar-navigation{
+      display: none;
+    }
+
+    .dropdown-button {
+      display: block;
+    }
   
-  .dropdown:hover #dropdown-content {
-    display: block;
-  }
+    .dropdown:hover #dropdown-content {
+      display: block;
+    }
 
-  /* #dropdown-content ~#dropdown-content{
-		display: block;
-	} */
-
-  .navbar-logo2 {
-    display: none;
-  }
-  .homepage-projects-horizontal-flex1 {
-    flex-direction: column;
-  }
-  .homepage-projects-horizontal-flex2 {
-    flex-direction: column;
-  }
-  .homepage-achievements-cars-car {
-    font-size: 12px;
-  }
+    .navbar-logo2 {
+      display: none;
+    }
+    .homepage-projects-horizontal-flex1 {
+      flex-direction: column;
+    }
+    .homepage-projects-horizontal-flex2 {
+      flex-direction: column;
+    }
+    .homepage-achievements-cars-car {
+      font-size: 12px;
+    }
+  
 
   /* Our proud partners */
   .homepage-partners-allpartners {
