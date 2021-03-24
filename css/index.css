@@ -69,16 +69,18 @@ body {
   /* font-size: 1vw; */
   line-height: 18px;
 }
-
+.iitr-image{
+  width: inherit;
+}
 
 .dropdown {
-  border: 2px solid white;
+  /* border: 2px solid white; */
 }
 
 .dropdown-button {
   color: white;
   font-size: 1.5rem;
-  margin: 0.6rem 0.6rem 0rem 0rem;
+  margin: 0rem 0.6rem 0rem 0rem;
   text-align: right;
   position: absolute;
   right: 0.3rem;
@@ -204,7 +206,7 @@ body {
   color: #2d2f39;
   padding: 0.85vw 2vw;
   width: max-content;
-  margin: 34px 0px;
+  margin: 34px auto;
 }
 .homepage-intro-socials {
   /* margin-top: 42vw; */
@@ -232,7 +234,7 @@ body {
   height: 100vh;
   width: 79.5%;
   background-color: #1d1f2d;
-  padding: 3.5vw 10vw;
+  padding: 8vw 10vw 5vw;
 }
 .homepage-recent-stripped {
   position: absolute;
@@ -675,7 +677,9 @@ a {
 .heading-text {
   padding: 1.2vw 4vw 1.2vw 1.2vw;
 }
-
+.achievements-allign{
+  height: 100vh;
+}
 .blogs-heading {
   height: 310px;
   padding: 160px 12vw;
@@ -868,6 +872,9 @@ a {
     width: unset;
     padding-left: 0;
   }
+  .achievements-allign{
+    height: 80vh !important;
+  }
   .footer {
     display: block;
     text-align: center;
@@ -903,7 +910,9 @@ a {
   .homepage-intro-container {
     background-image: url('../photos/car-mobile.png');
   }
-
+  .iitr-image{
+    width: 20px;
+  }
   /* Achievements */
   .homepage-achievement-image {
     display: none;
@@ -932,19 +941,20 @@ a {
 
   /* Homepage intro */
   .homepage-intro-box-contents-heading1 {
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 25px;
   }
   .homepage-intro-box-contents-heading2 {
-    margin-top: 10px;
-    font-size: 18px;
+    margin-top: 5px;
+    font-size: 14px;
     line-height: 20px;
   }
   .homepage-intro-box-contents-heading3 {
-    font-size: 18px;
+    font-size: 14px;
+    padding-top: 15px;
   }
   .homepage-intro-explore {
-    font-size: 18px;
+    font-size: 15px;
   }
   .homepage-intro-socials {
     font-size: 14px;
@@ -970,23 +980,24 @@ a {
     padding-bottom: 300px;
   }
   .heading-main{
-    width: 180px;
-    font-size: 12px;
+    width: fit-content;
+    font-size: 18px;
     margin: 20px 0;
   }
   .heading-green {
     width: 7px;
   }
   .heading-text {
-    padding: 10px 10px;
+    padding: 15px 40px 15px 10px;
   }
   .slides {
     margin: 0;
     height: 250px;
   }
   .slides2 {
-    height: 150px;
-    font-size: 18px;
+    height: 110px;
+    font-size: 13px;
+    line-height: 17px;
   }
   .homepage-eventscroller img {
     width: 100%;
@@ -1006,11 +1017,15 @@ a {
     height: auto;
     /* height: 74vh; */
   }
+  .homepage-eventscroller-description {
+    padding: 30px 10vw 0;
+    /* height: 74vh; */
+  }
   .homepage-eventscroller-rightslide {
-    margin:50px 0 0 59vw;
+    margin:30px 0 0 59vw;
   }
   .homepage-eventscroller-leftslide {
-    margin: 40px 0 0 0;
+    margin: 20px 0 0 0px;
   }
   
   /* Our Cars */
