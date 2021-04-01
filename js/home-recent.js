@@ -30,3 +30,10 @@ function showDivs2(n) {
   }
   x[slideIndex2-1].style.display = "block";  
 }
+
+function hamnav(){
+  var x = document.getElementsById("dropdown-content");
+  if (x[0].style.display === 'none'){
+    x[0].style.display === 'block'
+  }
+}

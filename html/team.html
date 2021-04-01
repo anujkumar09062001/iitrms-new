@@ -48,7 +48,7 @@
         </a>
         <a  href="./cars.html">
           <div class="individual-option" style="color: #fff">CARS</div>
-        </a>
+        </a
         <a href="./sponsors.html">
           <div class="individual-option" style="color: #fff">SPONSORS</div>
         </a>
@@ -61,9 +61,12 @@
           <img src="../photos/logo.svg" style="width: 7vw; z-index: -1" />
         </div>
       </div>
-      <div class="dropdown">
+      <div class="dropdown" onclick="hamnav()">
         <div class="dropdown-button">
-          <i class="fas fa-bars"></i>
+          <div class="dropdown-bar"></div>
+          <div class="dropdown-bar"></div>
+          <div class="dropdown-bar"></div>
+          <!-- <i class="fa fa-bars"></i> -->
         </div>
         <div id="dropdown-content">
           <a  href="../index.html">HOME</a>
@@ -508,7 +511,7 @@
           <div onClick={this.HandleOpen} class="team-members-sub-heading">
             Shutdown & Control Unit
           </div>
-          <div style="display": this.state.open ? "flex" : "none" class="team-members-members">
+          <div class="team-members-members">
 
             <div class="member">
               <div class="member-image">
@@ -622,7 +625,7 @@
           <div onClick={this.HandleOpen} class="team-members-sub-heading">
             Data Acquisition System
           </div>
-          <div style={{ display: this.state.open ? "flex" : "none" }} class="team-members-members">
+          <div class="team-members-members">
             <div class="member">
               <div class="member-image">
                 <img src="../members-photos/Etta Dheeraj.png">
@@ -746,7 +749,7 @@
           <div onClick={this.HandleOpen} class="team-members-sub-heading">
             Motor and Motor Controller
           </div>
-          <div style={{ display: this.state.open ? "flex" : "none" }} class="team-members-members">
+          <div class="team-members-members">
 
             <div class="member">
               <div class="member-image"><img src="../members-photos/Etta Dheeraj.png"></div>
@@ -839,7 +842,7 @@
           <div onClick={this.HandleOpen} class="team-members-sub-heading">
             Powertrain
           </div>
-          <div style={{ display: this.state.open ? "flex" : "none" }} class="team-members-members2">
+          <div class="team-members-members2">
 
             <div class="member">
               <div class="member-image"><img src="../members-photos/Pratikesh Thakur.png"></div>
@@ -905,7 +908,7 @@
           <div onClick={this.HandleOpen} class="team-members-sub-heading">
             Vehicle Dynamics
           </div>
-          <div style={{ display: this.state.open ? "flex" : "none" }} class="team-members-members2">
+          <div class="team-members-members2">
 
             <div class="member">
               <div class="member-image"><img src="../members-photos/Shivendru Mathur.png"></div>
@@ -952,7 +955,7 @@
           <div onClick={this.HandleOpen} class="team-members-sub-heading">
             Braking
           </div>
-          <div style={{ display: this.state.open ? "flex" : "none" }} class="team-members-members2">
+          <div class="team-members-members2">
             <div class="member">
               <div class="member-image"><img src="../members-photos/Rahesh Hudiya.png"></div>
               <div class="member-name">Rahesh Hudiya</div>
@@ -1104,7 +1107,7 @@
         <div onClick={this.HandleOpen} class="team-members-sub-heading">
           Suspension
         </div>
-        <div style={{ display: this.state.open ? "flex" : "none" }} class="team-members-members">
+        <div class="team-members-members">
           <!-- <TeamMember name="Rahesh Hudiya" position="Team Leader"></TeamMember> -->
           <div class="member">
             <div class="member-image"><img src="../members-photos/Gautam Rawat.png"></div>
@@ -1210,7 +1213,7 @@
         <div onClick={this.HandleOpen} class="team-members-sub-heading">
           Structural
         </div>
-        <div style={{ display: this.state.open ? "flex" : "none" }} class="team-members-members">
+        <div class="team-members-members">
           <!-- <TeamMember name="Rahesh Hudiya" position="Team Leader"></TeamMember> -->
           <div class="member">
             <div class="member-image"><img src="../members-photos/Omkar Raj.png"></div>
@@ -1314,7 +1317,7 @@
         <div onClick={this.HandleOpen} class="team-members-sub-heading">
           Aerodynamics and Cooling
         </div>
-        <div style={{ display: this.state.open ? "flex" : "none" }} class="team-members-members">
+        <div class="team-members-members">
           <!-- <TeamMember name="Rahesh Hudiya" position="Team Leader"></TeamMember> -->
           <div class="member">
             <div class="member-image"><img src="../members-photos/Utkarsh Mishra.png"></div>
