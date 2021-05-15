@@ -72,6 +72,9 @@ body {
 .iitr-image{
   width: inherit;
 }
+.iitrms-logo{
+  display: none;
+}
 
 .dropdown {
   /* border: 2px solid white; */
@@ -1005,6 +1008,13 @@ a {
   }
   .iitr-image{
     width: 20px;
+    padding-right: 8px;
+  }
+  .iitrms-logo {
+    display: inline-block;
+    width: 20px;
+    border-left: 1px solid #616161;
+    padding-left: 8px;
   }
   /* Achievements */
   .homepage-achievement-image {
