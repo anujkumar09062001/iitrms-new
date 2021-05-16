@@ -172,19 +172,26 @@
   backdrop-filter: blur(15px);
   display: grid;
   padding: 50px;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   justify-content: space-around;
   align-items: center;
-  grid-gap: 50px;
+  grid-gap: 40px;
   margin: 50px 12.5vw;
   background: rgba(0, 0, 0, 0.5);
 }
 
 .sponsors-former-all img {
-  width: 180px;
+  width: 100px;
   margin-top: 30px;
 }
-
+.img-large img{
+  height: 50px;
+  width: 130px;
+}
+.img-large-square img {
+  height: 60px;
+  width: 120px;
+}
 .sponsors-former-partner-flex {
 
 }
