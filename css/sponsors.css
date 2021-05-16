@@ -3,7 +3,6 @@
 }
 .sponsors-current {
   width: inherit;
-  
 }
 .sponsors-indiv-heading {
   font-family: Nimbus Sans;
@@ -15,7 +14,6 @@
   justify-content: center;
   align-items: center;
   color: white;
-
 }
 .sponsors-powered,
 .sponsors-title,
@@ -121,7 +119,7 @@
 }
 .sponsors-image {
   width: 80%;
-  /* padding: 25px; */
+  padding: 25px;
   margin: 0 auto;
 }
 .sponsors-support {
@@ -186,13 +184,11 @@
 }
 
 .sponsors-former-partner-flex {
-
 }
 .sponsors-former-partner {
-
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 720px) {
   .sponsors-former-partner-flex {
     display: flex;
     justify-content: center;
