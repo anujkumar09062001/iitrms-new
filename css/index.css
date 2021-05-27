@@ -19,7 +19,7 @@ body {
   background-color: #000;
   color: #0b0d18;
   font-family: Josefin Sans;
-  opacity: 0.75;
+  /* opacity: 0.75; */
   z-index: 2;
 }
 .navbar-logo-container {
@@ -329,7 +329,7 @@ body {
 
 .homepage-recent {
   height: 100vh;
-  width: 79.5%;
+  /* width: 79.5%; */
   background-color: #1d1f2d;
   padding: 8vw 10vw 5vw;
 }
@@ -364,7 +364,7 @@ body {
   position: relative
 }
 .homepage-eventscroller-description {
-  height: 100px;
+  height: 80px;
   width: 58.5vw;
   background-color: #40455f;
   opacity: 0.8;
