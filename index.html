@@ -1,94 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/iitrms-new/favicon.ico" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="/iitrms-new/logo192.png" />
+    <link rel="manifest" href="/iitrms-new/manifest.json" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>IIT Roorkee Motorsports</title>
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="/iitrms-new/favicon.ico" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Web site created using create-react-app" />
-  <link rel="apple-touch-icon" href="/iitrms-new/logo192.png" />
-  <link rel="manifest" href="/iitrms-new/manifest.json" />
-  <link rel="stylesheet" href="./css/index.css" />
-  <title>IIT Roorkee Motorsports</title>
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
     integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
-  <link href="/iitrms-new/static/css/2.019b2954.chunk.css" rel="stylesheet" />
+    <link href="/iitrms-new/static/css/2.019b2954.chunk.css" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      href="/iitrms-new/static/css/main.b632fa36.chunk.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Josefin+Sans"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Segoe+UI"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Montserrat"
+    />
+    <script src="./js/home-recent.js">  </script>
+    <script src="./js/home-cars.js">  </script>
+  </head>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="/iitrms-new/static/css/main.b632fa36.chunk.css" rel="stylesheet" />
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Josefin+Sans" />
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Segoe+UI" />
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat" />
-  <script src="./js/home-recent.js">  </script>
-  <script src="./js/home-cars.js">  </script>
-</head>
-
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root">
-    <div data-reactroot="">
-      <div class="homepage">
-        <div class="navbar">
-          <div class="navbar-logo">
-            <div class="navbar-logo-container">
-              <a href="/index.html">
-                <img class="iitr-image" src="./photos/iitrlogo.png" />
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div data-reactroot="">
+        <div class="homepage">
+          <div class="navbar">
+            <div class="navbar-logo">
+              <div class="navbar-logo-container">
+                <a href="/index.html">
+                  <img class="iitr-image" src="./photos/iitrlogo.png"  />
+                </a>
+              </div>
+              <div class="navbar-logo-container2">
+                <img class="iitrms-logo" src="./photos/logo.svg" />
+              </div>
+            </div>
+            <div class="navbar-navigation">
+              <a href="./index.html">
+                <div class="individual-option" ocClick="showActive(1)" style="color: #a4cc3c">HOME</div>
+              </a>
+              <a href="./html/about-page.html">
+                <div class="individual-option" ocClick="showActive(2)" style="color: #fff">
+                  ABOUT US
+                </div>
+              </a>
+              <a href="./html/cars.html">
+                <div class="individual-option" ocClick="showActive(3)" style="color: #fff">CARS</div>
+              </a>
+              <a href="./html/sponsors.html">
+                <div class="individual-option" ocClick="showActive(4)" style="color: #fff">
+                  SPONSORS
+                </div>
+              </a>
+              <a href="./html/team.html">
+                <div class="individual-option" ocClick="showActive(5)" style="color: #fff">TEAM</div>
               </a>
             </div>
-            <div class="navbar-logo-container2">
-              <img class="iitrms-logo" src="./photos/logo.svg" />
-            </div>
-          </div>
-          <div class="navbar-navigation">
-            <a href="./index.html">
-              <div class="individual-option" ocClick="showActive(1)" style="color: #a4cc3c">HOME</div>
-            </a>
-            <a href="./html/about-page.html">
-              <div class="individual-option" ocClick="showActive(2)" style="color: #fff">
-                ABOUT US
+            <div class="navbar-logo2">
+              <div class="navbar-logo-container2">
+                <img src="./photos/logo.svg" style="width: 7vw; z-index: -1" />
               </div>
-            </a>
-            <a href="./html/cars.html">
-              <div class="individual-option" ocClick="showActive(3)" style="color: #fff">CARS</div>
-            </a>
-            <a href="./html/sponsors.html">
-              <div class="individual-option" ocClick="showActive(4)" style="color: #fff">
-                SPONSORS
-              </div>
-            </a>
-            <a href="./html/team.html">
-              <div class="individual-option" ocClick="showActive(5)" style="color: #fff">TEAM</div>
-            </a>
-          </div>
-          <div class="navbar-logo2">
-            <div class="navbar-logo-container2">
-              <img src="./photos/logo.svg" style="width: 7vw; z-index: -1" />
             </div>
-          </div>
-          <div class="hamburger-menu">
-            <input id="menu__toggle" type="checkbox" />
-            <label class="menu__btn" for="menu__toggle">
-              <span></span>
-            </label>
-
-            <ul class="menu__box">
-              <li><a class="menu__item" href="./index.html">HOME</a></li>
-              <li><a class="menu__item" href="./html/about-page.html">ABOUT US</a></li>
-              <li><a class="menu__item" href="./html/cars.html">CARS</a></li>
-              <li><a class="menu__item" href="./html/sponsors.html">SPONSORS</a></li>
-              <li><a class="menu__item" href="./html/team.html">TEAM</a></li>
-            </ul>
-          </div>
-          <!-- <div class="dropdown">
+            <div class="hamburger-menu">
+              <input id="menu__toggle" type="checkbox" />
+              <label class="menu__btn" for="menu__toggle">
+                <span></span>
+              </label>
+          
+              <ul class="menu__box">
+                <li><a class="menu__item" href="./index.html">HOME</a></li>
+                <li><a class="menu__item" href="./html/about-page.html">ABOUT US</a></li>
+                <li><a class="menu__item" href="./html/cars.html">CARS</a></li>
+                <li><a class="menu__item" href="./html/sponsors.html">SPONSORS</a></li>
+                <li><a class="menu__item" href="./html/team.html">TEAM</a></li>
+              </ul>
+            </div>
+            <!-- <div class="dropdown">
               <div class="dropdown-button">
                 <div class="dropdown-bar"></div>
                 <div class="dropdown-bar"></div>
                 <div class="dropdown-bar"></div> -->
-          <!-- <i class="fa fa-bars"></i> -->
-          <!-- </div>
+                <!-- <i class="fa fa-bars"></i> -->
+              <!-- </div>
               <div id="dropdown-content">
                 <a  href="./index.html">HOME</a>
                 <a  href="./html/about-page.html">ABOUT US</a>
@@ -97,82 +114,97 @@
                 <a  href="./html/team.html">TEAM</a>
               </div>
             </div> -->
-        </div>
-        <div class="homepage-intro-container"></div>
-        <div class="homepage-intro">
-          <div style="
+          </div>
+          <div class="homepage-intro-container"></div>
+          <div class="homepage-intro">
+            <div
+              style="
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
                 height: 90vh;
                 padding-top: 15vh;
-              ">
-            <div class="homepage-intro-box">
-              <div class="homepage-intro-box-line"></div>
-              <div class="homepage-intro-box-contents">
-                <div class="homepage-intro-box-contents-heading1">
-                  IIT ROORKEE MOTORSPORTS
-                </div>
-                <div class="homepage-intro-box-contents-heading2">
-                  Electrifying racing, the greener way
-                </div>
-                <div class="homepage-intro-box-contents-heading3">
-                  The Formula Student Electric Team of IIT Roorkee.
+              "
+            >
+              <div class="homepage-intro-box">
+                <div class="homepage-intro-box-line"></div>
+                <div class="homepage-intro-box-contents">
+                  <div class="homepage-intro-box-contents-heading1">
+                    IIT ROORKEE MOTORSPORTS
+                  </div>
+                  <div class="homepage-intro-box-contents-heading2">
+                    Electrifying racing, the greener way
+                  </div>
+                  <div class="homepage-intro-box-contents-heading3">
+                    The Formula Student Electric Team of IIT Roorkee. 
+                  </div>
                 </div>
               </div>
+              <div class="homepage-intro-explore-box">
+                <a href="./html/cars.html">
+                  <div class="homepage-intro-explore">Explore Our Cars</div>
+                </a>
+              </div>
             </div>
-            <div class="homepage-intro-explore-box">
-              <a href="./html/cars.html">
-                <div class="homepage-intro-explore">Explore Our Cars</div>
-              </a>
-            </div>
-          </div>
-          <div style="
+            <div
+              style="
                 width: 100vw;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-              ">
-            <div class="homepage-intro-socials">
-              Connect on Social Media
-              <div>
-                <a class="homepage-social-icons" target="blank" href="https://www.facebook.com/iitrms.in/">
-                  <img
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARwSURBVHgB3ZpJSytZFMdPyjgPLy0KimKX4EJQSR44LZOVCzfJF7B1KQhtfwINLlx2v72Q51IQOw2uREgacQAXnUYEN5oScUCQxHn2vv/Je5GXmNKqpGIq/uDmVu69Val/6g7nnFsWMgghhG1zc9Mty7K9vLxcPj09dRQVFdmsVisnuru7I4vFoqBMeXx8jN7c3PyLdiGUBckMsICLi4tR5AHcnEiTCJIPyUm5gEUgjf24ESMJIw3Se+Dz+WzoImNZEJHAw8NDGAxSttjY2HA+PT2Fxfvim5yclMlIcNHfRe4II8lkBCcnJ3+KHIMeEZmdnXVTJlxeXvqEScCsKVZXV3+jdMD5OX8iyZydnYnr62unHh20v78/JkwKZtMIBMmp7tuSXICV2lFYWPgfmRhoCkmS9Dm53JKiYRiZTO/A1tYWra2tvSivqKig1tZWam9vVz334ODA29DQMK7aQHxf1bPO1NSUaGtrE/yTasnpdL56DXQ3EYlEZDUhcgb2lSbu7+9Ff3//qyK0imGOjo4CKcVgUPlElhkYGNAkRKsYZmlpyZksROZ5PJssLi5qFqJHzN7e3t9xHVb+KCkpcVKWgY1F2aCxsZFV2+AXRa0/ytJbWTUCK5iWl5dV6+12O/X19VF9ff1zWV1dHWmEncJB5H/FBr7IMisrK6rdqbu7W2Q68cQnAklRFAdlmdvbW9W6kZERKi4upkyorKyMaZCampqclEMyFcKUlZXZsIj+CqtAstMHoKqqyiVhIbPRBwDLi03ClCbTBwDjUrYWFBQY+mT8fj/t7u4mlGGSUW0/Pz9Ph4eHL8p7enqot7eXtIIY3Cdig81I3G63rpVeLU1MTOj6XejwSVdXV2RGOjo6dLWPRqMkwXdQyITAV9HVHtPzLj+ZKJkQvWIQRYpKUPQ/mYzS0tIEO00LEB+yIibF/rRhhiai/GyFJ5SxockpFfgzY+f8DBueesGYCdH6+ro2xyEDAoGA6qw1MzMjDCAWgJG6urqCLIzyGAQrQ5xL/AET/B/KY7BgTnMeE4M+/pXyFyW++xYTw18wgBTKQ3Z2dr7Ej6X4AcwBL+UfysLCgj/+5VlMTU3NVyygCuURcMimh4eHlfh36edKzPlDlD8oyeHZBDE8duCsTVMegO71R3KZlFyAHYBRZAqZGy9CU/7kwhdiOJgGB8vDLx6QCYGjxy9CjKeqk1IVejyeEDzQoddCRLkAO2cK1kSPWr2kVgH1fsSfh8zivPE6ODc354I1rVC6wIhziO/b1zkzNGHZB5C9GauQ3mqAJ8RGnAsXVCgHbG9vf4GL4uKx/FbbN8Uw/DYSxlAzDr34h+g9wBKhIHO1tLSMaj1Hk5g4PIsgsahsrkVRjFMvlojPel/f0iWG4aeENIhDQ0VhlzuKxPZhM0z6cS3dKhndYuLERQWDwebz8/MhhEf96IJ6b0AJh8Ns9boQQP8FKS0Rz/dEBnN8fOyora2VeaukurraBv/+EzaDqLOzk6s51Mk3qyAFyWAP9xusEVBC95F8KwAAAABJRU5ErkJggg==" />
-                </a>
-                <a class="homepage-social-icons" target="blank"
-                  href="https://www.linkedin.com/company/iitrms/?originalSubdomain=in">
-                  <img
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAUvSURBVHgB1ZpLLCxLGMc/fRznnJyHIYSIR994LERyhohIWMxd2FiJteSOhERicS1sLMTcFVbj2svMSTyWHguEiLlCxCMMCRuhm3gHM95vdf81YjKYodF65vySTneX6pr+d9X31VdfCSKVYIzpFhcXCz5+/PgzJiZGFARBf3V1pQsODtbhmi4uLigkJERGVXlra8uJ83+Xl5f2uLg4GwUCXMDJyUkFXnqQvR7H8fGxBWcD+QMuAkcNfxGmIru7uxJORtICi8Wiw9CoUVvEQ87PzyX8lpHeC4fDYbi5uZGYhkiSZDGbzSKpCdr9G0KYP4DjkHASSQ3QkJn5mf39fcfY2FgBvYWDgwMLCxB2dnZYc3PzX/QaWAD0yEPQQ6y9vd3wEh0Eb1LDAhR4U8fo6KioSMj29rb+uQZhlGxgYIChUeYPxwDPOq1IzHPut7GxkYWGhjI+EvmRmJjIpqenmdYsLCyYnhTCbmd1nwwPD7tFeB5RUVGu3tKSvb09/hFFz/cXPISIsBXTU2Lb2tq8liNwpK6uLtKSsLAwOjw8tHiWCR7XNZ8+fXqyAR79+uLLly+kNTk5OYbKykrDvULeKzCqZ7t2YmLC6zBLSEhg+ErMH8ARtT8UY1T6MHcAWK+4hWRkZLC5uTnmRxwVFRU6t5izs7NB9kI2NzcZbIUFAq2trRUuIdwjsN+c2dnZQa4lODU1VU8K4V6rp6fnUfmPHz+osLDQfT80NERLS0uP6mVmZlJaWprrurOzk7q7u2l9fZ1HHITlM2VnZ1NJSQkFBQXRS8Cwv9WAGb9B6ReYmZnx6gBiY2Pv1SsrK/Nar76+nq2trbHc3Fyvf+eHKIqu6OIlYNnO8DEThMjIyJ+kMr5cOCY67k4Jk6/PZ2VZpry8PLLZbKSUDx8+kMFg+JN7MsWxiNKeKS8v91oPmRufPUJeogol08UdGK4VAlNrFacARLyK63L7tFqtius7nU5RgLHpSEPCw8OpqamJsL6nqakpqqqq8lm3o6ODlPL169fQYPTMi73HWxgfHydE2q5rGDulp6fTysoKtbS0PKqLJQbBuAmJxGfbxVAngWcatcJoNLqFeFJaWuq1Pn837jSUgEmcBASXMqkM721vJCcney1PSkoiXyDbSUrAXLfMfaiTNMLXcMF49/mMrw/zEPSMU4AXmCGVUfoCatLb22sX4Pvt9JuDQJmqq6vtwsbGhupitO4ZxHZ2jDCnAKO0kcp2o7UYxHuuDnEFUXB/naQiWovB3PWLn11iMCtbSUW0FIPlulxcXGzj1y4xiABsy8vLMqmElmIQPfx7d+2O1SMiIv4hldBKDAJXuaioyB3AucV8+/bNCtuRSQW0EjMyMvLLbrfLd/f3IszT01PD58+fB309DO9Hk5OTj8r5sjkrK8t9j7wCYX/yUb2UlBSKj49/VM7nCV8LNiy6vEYOWCHLWPP8QU8BQVYW4GBeYSaT6fnNJ9TVXV9fSyyAwT6NiZSC0FsP9e+6o/xa+vv7lW1neIJ0UQFshAUSsEUpOjpapNeAh40YciwQmJ+fl7ALIdJbQKjAd9Ik5kfgfgexxFYnV4H2ROw8S0xj+AZWX19fA70HSP+YtLIjpHel2tpaA70n+B0RdvRucxHCeQfSsyZskWuXAmO3G1RWTLJMDdATDiTTTfyfjchf6PV6cXV11YiQpB0hhuK56ejoiPeCdHJy0mA2mw2kAqpn//Lz8/V1dXUittf1yLrovn//HhoSEuKK1ZBvWIYAJzKVMrykDWdVV7j/A/Pn2cEQI0qPAAAAAElFTkSuQmCC" />
-                </a>
-                <a class="homepage-social-icons" target="blank"
-                  href="https://www.instagram.com/iitroorkeemotorsports/?hl=en">
-                  <img
-                    src="data:image/png;base64,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" />
-                </a>
-                <a class="homepage-social-icons" target="blank" href="https://twitter.com/iitrms_iitr?lang=en">
-                  <img
-                    src="data:image/png;base64,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" />
-                </a>
-                <a class="homepage-social-icons" target="blank"
-                  href="https://www.youtube.com/channel/UCX5M-zh5cSpROSOE2ciV1yQ">
-                  <img
-                    src="data:image/png;base64,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" />
-                </a>
+              "
+            >
+              <div class="homepage-intro-socials">
+                Connect on Social Media
+                <div>
+                  <a class="homepage-social-icons" target="blank" href="https://www.facebook.com/iitrms.in/">
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARwSURBVHgB3ZpJSytZFMdPyjgPLy0KimKX4EJQSR44LZOVCzfJF7B1KQhtfwINLlx2v72Q51IQOw2uREgacQAXnUYEN5oScUCQxHn2vv/Je5GXmNKqpGIq/uDmVu69Val/6g7nnFsWMgghhG1zc9Mty7K9vLxcPj09dRQVFdmsVisnuru7I4vFoqBMeXx8jN7c3PyLdiGUBckMsICLi4tR5AHcnEiTCJIPyUm5gEUgjf24ESMJIw3Se+Dz+WzoImNZEJHAw8NDGAxSttjY2HA+PT2Fxfvim5yclMlIcNHfRe4II8lkBCcnJ3+KHIMeEZmdnXVTJlxeXvqEScCsKVZXV3+jdMD5OX8iyZydnYnr62unHh20v78/JkwKZtMIBMmp7tuSXICV2lFYWPgfmRhoCkmS9Dm53JKiYRiZTO/A1tYWra2tvSivqKig1tZWam9vVz334ODA29DQMK7aQHxf1bPO1NSUaGtrE/yTasnpdL56DXQ3EYlEZDUhcgb2lSbu7+9Ff3//qyK0imGOjo4CKcVgUPlElhkYGNAkRKsYZmlpyZksROZ5PJssLi5qFqJHzN7e3t9xHVb+KCkpcVKWgY1F2aCxsZFV2+AXRa0/ytJbWTUCK5iWl5dV6+12O/X19VF9ff1zWV1dHWmEncJB5H/FBr7IMisrK6rdqbu7W2Q68cQnAklRFAdlmdvbW9W6kZERKi4upkyorKyMaZCampqclEMyFcKUlZXZsIj+CqtAstMHoKqqyiVhIbPRBwDLi03ClCbTBwDjUrYWFBQY+mT8fj/t7u4mlGGSUW0/Pz9Ph4eHL8p7enqot7eXtIIY3Cdig81I3G63rpVeLU1MTOj6XejwSVdXV2RGOjo6dLWPRqMkwXdQyITAV9HVHtPzLj+ZKJkQvWIQRYpKUPQ/mYzS0tIEO00LEB+yIibF/rRhhiai/GyFJ5SxockpFfgzY+f8DBueesGYCdH6+ro2xyEDAoGA6qw1MzMjDCAWgJG6urqCLIzyGAQrQ5xL/AET/B/KY7BgTnMeE4M+/pXyFyW++xYTw18wgBTKQ3Z2dr7Ej6X4AcwBL+UfysLCgj/+5VlMTU3NVyygCuURcMimh4eHlfh36edKzPlDlD8oyeHZBDE8duCsTVMegO71R3KZlFyAHYBRZAqZGy9CU/7kwhdiOJgGB8vDLx6QCYGjxy9CjKeqk1IVejyeEDzQoddCRLkAO2cK1kSPWr2kVgH1fsSfh8zivPE6ODc354I1rVC6wIhziO/b1zkzNGHZB5C9GauQ3mqAJ8RGnAsXVCgHbG9vf4GL4uKx/FbbN8Uw/DYSxlAzDr34h+g9wBKhIHO1tLSMaj1Hk5g4PIsgsahsrkVRjFMvlojPel/f0iWG4aeENIhDQ0VhlzuKxPZhM0z6cS3dKhndYuLERQWDwebz8/MhhEf96IJ6b0AJh8Ns9boQQP8FKS0Rz/dEBnN8fOyora2VeaukurraBv/+EzaDqLOzk6s51Mk3qyAFyWAP9xusEVBC95F8KwAAAABJRU5ErkJggg=="
+                    />
+                  </a>
+                  <a class="homepage-social-icons" target="blank"
+                    href="https://www.linkedin.com/company/iitrms/?originalSubdomain=in"
+                  >
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAUvSURBVHgB1ZpLLCxLGMc/fRznnJyHIYSIR994LERyhohIWMxd2FiJteSOhERicS1sLMTcFVbj2svMSTyWHguEiLlCxCMMCRuhm3gHM95vdf81YjKYodF65vySTneX6pr+d9X31VdfCSKVYIzpFhcXCz5+/PgzJiZGFARBf3V1pQsODtbhmi4uLigkJERGVXlra8uJ83+Xl5f2uLg4GwUCXMDJyUkFXnqQvR7H8fGxBWcD+QMuAkcNfxGmIru7uxJORtICi8Wiw9CoUVvEQ87PzyX8lpHeC4fDYbi5uZGYhkiSZDGbzSKpCdr9G0KYP4DjkHASSQ3QkJn5mf39fcfY2FgBvYWDgwMLCxB2dnZYc3PzX/QaWAD0yEPQQ6y9vd3wEh0Eb1LDAhR4U8fo6KioSMj29rb+uQZhlGxgYIChUeYPxwDPOq1IzHPut7GxkYWGhjI+EvmRmJjIpqenmdYsLCyYnhTCbmd1nwwPD7tFeB5RUVGu3tKSvb09/hFFz/cXPISIsBXTU2Lb2tq8liNwpK6uLtKSsLAwOjw8tHiWCR7XNZ8+fXqyAR79+uLLly+kNTk5OYbKykrDvULeKzCqZ7t2YmLC6zBLSEhg+ErMH8ARtT8UY1T6MHcAWK+4hWRkZLC5uTnmRxwVFRU6t5izs7NB9kI2NzcZbIUFAq2trRUuIdwjsN+c2dnZQa4lODU1VU8K4V6rp6fnUfmPHz+osLDQfT80NERLS0uP6mVmZlJaWprrurOzk7q7u2l9fZ1HHITlM2VnZ1NJSQkFBQXRS8Cwv9WAGb9B6ReYmZnx6gBiY2Pv1SsrK/Nar76+nq2trbHc3Fyvf+eHKIqu6OIlYNnO8DEThMjIyJ+kMr5cOCY67k4Jk6/PZ2VZpry8PLLZbKSUDx8+kMFg+JN7MsWxiNKeKS8v91oPmRufPUJeogol08UdGK4VAlNrFacARLyK63L7tFqtius7nU5RgLHpSEPCw8OpqamJsL6nqakpqqqq8lm3o6ODlPL169fQYPTMi73HWxgfHydE2q5rGDulp6fTysoKtbS0PKqLJQbBuAmJxGfbxVAngWcatcJoNLqFeFJaWuq1Pn837jSUgEmcBASXMqkM721vJCcney1PSkoiXyDbSUrAXLfMfaiTNMLXcMF49/mMrw/zEPSMU4AXmCGVUfoCatLb22sX4Pvt9JuDQJmqq6vtwsbGhupitO4ZxHZ2jDCnAKO0kcp2o7UYxHuuDnEFUXB/naQiWovB3PWLn11iMCtbSUW0FIPlulxcXGzj1y4xiABsy8vLMqmElmIQPfx7d+2O1SMiIv4hldBKDAJXuaioyB3AucV8+/bNCtuRSQW0EjMyMvLLbrfLd/f3IszT01PD58+fB309DO9Hk5OTj8r5sjkrK8t9j7wCYX/yUb2UlBSKj49/VM7nCV8LNiy6vEYOWCHLWPP8QU8BQVYW4GBeYSaT6fnNJ9TVXV9fSyyAwT6NiZSC0FsP9e+6o/xa+vv7lW1neIJ0UQFshAUSsEUpOjpapNeAh40YciwQmJ+fl7ALIdJbQKjAd9Ik5kfgfgexxFYnV4H2ROw8S0xj+AZWX19fA70HSP+YtLIjpHel2tpaA70n+B0RdvRucxHCeQfSsyZskWuXAmO3G1RWTLJMDdATDiTTTfyfjchf6PV6cXV11YiQpB0hhuK56ejoiPeCdHJy0mA2mw2kAqpn//Lz8/V1dXUittf1yLrovn//HhoSEuKK1ZBvWIYAJzKVMrykDWdVV7j/A/Pn2cEQI0qPAAAAAElFTkSuQmCC"
+                    />
+                  </a>
+                  <a class="homepage-social-icons" target="blank"
+                    href="https://www.instagram.com/iitroorkeemotorsports/?hl=en"
+                  >
+                    <img 
+                      src="data:image/png;base64,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"
+                    />
+                  </a>
+                  <a class="homepage-social-icons" target="blank" href="https://twitter.com/iitrms_iitr?lang=en">
+                    <img
+                      src="data:image/png;base64,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"
+                    />
+                  </a>
+                  <a class="homepage-social-icons" target="blank"
+                    href="https://www.youtube.com/channel/UCX5M-zh5cSpROSOE2ciV1yQ"
+                  >
+                    <img
+                      src="data:image/png;base64,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"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="homepage-recent">
-          <img class="homepage-recent-stripped" src="./photos/stripped_back.png" />
-          <div class="heading" style="width: fit-content">
-            <div class="heading-main">
-              <div class="heading-green"></div>
-              <div class="heading-text">RECENT EVENTS</div>
+          <div class="homepage-recent">
+            <img
+              class="homepage-recent-stripped"
+              src="./photos/stripped_back.png"
+            />
+            <div class="heading" style="width: fit-content">
+              <div class="heading-main">
+                <div class="heading-green"></div>
+                <div class="heading-text">RECENT EVENTS</div>
+              </div>
             </div>
-          </div>
-          <!-- <div class="homepage-recent-scroll">
+            <!-- <div class="homepage-recent-scroll">
               <div
                 class="homepage-recent-scroll-circle"
                 style="border: 3px solid white"
@@ -194,93 +226,108 @@
                 style="border: none"
               ></div>
             </div> -->
-          <div class="homepage-eventscroller-flex">
-            <div class="homepage-eventscroller">
-              <img class="slides" src="./photos/event 1.jpg" style="display: block" />
-              <img class="slides" src="./photos/event 2.jpg" />
-              <img class="slides" src="./photos/event 3.jpg" />
-              <img class="slides" src="./photos/event 4.jpg" />
-              <img class="slides" src="./photos/event 5.jpg" />
-              <div class="homepage-eventscroller-description slides2" style="display: block;">
-                <span style="font-weight: bold"></span>Despite the pandemic,
-                Team IITRMS participated in Formula Bharat 2021 Virtuals and
-                secured an overall 6th position amongst 23 teams (EV
-                category).
-              </div>
-              <div class="homepage-eventscroller-description slides2">
-                <span style="font-weight: bold"></span>Bagged overall 3rd place and presented the fastest accelerating
-                car at Formula Green 2020.
-              </div>
-              <div class="homepage-eventscroller-description slides2">
-                <span style="font-weight: bold"></span>Launch event of RMSE19, graced by the presence of Dr. Ajit K.
-                Chaturvedi (Director, IIT Roorkee) and Ms. Garima Avtar (Professional Rally Racer).
-              </div>
-              <div class="homepage-eventscroller-description slides2">
-                <span style="font-weight: bold"></span>Developed a realistic race car driving simulator in Thomso 2019,
-                IIT Roorkee (Cultural Festival).
-              </div>
-              <div class="homepage-eventscroller-description slides2">
-                <span style="font-weight: bold"></span>Representing our institute, we showcased our car SABER at
-                “Manufacturing Today: Reinventing The Future” organized by Aditya Birla Group in September 2019.
-              </div>
-              <button onclick="plusDivs(-1)" class="homepage-eventscroller-leftslide">
-                <div class="arrow-left"></div>
-              </button>
-              <button onclick="plusDivs(1)" class="homepage-eventscroller-rightslide">
-                <div class="arrow-right"></div>
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="homepage-projects">
-          <img class="homepage-recent-stripped2 homepage-recent-stripped" src="./photos/stripped_back2.png" />
-          <div class="heading" style="width: fit-content">
-            <div class="heading-main">
-              <div class="heading-green"></div>
-              <div class="heading-text">OUR CARS</div>
-            </div>
-          </div>
-          <div class="homepage-projects-allprojects">
-            <div class="homepage-projects-horizontal-flex1">
-              <div class="homepage-projects-project1 homepage-projects-project ">
-                <a href="./html/cars.html#rmse19" target="_blank">
-                  <img src="./photos/project1.jpeg" />
-                  <div class="homepage-projects-project-heading">
-                    RMSE19
+            <div class="homepage-eventscroller-flex">
+                <div class="homepage-eventscroller">
+                  <img
+                    class="slides"
+                    src="./photos/event 1.jpg"
+                    style="display: block"
+                  />
+                  <img
+                    class="slides"
+                    src="./photos/event 2.jpg"
+                  />
+                  <img
+                    class="slides"
+                    src="./photos/event 3.jpg"
+                  />
+                  <img
+                    class="slides"
+                    src="./photos/event 4.jpg"
+                  />
+                  <img
+                    class="slides"
+                    src="./photos/event 5.jpg"
+                  />
+                  <div class="homepage-eventscroller-description slides2" style="display: block;">
+                    <span style="font-weight: bold"></span>Despite the pandemic,
+                    Team IITRMS participated in Formula Bharat 2021 Virtuals and
+                    secured an overall 6th position amongst 23 teams (EV
+                    category).
                   </div>
-                </a>
-              </div>
-              <div class="homepage-projects-project2 homepage-projects-project">
-                <a href="./html/cars.html#saber" target="_blank">
-                  <img src="./photos/project2.jpg" />
-                  <div class="homepage-projects-project-heading">SABER</div>
-                </a>
-              </div>
-            </div>
-            <div class="homepage-projects-horizontal-flex2">
-              <div class="homepage-projects-project3 homepage-projects-project">
-                <a href="./html/cars.html#bolt" target="_blank">
-                  <img src="./photos//project3.png" />
-                  <div class="homepage-projects-project-heading">BOLT</div>
-                </a>
-              </div>
-              <div class="homepage-projects-project4 homepage-projects-project">
-                <a href="./html/cars.html#rmse13" target="_blank">
-                  <img src="./photos/project4.png" />
-                  <div class="homepage-projects-project-heading">RMS13</div>
-                </a>
-              </div>
-              <div class="homepage-projects-project5 homepage-projects-project">
-                <a href="./html/cars.html#fiitr" target="_blank">
-                  <img src="./photos/project5.jpg" />
-                  <div class="homepage-projects-project-heading">
-                    FIITR-11
+                  <div class="homepage-eventscroller-description slides2">
+                    <span style="font-weight: bold"></span>Bagged overall 3rd place and presented the fastest accelerating car at Formula Green 2020.
                   </div>
-                </a>
-              </div>
+                  <div class="homepage-eventscroller-description slides2">
+                    <span style="font-weight: bold"></span>Launch event of RMSE19, graced by the presence of Dr. Ajit K. Chaturvedi (Director, IIT Roorkee) and Ms. Garima Avtar (Professional Rally Racer).
+                  </div>
+                  <div class="homepage-eventscroller-description slides2">
+                    <span style="font-weight: bold"></span>Developed a realistic race car driving simulator in Thomso 2019, IIT Roorkee (Cultural Festival).
+                  </div>
+                  <div class="homepage-eventscroller-description slides2">
+                    <span style="font-weight: bold"></span>Representing our institute, we showcased our car SABER at “Manufacturing Today: Reinventing The Future” organized by Aditya Birla Group in September 2019.
+                  </div>
+                  <button onclick="plusDivs(-1)" class="homepage-eventscroller-leftslide">
+                    <div class="arrow-left"></div>
+                  </button>
+                  <button onclick="plusDivs(1)" class="homepage-eventscroller-rightslide">
+                    <div class="arrow-right"></div>
+                  </button>
+                </div>
             </div>
           </div>
-          <!-- <div>
+          <div class="homepage-projects">
+            <img
+              class="homepage-recent-stripped2 homepage-recent-stripped"
+              src="./photos/stripped_back2.png"
+            />
+            <div class="heading" style="width: fit-content">
+              <div class="heading-main">
+                <div class="heading-green"></div>
+                <div class="heading-text">OUR CARS</div>
+              </div>
+            </div>
+            <div class="homepage-projects-allprojects">
+              <div class="homepage-projects-horizontal-flex1">
+                <div class="homepage-projects-project1 homepage-projects-project ">
+                  <a href="./html/cars.html#rmse19" target="_blank">
+                    <img src="./photos/project1.jpeg"/>
+                      <div class="homepage-projects-project-heading">
+                        RMSE19
+                      </div>
+                  </a>
+                </div>
+                <div class="homepage-projects-project2 homepage-projects-project">
+                  <a href="./html/cars.html#saber" target="_blank">
+                    <img src="./photos/project2.jpg"/>
+                    <div class="homepage-projects-project-heading">SABER</div>
+                  </a>
+                </div>
+              </div>
+              <div class="homepage-projects-horizontal-flex2">
+                <div class="homepage-projects-project3 homepage-projects-project">
+                  <a href="./html/cars.html#bolt" target="_blank">
+                    <img src="./photos//project3.png"/>
+                      <div class="homepage-projects-project-heading">BOLT</div>
+                  </a>
+                </div>
+                  <div class="homepage-projects-project4 homepage-projects-project">
+                    <a href="./html/cars.html#rmse13" target="_blank">
+                      <img src="./photos/project4.png"/>
+                        <div class="homepage-projects-project-heading">RMS13</div>
+                    </a>
+                  </div>
+                  <div class="homepage-projects-project5 homepage-projects-project">
+                  <a href="./html/cars.html#fiitr" target="_blank">
+                    <img src="./photos/project5.jpg"/>
+                    <div class="homepage-projects-project-heading">
+                      FIITR-11
+                    </div>
+                  </a>
+                </div>
+                </div>
+              </div>
+              <!-- <div>
                 <a href="./html/cars.html#rmse19">
                   <div
                     class="homepage-projects-project1 homepage-projects-project"
@@ -325,234 +372,306 @@
                 </div>
                 </a>
               </div> -->
-        </div>
-      </div>
-      <div class="achievements-allign homepage-recent">
-        <img class="homepage-recent-stripped" src="./photos/stripped_back2.png" />
-        <div class="heading" style="width: fit-content">
-          <div class="heading-main">
-            <div class="heading-green"></div>
-            <div class="heading-text">ACHIEVEMENTS</div>
+            </div>
           </div>
-        </div>
-        <div class="homepage-achievement">
-          <div>
-            <div class="homepage-achievement-image">
-              <div class=" show-cars homepage-achievement-eventscroller homepage-eventscroller" style="
+          <div class="achievements-allign homepage-recent">
+            <img
+              class="homepage-recent-stripped"
+              src="./photos/stripped_back2.png"
+            />
+            <div class="heading" style="width: fit-content">
+              <div class="heading-main">
+                <div class="heading-green"></div>
+                <div class="heading-text">ACHIEVEMENTS</div>
+              </div>
+            </div>
+            <div class="homepage-achievement">
+              <div >
+                <div class="homepage-achievement-image">
+                <div
+                  class=" show-cars homepage-achievement-eventscroller homepage-eventscroller"
+                  style="
                     background-image: url(./photos/achievement_RMSE19.jpg);
                     z-index: -2;
                     background-size: contain;
                     background-repeat: no-repeat;
                     background-position: center;
                     display: block;
-                  "></div>
-              <div class=" show-cars homepage-achievement-eventscroller homepage-eventscroller" style="
+                  "
+                ></div>
+                <div
+                  class=" show-cars homepage-achievement-eventscroller homepage-eventscroller"
+                  style="
                     background-image: url(./photos/achievement_SABER.jpg);
                     z-index: -2;
                     background-size: contain;
                     background-repeat: no-repeat;
                     background-position: center;
-                  "></div>
-              <div class=" show-cars homepage-achievement-eventscroller homepage-eventscroller" style="
+                  "
+                ></div>
+                <div
+                  class=" show-cars homepage-achievement-eventscroller homepage-eventscroller"
+                  style="
                     background-image: url(./photos/achievement_BOLT.jpg);
                     z-index: -2;
                     background-size: contain;
                     background-repeat: no-repeat;
                     background-position: center;
-                  "></div>
-              <div class=" show-cars homepage-achievement-eventscroller homepage-eventscroller" style="
+                  "
+                ></div>
+                <div
+                  class=" show-cars homepage-achievement-eventscroller homepage-eventscroller"
+                  style="
                     background-image: url(./photos/achievement_RMS13.jpg);
                     z-index: -2;
                     background-size: contain;
                     background-repeat: no-repeat;
                     background-position: center;
-                  "></div>
-              <div class=" show-cars homepage-achievement-eventscroller homepage-eventscroller" style="
+                  "
+                ></div>
+                <div
+                  class=" show-cars homepage-achievement-eventscroller homepage-eventscroller"
+                  style="
                     background-image: url(./photos/achievement_FIITR11.jpg);
                     z-index: -2;
                     background-size: contain;
                     background-repeat: no-repeat;
                     background-position: center;
-                  "></div>
-            </div>
-            <div class="homepage-eventline"></div>
-            <div class="homepage-achievements-cars">
-              <div class="show-car-name homepage-achievements-cars-car" style="background-color: #a4cc3c"
-                onclick="showCars(1)">
-                RMSE19
+                  "
+                ></div>
               </div>
-              <div class="show-car-name homepage-achievements-cars-car" style="background-color: #40455f"
-                onclick="showCars(2)">
-                Saber
+                <div class="homepage-eventline"></div>
+                <div class="homepage-achievements-cars">
+                  <div
+                    class="show-car-name homepage-achievements-cars-car"
+                    style="background-color: #a4cc3c"
+                    onclick="showCars(1)"
+                  >
+                    RMSE19
+                  </div>
+                  <div
+                    class="show-car-name homepage-achievements-cars-car"
+                    style="background-color: #40455f"
+                    onclick="showCars(2)"
+                  >
+                    Saber
+                  </div>
+                  <div
+                    class="show-car-name homepage-achievements-cars-car"
+                    style="background-color: #40455f"
+                    onclick="showCars(3)"
+                  >
+                    Bolt
+                  </div>
+                  <div
+                    class="show-car-name homepage-achievements-cars-car"
+                    style="background-color: #40455f"
+                    onclick="showCars(4)"
+                  >
+                  RMS13
+                  </div>
+                  <div
+                    class="show-car-name homepage-achievements-cars-car"
+                    style="background-color: #40455f"
+                    onclick="showCars(5)"
+                  >
+                  FIITR-11
+                  </div>
+                </div>
               </div>
-              <div class="show-car-name homepage-achievements-cars-car" style="background-color: #40455f"
-                onclick="showCars(3)">
-                Bolt
+              <div
+                style="display: block"
+                class="homepage-achievements-allachieve"
+              >
+                <div class="homepage-allevents-heading">
+                  FORMULA GREEN <br /><span style="font-size: 20px">2020</span>
+                </div>
+                <div class="homepage-allevents-event1">
+                  <div class="homepage-allevents-event-rank">1st</div>
+                  <div class="homepage-allevents-event-position">
+                    Acceleration Event
+                  </div>
+                </div>
+                <div class="homepage-allevents-event2">
+                  <div class="homepage-allevents-event-rank">2nd</div>
+                  <div class="homepage-allevents-event-position">
+                    Business Presentation
+                  </div>
+                </div>
+                <div class="homepage-allevents-event1">
+                  <div class="homepage-allevents-event-rank">3rd</div>
+                  <div class="homepage-allevents-event-position">
+                    Overall Competition
+                  </div>
+                </div>
+                <div class="homepage-allevents-event2">
+                  <div class="homepage-allevents-event-rank">3rd</div>
+                  <div class="homepage-allevents-event-position">
+                    Engg. Design Event
+                  </div>
+                </div>
+                <div class="homepage-allevents-event1">
+                  <div class="homepage-allevents-event-rank">2nd</div>
+                  <div class="homepage-allevents-event-position">
+                    Cost Presentation
+                  </div>
+                </div>
               </div>
-              <div class="show-car-name homepage-achievements-cars-car" style="background-color: #40455f"
-                onclick="showCars(4)">
-                RMS13
+              <div
+                style="display: none"
+                class="homepage-achievements-allachieve"
+              >
+                <div class="homepage-allevents-heading">
+                  FORMULA GREEN <br /><span style="font-size: 20px">2017</span>
+                </div>
+                <div class="homepage-allevents-event1">
+                  <div
+                    class="homepage-allevents-event-position"
+                    style="width: 100%"
+                  >
+                    The only team at the competition with an air cooling system
+                  </div>
+                </div>
+                <div class="homepage-allevents-event2">
+                  <div
+                    class="homepage-allevents-event-position"
+                    style="width: 100%"
+                  >
+                    Completed one lap in 2 min 17 sec beating the fastest lap of
+                    2 min 48 sec in a friendly test run
+                  </div>
+                </div>
               </div>
-              <div class="show-car-name homepage-achievements-cars-car" style="background-color: #40455f"
-                onclick="showCars(5)">
-                FIITR-11
+              <div
+                style="display: none"
+                class="homepage-achievements-allachieve"
+              >
+                <div class="homepage-allevents-heading">
+                  FSAE AUSTRALASIA <br /><span style="font-size: 20px">2015</span>
+                </div>
+                <div class="homepage-allevents-event1">
+                  <div class="homepage-allevents-event-rank">4th</div>
+                  <div class="homepage-allevents-event-position">
+                    Overall (EV)
+                  </div>
+                </div>
+                <div class="homepage-allevents-event2">
+                  <div class="homepage-allevents-event-rank">2nd</div>
+                  <div class="homepage-allevents-event-position">Cost (EV)</div>
+                </div>
+                <div class="homepage-allevents-event1">
+                  <div class="homepage-allevents-event-rank">4th</div>
+                  <div class="homepage-allevents-event-position">
+                    Design (EV)
+                  </div>
+                </div>
+                <div class="homepage-allevents-event2">
+                  <div class="homepage-allevents-event-rank">4th</div>
+                  <div class="homepage-allevents-event-position">
+                    Business Presentation (EV)
+                  </div>
+                </div>
+                <div class="homepage-allevents-event1">
+                  <div
+                    class="homepage-allevents-event-position"
+                    style="width: 100%"
+                  >
+                    The team won the ’CAMS Inspiring Motorsports Award’ from
+                    CAMS Confederation of Australian Motorsports for Best Design
+                    among first-year electric teams.
+                  </div>
+                </div>
+              </div>
+              <div
+                style="display: none"
+                class="homepage-achievements-allachieve"
+              >
+                <div class="homepage-allevents-heading">
+                  FORMULA STUDENT UK <br /><span style="font-size: 20px">2013</span>
+                </div>
+                <div class="homepage-allevents-event1">
+                  <div class="homepage-allevents-event-rank">1st</div>
+                  <div class="homepage-allevents-event-position">
+                    Cost and Business Presentation among Indian Teams
+                  </div>
+                </div>
+                <div class="homepage-allevents-event2">
+                  <div class="homepage-allevents-event-rank">2nd</div>
+                  <div class="homepage-allevents-event-position">
+                    Overall as well as design among Indian Teams
+                  </div>
+                </div>
+                <div class="homepage-allevents-event1">
+                  <div
+                    class="homepage-allevents-event-position"
+                    style="width: 100%"
+                  >
+                    The only hybrid car in FS UK 2013
+                  </div>
+                </div>
+                <div class="homepage-allevents-event2">
+                  <div
+                    class="homepage-allevents-event-position"
+                    style="width: 100%"
+                  >
+                    Winner IMechE Formula Student award of 2500 GBP
+                  </div>
+                </div>
+              </div>
+              <div
+                style="display: none"
+                class="homepage-achievements-allachieve"
+              >
+                <div class="homepage-allevents-heading">
+                  FSAE AUSTRALASIA <br /><span style="font-size: 20px">2011</span>
+                </div>
+                <div class="homepage-allevents-event1">
+                  <div class="homepage-allevents-event-rank">1st</div>
+                  <div class="homepage-allevents-event-position">
+                    Fuel Econonmy
+                  </div>
+                </div>
+                <div class="homepage-allevents-event2">
+                  <div class="homepage-allevents-event-rank">1st</div>
+                  <div class="homepage-allevents-event-position">
+                    Indian team finishing the 32 lap final race in Australia
+                  </div>
+                </div>
+                <div class="homepage-allevents-event1">
+                  <div class="homepage-allevents-event-rank">7th</div>
+                  <div class="homepage-allevents-event-position">
+                    Cost Preparation
+                  </div>
+                </div>
+                <div class="homepage-allevents-event2">
+                  <div
+                    class="homepage-allevents-event-position"
+                    style="width: 100%"
+                  >
+                    The car was also exhibited in the design Pavillion of AUTO
+                    EXPO 2012, New Delhi.
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div style="display: block" class="homepage-achievements-allachieve">
-            <div class="homepage-allevents-heading">
-              FORMULA GREEN <br /><span style="font-size: 20px">2020</span>
-            </div>
-            <div class="homepage-allevents-event1">
-              <div class="homepage-allevents-event-rank">1st</div>
-              <div class="homepage-allevents-event-position">
-                Acceleration
-              </div>
-            </div>
-            <div class="homepage-allevents-event2">
-              <div class="homepage-allevents-event-rank">2nd</div>
-              <div class="homepage-allevents-event-position">
-                Cost and Manufacturing
-              </div>
-            </div>
-            <div class="homepage-allevents-event1">
-              <div class="homepage-allevents-event-rank">2nd</div>
-              <div class="homepage-allevents-event-position">
-                Business Plan Presentation
-              </div>
-            </div>
-            <div class="homepage-allevents-event2">
-              <div class="homepage-allevents-event-rank">3rd</div>
-              <div class="homepage-allevents-event-position">
-                Engineering Design Report
-              </div>
-            </div>
-            <div class="homepage-allevents-event1">
-              <div class="homepage-allevents-event-rank">3rd</div>
-              <div class="homepage-allevents-event-position">
-                position Overall
-              </div>
-            </div>
-          </div>
-          <div style="display: none" class="homepage-achievements-allachieve">
-            <div class="homepage-allevents-heading">
-              FORMULA GREEN <br /><span style="font-size: 20px">2017</span>
-            </div>
-            <div class="homepage-allevents-event1">
-              <div class="homepage-allevents-event-position" style="width: 100%">
-                The only team at the competition with an Air cooling system.
-              </div>
-            </div>
-            <div class="homepage-allevents-event2">
-              <div class="homepage-allevents-event-position" style="width: 100%">
-                Completed one lap in 2 min 17 sec, beating the fastest lap of 2 min 48 sec in a friendly test run.
-              </div>
-            </div>
-          </div>
-          <div style="display: none" class="homepage-achievements-allachieve">
-            <div class="homepage-allevents-heading">
-              FSAE AUSTRALASIA <br /><span style="font-size: 20px">2015</span>
-            </div>
-            <div class="homepage-allevents-event1">
-              <div class="homepage-allevents-event-rank">4th</div>
-              <div class="homepage-allevents-event-position">
-                Overall (EV)
-              </div>
-            </div>
-            <div class="homepage-allevents-event2">
-              <div class="homepage-allevents-event-rank">2nd</div>
-              <div class="homepage-allevents-event-position">Cost</div>
-            </div>
-            <div class="homepage-allevents-event1">
-              <div class="homepage-allevents-event-rank">4th</div>
-              <div class="homepage-allevents-event-position">
-                Design
-              </div>
-            </div>
-            <div class="homepage-allevents-event2">
-              <div class="homepage-allevents-event-rank">4th</div>
-              <div class="homepage-allevents-event-position">
-                Business Presentation
-              </div>
-            </div>
-            <div class="homepage-allevents-event1">
-              <div class="homepage-allevents-event-rank">4th</div>
-              <div class="homepage-allevents-event-position">
-                position Overall
-              </div>
-            </div>
-            <div class="homepage-allevents-event2">
-              <div class="homepage-allevents-event-position" style="width: 100%">
-                Winner of the ‘CAMS Inspiring Motorsports Award’
-              </div>
-            </div>
-          </div>
-          <div style="display: none" class="homepage-achievements-allachieve">
-            <div class="homepage-allevents-heading">
-              FORMULA STUDENT UK <br /><span style="font-size: 20px">2013</span>
-            </div>
-            <div class="homepage-allevents-event1">
-              <div class="homepage-allevents-event-rank">1st</div>
-              <div class="homepage-allevents-event-position" style="width: 60%">
-                Cost and Business Presentation among Indian Teams
-              </div>
-            </div>
-            <div class="homepage-allevents-event2">
-              <div class="homepage-allevents-event-rank">2nd</div>
-              <div class="homepage-allevents-event-position" style="width: 60%">
-                overall as well as design among Indian Teams
-              </div>
-            </div>
-            <div class="homepage-allevents-event1">
-              <div class="homepage-allevents-event-position" style="width: 100%">
-                The only hybrid car in FS UK 2013
-              </div>
-            </div>
-            <div class="homepage-allevents-event2">
-              <div class="homepage-allevents-event-position" style="width: 100%">
-                Winner IMechE Formula Student award of 2500 GBP
-              </div>
-            </div>
-          </div>
-          <div style="display: none" class="homepage-achievements-allachieve">
-            <div class="homepage-allevents-heading">
-              FSAE AUSTRALASIA <br /><span style="font-size: 20px">2011</span>
-            </div>
-            <div class="homepage-allevents-event1">
-              <div class="homepage-allevents-event-rank">1st</div>
-              <div class="homepage-allevents-event-position">
-                Fuel Econonmy
-              </div>
-            </div>
-            <div class="homepage-allevents-event2">
-              <div class="homepage-allevents-event-rank">7th</div>
-              <div class="homepage-allevents-event-position">
-                Cost Presentation
-              </div>
-            </div>
-            <div class="homepage-allevents-event1">
-              <div class="homepage-allevents-event-rank">1st</div>
-              <div class="homepage-allevents-event-position">
-                Indian Team to finish final 32 lap race in Australia
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="homepage-projects">
-        <img class="homepage-recent-stripped2 homepage-recent-stripped" src="./photos/stripped_back.png" />
-        <div class="heading" style="width: fit-content">
-          <div class="heading-main">
-            <div class="heading-green"></div>
+          <div class="homepage-projects">
+            <img
+              class="homepage-recent-stripped2 homepage-recent-stripped"
+              src="./photos/stripped_back.png"
+            />
+            <div class="heading" style="width: fit-content">
+              <div class="heading-main">
+                <div class="heading-green"></div>
 
-            <div class="heading-text">OUR PROUD SPONSORS</div>
+                <div class="heading-text">OUR PROUD SPONSORS</div>
 
+                
 
-
-          </div>
-        </div>
-        <div class="homepage-partners-allpartners">
-          <!-- <div
+              </div>
+            </div>
+            <div class="homepage-partners-allpartners">
+               <!-- <div
                 style="
                   width: 15vw;
                   display: flex;
@@ -837,136 +956,153 @@
                   class="homepage-partners-partner"
                 />
               </div> -->
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/Lapp-silver.png">
-          </div>
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/VICOR.png">
-          </div>
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/ST-micro.png">
-          </div>
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/EPLAN.png">
-          </div>
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/Norton.png" />
-          </div>
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/infineon-whitemask.png" />
-          </div>
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/PCB Power.png" />
-          </div>
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/APL APOLLO.png" />
-          </div>
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/dupont.png" />
-          </div>
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/fluke.png" />
-          </div>
-          <!-- <div class="homepage-partners-partner-flex">
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/Lapp-silver.png"></img>
+              </div>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/VICOR.png"></img>
+              </div>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/ST-micro.png"></img>
+              </div>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/EPLAN.png"></img>
+              </div>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/Norton.png" />
+              </div>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/infineon-whitemask.png" />
+              </div>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/PCB Power.png" />
+              </div>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/APL APOLLO.png" />
+              </div>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/dupont.png" />
+              </div>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/fluke.png" />
+              </div> 
+              <!-- <div class="homepage-partners-partner-flex">
                 <img class="sponsors-image" src="../photos/" />
               </div> -->
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/WE.png" />
-          </div>
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src='../photos/novoflex-white.png' />
-          </div>
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/Singodia.png" />
-          </div>
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src='../photos/Pankaj-bronze.png' />
-          </div>
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/dorle.png">
-          </div>
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/ITW Chemin- Maintenance Partner.png">
-          </div>
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/Swalka KEL.png">
-          </div>
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/KRCW.png">
-          </div>
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/SimscaleW.png">
-          </div>
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/SolidWorksW.png">
-          </div>
-
-          <!-- <div class="homepage-partners-partner-flex">
-                <img class="sponsors-image" src="../photos/IPGW.png">
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/WE.png" />
+              </div>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src='../photos/novoflex-white.png' />
+              </div>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/Singodia.png" />
+              </div>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src='../photos/Pankaj-bronze.png' />
+              </div>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/dorle.png"></img>
+              </div>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/ITW Chemin- Maintenance Partner.png"></img>
+              </div>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/Swalka KEL.png"></img>
+              </div>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/KRCW.png"></img>
+              </div>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/SimscaleW.png"></img>
+              </div>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/SolidWorksW.png"></img>
+              </div>
+           
+              <!-- <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/IPGW.png"></img>
               </div> -->
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/AltiumWhite.png">
-          </div>
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/RapidHarnessLogoWhite.png">
-          </div>
-          <!-- <div class="homepage-partners-partner-flex">
-                <img class="sponsors-image" src="../photos//NipponW.png">
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/AltiumWhite.png"></img>
+              </div>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/RapidHarnessLogoWhite.png"></img>
+              </div>
+              <!-- <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos//NipponW.png"></img>
               </div> -->
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/mortul.png">
-          </div>
-          <div class="homepage-partners-partner-flex">
-            <img class="sponsors-image" src="../photos/KARAM-WhiteMask.png">
-          </div>
-        </div>
-      </div>
-      <div style="width: 100%; height: 40px; background-color: #9d9fa8"></div>
-      <div class="footer">
-        <div class="footer-left">
-          <br />
-          <br />
-          <div class="footer-left-links">
-            <!-- <a target="_blank" href="https://drive.google.com/file/d/1MOpnHRKy4z-A-0-9qALxed9h1gm976k8/view?usp=sharing"> -->
-            <!-- <div style="color: white">Sponsorship Brochure</div> -->
-            <!-- </a> -->
-            <a href="http://www.iitr.ac.in" target="blank">
-              <div style="color: white">IIT Roorkee website</div>
-            </a>
-            <a href="https://www.imeche.org/events/formula-student" target="blank">
-              <div style="color: white">Formula Student</div>
-            </a>
-          </div>
-          <div class="footer-left-follow">
-            Follow us on
-            <div class="footer-left-handles">
-              <a href="https://www.facebook.com/iitrms.in/" target="_blank">
-                <img style="padding: 0 15px 0 0"
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAcCAYAAABRVo5BAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACtSURBVHgB7ZLRDYJADIZbcgM4wo2gI7iBI+AITgAruAGbMAKOwAbeBvXH+GDqL4cX44PhS0pzpV+OkqpkMLOIFJ9Ko6qOc8IBMRinfic1Nk9dEWmL1EqGitQaWYCSG69IG1c+IzpEepyTENEzyMJP9aRSUb4qBszQZnoi6el0ml4+Z1ckYle1ZMb7Xy4RL9MjIPbuRU8aT/7GF8jm9Kzv9wuwiv8hBlI7ujPdzRu3V5AMxQQmiAAAAABJRU5ErkJggg==" />
-              </a>
-              <a target="_blank" href="https://www.linkedin.com/company/iitrms/?originalSubdomain=in">
-                <img style="padding: 0 15px"
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAD8SURBVHgB7VTRDYIwED0M/+gEwgTqBnUTnUCcwDiBMgGO4AbiBLqBbAAb4Lt4JqS2MZbyYcJL3kfvLn3c465EQNM0O7AS5uCYfEIEdBzIJ3DhzSBSkUeMQL/WWEQyQzwj34A9K7HtAab0jwioI2TcY3AOlswgCEq9KBWb2jy28sqQzyW3kd3SwTXqfUdIr+mKtQ+MtLOej2WXbP+P6y+oWaKrIiQ3KOE3cMfJiPoFd6y6iNTgHkzABdl3S7naxdjC71PrzAM0o08bp106ORtiV0Ns4ipSo4vaEC8NschZ5JfivqdrEBlEegY/K7y5pRZvn+/gWsvb9qQw1T4Bg1XDBEaoolAAAAAASUVORK5CYII=" />
-              </a>
-              <a target="_blank" href="https://www.instagram.com/iitroorkeemotorsports/?hl=en">
-                <img style="padding: 0 15px"
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHkSURBVHgBrVbtUcMwDFV6/U82qDsBYYMwAWWDbECYoGGCthO0G8AGCRMQJoiZoGUCIzUyEWnsfNB3p3Ntx+9JiqwmgA4YY2IcHtBCNAXDcELTaJ9oRRAE2vkkCjyhHc11sJbcgRDZ4JAK70r28Av6QZEvOPpIrBPHPUZ3siKJ8OSAFsJE4FnFHBYbuVnx4itMBDmHlqJFPN8KsZAWVmIhhokgJyUPC1ukcxA5xVwWHiJK5wqaKtTwt7pkukN6L3imZP4YRD4rj8jauKtxz94rjioT5yx3Phd82iGyxyHhKVVPwb8jji45ewxwh1E8ggMz8IDvQsLTHdqSyNiWOH/mPYW2hx6y3/A69ireyzznU5HGhYt75iGIoXnxB9dzGNkWmrRPSp3isfT2rRrvPN7CBCGLIV3ihsdvmCCkeaSyVeCHvYsljBXiy6t5unE9x5WpeFqMFmLY8l3xZVRCgC4pOZDx0kvff5AtwQ/HftbqBEdR9haHHu58aAtKOsitaOo5l0sheeG8FYb7kam7PQlH0APKEvO+nS+mEIrhSjB1k7VI7GJu02f6S3mISGiaVDecraiqoalxRNF+nxntyY8TWlh3nNcwDKpjbYcln7o8ys3/cVGNAThSAHVbGZs+DXUTvmhFP20T5N5YSua9AAAAAElFTkSuQmCC" />
-              </a>
-              <a href="https://twitter.com/iitrms_iitr?lang=en" target="_blank">
-                <img style="padding: 0 15px"
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFZSURBVHgBtZaBUYQwEEWXGwughHQgdkAHWgJWoB0cHagVMHagFUAHXgehg9MK1l3ZjMAld7sZ7s38CYEkP7tJAIANQMSG1JO8iK+bSDu3qJCewIj0Y4MUX6QH0l6um/VMmT0YkKi0tNKn3En/SsqWbr4oDRsqHOgYSbccLZVlGKBdzcov8h837dGGJ1XzAepEw27RcGnqUY+PBnFhEN4ErUyuzDDtU+mqSEflIEdD2xPTXVhTKngDfYKOEsKG0PEzr9xIOZBMx8XIMK/8RVoUBd8c4XoconeNa2rBr73Cy4Gj5dncwfYRfyRNBd4c75BKRx5vZ59SKkq0nb9LtKABt1tbDxZw+mR5zIcn7SAHnKJ+RRtsWOUacrQd2lAZFji9wJ3UneieVIONgfRIR29UtSbjZ8xfQ4+R/yGtMacz/GBp0tiRasigSEyAU85r4+D/a/ItOqhTmOAXwf8ye0m94ycAAAAASUVORK5CYII=" />
-              </a>
-              <a target="_blank" href="https://www.youtube.com/channel/UCX5M-zh5cSpROSOE2ciV1yQ">
-                <img style="padding: 0 15px"
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAVCAYAAAC6wOViAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEZSURBVHgBvZXRbcIwFEWfrf6TbuBOULpBs0k6QbtB2w3aCVomYISwAWyAmYBsYO6FBwoIkB2Dj3SxAzZHtuwXI2cIITjtut7XTq7TafZ4PhtjuoszIGqQFlmH2zPn/58K30MZ/ugzKl1GbN+tqC2ErwWFZGzxUUlZnil1CRMWmhweU1fKK/CC9k12V2IIo9SVboH4H3lC91vScVYygPgLDeWTlHlZUhV7pEG3jp2TLSVabaax47OkvONIiy4rTfSBfJDjIh0rc2g+kUbS8anSCkLKPiSjqFDqE8aPNTl4K8Mv+VBWBtvFbVpLOWqrb/ZfKQPv9OzwhBX/hPvS6qnfvcR7Ym41D0qlcfoT+yOJY6Vt18uClWs/YAMtU3Y1YUytaQAAAABJRU5ErkJggg==" />
-              </a>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/mortul.png"></img>
+              </div>
+              <div class="homepage-partners-partner-flex">
+                <img class="sponsors-image" src="../photos/KARAM-WhiteMask.png"></img>
+              </div>
             </div>
-            © Copyright 2018 | Team IIT Roorkee Motorsports | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; All Rights Reserved
           </div>
-        </div>
-        <div class="footer-right">
-          <div class="footer-heading">CONTACT US</div>
-          <!-- <div
+          <div
+            style="width: 100%; height: 40px; background-color: #9d9fa8"
+          ></div>
+          <div class="footer">
+            <div class="footer-left">
+              <br />
+              <br />
+              <div class="footer-left-links">
+                <!-- <a target="_blank" href="https://drive.google.com/file/d/1MOpnHRKy4z-A-0-9qALxed9h1gm976k8/view?usp=sharing"> -->
+                  <!-- <div style="color: white">Sponsorship Brochure</div> -->
+                <!-- </a> -->
+                <a href="http://www.iitr.ac.in" target="blank">
+                  <div style="color: white">IIT Roorkee website</div>
+                </a>
+                <a href="https://www.imeche.org/events/formula-student" target="blank"><div style="color: white">Formula Student</div></a>
+              </div>
+              <div class="footer-left-follow">
+                Follow us on
+                <div class="footer-left-handles">
+                  <a href="https://www.facebook.com/iitrms.in/" target="_blank">
+                    <img
+                      style="padding: 0 15px 0 0"
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAcCAYAAABRVo5BAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACtSURBVHgB7ZLRDYJADIZbcgM4wo2gI7iBI+AITgAruAGbMAKOwAbeBvXH+GDqL4cX44PhS0pzpV+OkqpkMLOIFJ9Ko6qOc8IBMRinfic1Nk9dEWmL1EqGitQaWYCSG69IG1c+IzpEepyTENEzyMJP9aRSUb4qBszQZnoi6el0ml4+Z1ckYle1ZMb7Xy4RL9MjIPbuRU8aT/7GF8jm9Kzv9wuwiv8hBlI7ujPdzRu3V5AMxQQmiAAAAABJRU5ErkJggg=="
+                    />
+                  </a>
+                  <a target="_blank"
+                    href="https://www.linkedin.com/company/iitrms/?originalSubdomain=in"
+                  >
+                    <img
+                      style="padding: 0 15px"
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAD8SURBVHgB7VTRDYIwED0M/+gEwgTqBnUTnUCcwDiBMgGO4AbiBLqBbAAb4Lt4JqS2MZbyYcJL3kfvLn3c465EQNM0O7AS5uCYfEIEdBzIJ3DhzSBSkUeMQL/WWEQyQzwj34A9K7HtAab0jwioI2TcY3AOlswgCEq9KBWb2jy28sqQzyW3kd3SwTXqfUdIr+mKtQ+MtLOej2WXbP+P6y+oWaKrIiQ3KOE3cMfJiPoFd6y6iNTgHkzABdl3S7naxdjC71PrzAM0o08bp106ORtiV0Ns4ipSo4vaEC8NschZ5JfivqdrEBlEegY/K7y5pRZvn+/gWsvb9qQw1T4Bg1XDBEaoolAAAAAASUVORK5CYII="
+                    />
+                  </a>
+                  <a target="_blank"
+                    href="https://www.instagram.com/iitroorkeemotorsports/?hl=en"
+                  >
+                    <img
+                      style="padding: 0 15px"
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHkSURBVHgBrVbtUcMwDFV6/U82qDsBYYMwAWWDbECYoGGCthO0G8AGCRMQJoiZoGUCIzUyEWnsfNB3p3Ntx+9JiqwmgA4YY2IcHtBCNAXDcELTaJ9oRRAE2vkkCjyhHc11sJbcgRDZ4JAK70r28Av6QZEvOPpIrBPHPUZ3siKJ8OSAFsJE4FnFHBYbuVnx4itMBDmHlqJFPN8KsZAWVmIhhokgJyUPC1ukcxA5xVwWHiJK5wqaKtTwt7pkukN6L3imZP4YRD4rj8jauKtxz94rjioT5yx3Phd82iGyxyHhKVVPwb8jji45ewxwh1E8ggMz8IDvQsLTHdqSyNiWOH/mPYW2hx6y3/A69ireyzznU5HGhYt75iGIoXnxB9dzGNkWmrRPSp3isfT2rRrvPN7CBCGLIV3ihsdvmCCkeaSyVeCHvYsljBXiy6t5unE9x5WpeFqMFmLY8l3xZVRCgC4pOZDx0kvff5AtwQ/HftbqBEdR9haHHu58aAtKOsitaOo5l0sheeG8FYb7kam7PQlH0APKEvO+nS+mEIrhSjB1k7VI7GJu02f6S3mISGiaVDecraiqoalxRNF+nxntyY8TWlh3nNcwDKpjbYcln7o8ys3/cVGNAThSAHVbGZs+DXUTvmhFP20T5N5YSua9AAAAAElFTkSuQmCC"
+                    />
+                  </a>
+                  <a href="https://twitter.com/iitrms_iitr?lang=en" target="_blank">
+                    <img
+                      style="padding: 0 15px"
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFZSURBVHgBtZaBUYQwEEWXGwughHQgdkAHWgJWoB0cHagVMHagFUAHXgehg9MK1l3ZjMAld7sZ7s38CYEkP7tJAIANQMSG1JO8iK+bSDu3qJCewIj0Y4MUX6QH0l6um/VMmT0YkKi0tNKn3En/SsqWbr4oDRsqHOgYSbccLZVlGKBdzcov8h837dGGJ1XzAepEw27RcGnqUY+PBnFhEN4ErUyuzDDtU+mqSEflIEdD2xPTXVhTKngDfYKOEsKG0PEzr9xIOZBMx8XIMK/8RVoUBd8c4XoconeNa2rBr73Cy4Gj5dncwfYRfyRNBd4c75BKRx5vZ59SKkq0nb9LtKABt1tbDxZw+mR5zIcn7SAHnKJ+RRtsWOUacrQd2lAZFji9wJ3UneieVIONgfRIR29UtSbjZ8xfQ4+R/yGtMacz/GBp0tiRasigSEyAU85r4+D/a/ItOqhTmOAXwf8ye0m94ycAAAAASUVORK5CYII="
+                    />
+                  </a>
+                  <a target="_blank"
+                    href="https://www.youtube.com/channel/UCX5M-zh5cSpROSOE2ciV1yQ"
+                  >
+                    <img
+                      style="padding: 0 15px"
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAVCAYAAAC6wOViAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEZSURBVHgBvZXRbcIwFEWfrf6TbuBOULpBs0k6QbtB2w3aCVomYISwAWyAmYBsYO6FBwoIkB2Dj3SxAzZHtuwXI2cIITjtut7XTq7TafZ4PhtjuoszIGqQFlmH2zPn/58K30MZ/ugzKl1GbN+tqC2ErwWFZGzxUUlZnil1CRMWmhweU1fKK/CC9k12V2IIo9SVboH4H3lC91vScVYygPgLDeWTlHlZUhV7pEG3jp2TLSVabaax47OkvONIiy4rTfSBfJDjIh0rc2g+kUbS8anSCkLKPiSjqFDqE8aPNTl4K8Mv+VBWBtvFbVpLOWqrb/ZfKQPv9OzwhBX/hPvS6qnfvcR7Ym41D0qlcfoT+yOJY6Vt18uClWs/YAMtU3Y1YUytaQAAAABJRU5ErkJggg=="
+                    />
+                  </a>
+                </div>
+                © Copyright 2018 | Team IIT Roorkee Motorsports | All Rights
+                Reserved
+              </div>
+            </div>
+            <div class="footer-right">
+              <div class="footer-heading">CONTACT US</div>
+              <!-- <div
                 class="footer-stripped"
                 style="opacity: 0.3; position: absolute; z-index: 0"
               >
@@ -974,171 +1110,192 @@
                   src="data:image/png;base64,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"
                 />
               </div> -->
-          <div class="footer-details">
-            <!-- <div class="footer-details-line"></div> -->
-            <div class="footer-details-contacts">
-              <div class="footer-details-contacts-contact">
-                <span><img
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAXCAYAAAAYyi9XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADySURBVHgB7ZU7DoJAFEXvGEp6XYC99LoAe+2114ZKt2BlRS+9C8DKxgW4ABfAAuzxPp1JiIERgoMxepLL8Enm5MHMQ2VZ5gNYMQEj565ImMjjYcGM4J4x4ytWeNQ3rjou6BmHl7t5UUqFcACL2kJ/sg5a5qPCgKXP8Gb0nH1znV80hpQJ+T1TNIDzDjgs87IyoUH2TVxXrPe1VDUtem4TCiLbUXpANdmQwxqWBvJKaLBWyzlkn5luZaWqUJCmsKc0fpJNOMxRsS3WERrui4rpomBRuBA24rc6zV/4vUJXf/lS4RntkYhwg0evdIm8xRMT3QDxJVkwkZxnfAAAAABJRU5ErkJggg=="
-                    style="padding: 0px 20px" /></span>
-                <div class="center-align">iitrms@iitr.ac.in</div>
-              </div>
-              <div class="footer-details-contacts-contact">
-                <span><img
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAbCAYAAABiFp9rAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFrSURBVHgBvZYxdsIwDIZ/Z2YvB8heDtC9OUD3dunUA9C9UycWOnWBPeywt3sOwAFyAPYgvSjgmCQKieB/T89gK3xIimy7oigmAF7JEjL+XCkj+3bO5TCQI9BcIE1iyDvBDhipiOypY31KFsNADJooPg8wAmk1mMIItMedQFpEWmp7g7SIRr9xFehf8VnDAiQ9krWsmzVsJGPWAtnCSBVoE8ynlpATSNL3582bvGkXIJEfVUJ74Ay3AFFUXCc/XR8wVBR8/8G5b2KKygxWA0mt/L55IVgCA4URMSylIfWm5hYw1zQpp+4C9bNoSX9i0+L/SMMnyg2Ys5LLyNvbjp7bN4I82C/qu/eKHloHfrH4dWnpulbpRxiyCGCnu4RAeF3ru9wpDlVkfK8Ij3yuY3ihaZUK8oBvKG9Lg9QbJDBO4RcGXFiuAnlAThlH1/eYPwwCeUDeD59R1q+rVttRoAYo99NMoJxe7qUd2eoIOD5u2bLevswAAAAASUVORK5CYII="
-                    style="padding: 10px 20px" /></span>
-                <div class="center-align">
-                  Rahesh Hudiya (Team Leader) - +91&nbsp;73022&nbsp;02065 <br />Shivendru Mathur (Deputy Team Leader) -
-                  +91&nbsp;99203&nbsp;38488
-                </div>
-                <!-- <div class="center-align-mobile">
+              <div class="footer-details">
+                <!-- <div class="footer-details-line"></div> -->
+                <div class="footer-details-contacts">
+                  <div class="footer-details-contacts-contact">
+                    <span
+                      ><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAXCAYAAAAYyi9XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADySURBVHgB7ZU7DoJAFEXvGEp6XYC99LoAe+2114ZKt2BlRS+9C8DKxgW4ABfAAuzxPp1JiIERgoMxepLL8Enm5MHMQ2VZ5gNYMQEj565ImMjjYcGM4J4x4ytWeNQ3rjou6BmHl7t5UUqFcACL2kJ/sg5a5qPCgKXP8Gb0nH1znV80hpQJ+T1TNIDzDjgs87IyoUH2TVxXrPe1VDUtem4TCiLbUXpANdmQwxqWBvJKaLBWyzlkn5luZaWqUJCmsKc0fpJNOMxRsS3WERrui4rpomBRuBA24rc6zV/4vUJXf/lS4RntkYhwg0evdIm8xRMT3QDxJVkwkZxnfAAAAABJRU5ErkJggg=="
+                        style="padding: 0px 20px"
+                    /></span>
+                    <div class="center-align">iitrms@iitr.ac.in</div>
+                  </div>
+                  <div class="footer-details-contacts-contact">
+                    <span
+                      ><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAbCAYAAABiFp9rAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFrSURBVHgBvZYxdsIwDIZ/Z2YvB8heDtC9OUD3dunUA9C9UycWOnWBPeywt3sOwAFyAPYgvSjgmCQKieB/T89gK3xIimy7oigmAF7JEjL+XCkj+3bO5TCQI9BcIE1iyDvBDhipiOypY31KFsNADJooPg8wAmk1mMIItMedQFpEWmp7g7SIRr9xFehf8VnDAiQ9krWsmzVsJGPWAtnCSBVoE8ynlpATSNL3582bvGkXIJEfVUJ74Ay3AFFUXCc/XR8wVBR8/8G5b2KKygxWA0mt/L55IVgCA4URMSylIfWm5hYw1zQpp+4C9bNoSX9i0+L/SMMnyg2Ys5LLyNvbjp7bN4I82C/qu/eKHloHfrH4dWnpulbpRxiyCGCnu4RAeF3ru9wpDlVkfK8Ij3yuY3ihaZUK8oBvKG9Lg9QbJDBO4RcGXFiuAnlAThlH1/eYPwwCeUDeD59R1q+rVttRoAYo99NMoJxe7qUd2eoIOD5u2bLevswAAAAASUVORK5CYII="
+                        style="padding: 10px 20px"
+                    /></span>
+                    <div class="center-align">
+                      Rahesh Hudiya (Team Leader) - +91&nbsp;73022&nbsp;02065 <br />Shivendru Mathur (Deputy Team Leader) -
+                      +91&nbsp;99203&nbsp;38488
+                    </div>
+                    <!-- <div class="center-align-mobile">
                       Rahesh Hudiya <br/>(Team Leader)<br/>  +91&nbsp;73022&nbsp;02065 <br />Shivendru Mathur <br/>(Deputy Team Leader) <br/>
                       +91&nbsp;99203&nbsp;38488
                     </div> -->
-              </div>
-              <div class="footer-details-contacts-contact">
-                <span><img
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAhCAYAAAAyCTAQAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAG1SURBVHgBrZardoNAEIaHnMj45gHiG9/4xtTlAeqjqlJfFVXTqJqiasBTVcMDEM8DUI+n/8BAgLDDJfufM4dkl/3mssuAQ4qyLLvHZSO2EGPFYoHjOGfTekeBvsKW1K8E9gUnP71wgPe47Gi8PDg4GeEAv1FRgqmK4OCl/DOrgfc3gllr4VzgGHikaaXo0g68dQWHnsmu8ujncjL6TkUKC2B/sDsqyqetWXH0c/zYkq4QdsRGpeUAFrq4HEjfowcuy0q5IWmDWfL/SEVGJq0ZrqUXtsEtB4GydsnwhXJDTLq0+QXDtdS0krHUg9AH32DztMy0wxAzPCI9sn3XBJweSI88ngtci2ArT5xHRZacyY76n42zI2l/k76xU/Q0kyMVkV3xSyQte4tPdpW/OHI4vHDktqKPhHfp55BLdlRxKril6MMy6gZcdKLb1FjfgMMr9wqPpsnH+sQIF3HNEhqn/POiPXgFr/XqMTp2teauyMvNHVoev76JvXDRkPIkAH+YJo1wSZM/cEwtuZyn0XBxwJGbHi63fTpGwcUB175df1/G7Qit+R32C/sk2+K+Lw6GfFbn+gf3eJSLQg7JhAAAAABJRU5ErkJggg=="
-                    style="padding: 0px 20px" /></span>
-                <div>
-                  Mechanical &amp; Industrial Engineering Department, IIT
-                  Roorkee, Uttarakhand, India. Pin: 247667
+                  </div>
+                  <div class="footer-details-contacts-contact">
+                    <span
+                      ><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAhCAYAAAAyCTAQAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAG1SURBVHgBrZardoNAEIaHnMj45gHiG9/4xtTlAeqjqlJfFVXTqJqiasBTVcMDEM8DUI+n/8BAgLDDJfufM4dkl/3mssuAQ4qyLLvHZSO2EGPFYoHjOGfTekeBvsKW1K8E9gUnP71wgPe47Gi8PDg4GeEAv1FRgqmK4OCl/DOrgfc3gllr4VzgGHikaaXo0g68dQWHnsmu8ujncjL6TkUKC2B/sDsqyqetWXH0c/zYkq4QdsRGpeUAFrq4HEjfowcuy0q5IWmDWfL/SEVGJq0ZrqUXtsEtB4GydsnwhXJDTLq0+QXDtdS0krHUg9AH32DztMy0wxAzPCI9sn3XBJweSI88ngtci2ArT5xHRZacyY76n42zI2l/k76xU/Q0kyMVkV3xSyQte4tPdpW/OHI4vHDktqKPhHfp55BLdlRxKril6MMy6gZcdKLb1FjfgMMr9wqPpsnH+sQIF3HNEhqn/POiPXgFr/XqMTp2teauyMvNHVoev76JvXDRkPIkAH+YJo1wSZM/cEwtuZyn0XBxwJGbHi63fTpGwcUB175df1/G7Qit+R32C/sk2+K+Lw6GfFbn+gf3eJSLQg7JhAAAAABJRU5ErkJggg=="
+                        style="padding: 0px 20px"
+                    /></span>
+                    <div>
+                      Mechanical &amp; Industrial Engineering Department, IIT
+                      Roorkee, Uttarakhand, India. Pin: 247667
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
+            <div class="footer-left-follow footer-left-follow-mobile">
+              Follow us on
+              <div class="footer-left-handles">
+                <a href="https://www.facebook.com/iitrms.in/">
+                  <img
+                    style="padding: 0 15px 0 0"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAcCAYAAABRVo5BAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACtSURBVHgB7ZLRDYJADIZbcgM4wo2gI7iBI+AITgAruAGbMAKOwAbeBvXH+GDqL4cX44PhS0pzpV+OkqpkMLOIFJ9Ko6qOc8IBMRinfic1Nk9dEWmL1EqGitQaWYCSG69IG1c+IzpEepyTENEzyMJP9aRSUb4qBszQZnoi6el0ml4+Z1ckYle1ZMb7Xy4RL9MjIPbuRU8aT/7GF8jm9Kzv9wuwiv8hBlI7ujPdzRu3V5AMxQQmiAAAAABJRU5ErkJggg=="
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/iitrms/?originalSubdomain=in"
+                >
+                  <img
+                    style="padding: 0 15px"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAD8SURBVHgB7VTRDYIwED0M/+gEwgTqBnUTnUCcwDiBMgGO4AbiBLqBbAAb4Lt4JqS2MZbyYcJL3kfvLn3c465EQNM0O7AS5uCYfEIEdBzIJ3DhzSBSkUeMQL/WWEQyQzwj34A9K7HtAab0jwioI2TcY3AOlswgCEq9KBWb2jy28sqQzyW3kd3SwTXqfUdIr+mKtQ+MtLOej2WXbP+P6y+oWaKrIiQ3KOE3cMfJiPoFd6y6iNTgHkzABdl3S7naxdjC71PrzAM0o08bp106ORtiV0Ns4ipSo4vaEC8NschZ5JfivqdrEBlEegY/K7y5pRZvn+/gWsvb9qQw1T4Bg1XDBEaoolAAAAAASUVORK5CYII="
+                  />
+                </a>
+                <a
+                  href="https://www.instagram.com/iitroorkeemotorsports/?hl=en"
+                >
+                  <img
+                    style="padding: 0 15px"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHkSURBVHgBrVbtUcMwDFV6/U82qDsBYYMwAWWDbECYoGGCthO0G8AGCRMQJoiZoGUCIzUyEWnsfNB3p3Ntx+9JiqwmgA4YY2IcHtBCNAXDcELTaJ9oRRAE2vkkCjyhHc11sJbcgRDZ4JAK70r28Av6QZEvOPpIrBPHPUZ3siKJ8OSAFsJE4FnFHBYbuVnx4itMBDmHlqJFPN8KsZAWVmIhhokgJyUPC1ukcxA5xVwWHiJK5wqaKtTwt7pkukN6L3imZP4YRD4rj8jauKtxz94rjioT5yx3Phd82iGyxyHhKVVPwb8jji45ewxwh1E8ggMz8IDvQsLTHdqSyNiWOH/mPYW2hx6y3/A69ireyzznU5HGhYt75iGIoXnxB9dzGNkWmrRPSp3isfT2rRrvPN7CBCGLIV3ihsdvmCCkeaSyVeCHvYsljBXiy6t5unE9x5WpeFqMFmLY8l3xZVRCgC4pOZDx0kvff5AtwQ/HftbqBEdR9haHHu58aAtKOsitaOo5l0sheeG8FYb7kam7PQlH0APKEvO+nS+mEIrhSjB1k7VI7GJu02f6S3mISGiaVDecraiqoalxRNF+nxntyY8TWlh3nNcwDKpjbYcln7o8ys3/cVGNAThSAHVbGZs+DXUTvmhFP20T5N5YSua9AAAAAElFTkSuQmCC"
+                  />
+                </a>
+                <a href="https://twitter.com/iitrms_iitr?lang=en">
+                  <img
+                    style="padding: 0 15px"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFZSURBVHgBtZaBUYQwEEWXGwughHQgdkAHWgJWoB0cHagVMHagFUAHXgehg9MK1l3ZjMAld7sZ7s38CYEkP7tJAIANQMSG1JO8iK+bSDu3qJCewIj0Y4MUX6QH0l6um/VMmT0YkKi0tNKn3En/SsqWbr4oDRsqHOgYSbccLZVlGKBdzcov8h837dGGJ1XzAepEw27RcGnqUY+PBnFhEN4ErUyuzDDtU+mqSEflIEdD2xPTXVhTKngDfYKOEsKG0PEzr9xIOZBMx8XIMK/8RVoUBd8c4XoconeNa2rBr73Cy4Gj5dncwfYRfyRNBd4c75BKRx5vZ59SKkq0nb9LtKABt1tbDxZw+mR5zIcn7SAHnKJ+RRtsWOUacrQd2lAZFji9wJ3UneieVIONgfRIR29UtSbjZ8xfQ4+R/yGtMacz/GBp0tiRasigSEyAU85r4+D/a/ItOqhTmOAXwf8ye0m94ycAAAAASUVORK5CYII="
+                  />
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/UCX5M-zh5cSpROSOE2ciV1yQ"
+                >
+                  <img
+                    style="padding: 0 15px"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAVCAYAAAC6wOViAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEZSURBVHgBvZXRbcIwFEWfrf6TbuBOULpBs0k6QbtB2w3aCVomYISwAWyAmYBsYO6FBwoIkB2Dj3SxAzZHtuwXI2cIITjtut7XTq7TafZ4PhtjuoszIGqQFlmH2zPn/58K30MZ/ugzKl1GbN+tqC2ErwWFZGzxUUlZnil1CRMWmhweU1fKK/CC9k12V2IIo9SVboH4H3lC91vScVYygPgLDeWTlHlZUhV7pEG3jp2TLSVabaax47OkvONIiy4rTfSBfJDjIh0rc2g+kUbS8anSCkLKPiSjqFDqE8aPNTl4K8Mv+VBWBtvFbVpLOWqrb/ZfKQPv9OzwhBX/hPvS6qnfvcR7Ym41D0qlcfoT+yOJY6Vt18uClWs/YAMtU3Y1YUytaQAAAABJRU5ErkJggg=="
+                  />
+                </a>
+              </div>
+              © Copyright 2018 | Team IIT Roorkee Motorsports | All Rights
+              Reserved
+            </div>
           </div>
-        </div>
-        <div class="footer-left-follow footer-left-follow-mobile">
-          Follow us on
-          <div class="footer-left-handles">
-            <a href="https://www.facebook.com/iitrms.in/">
-              <img style="padding: 0 15px 0 0"
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAcCAYAAABRVo5BAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACtSURBVHgB7ZLRDYJADIZbcgM4wo2gI7iBI+AITgAruAGbMAKOwAbeBvXH+GDqL4cX44PhS0pzpV+OkqpkMLOIFJ9Ko6qOc8IBMRinfic1Nk9dEWmL1EqGitQaWYCSG69IG1c+IzpEepyTENEzyMJP9aRSUb4qBszQZnoi6el0ml4+Z1ckYle1ZMb7Xy4RL9MjIPbuRU8aT/7GF8jm9Kzv9wuwiv8hBlI7ujPdzRu3V5AMxQQmiAAAAABJRU5ErkJggg==" />
-            </a>
-            <a href="https://www.linkedin.com/company/iitrms/?originalSubdomain=in">
-              <img style="padding: 0 15px"
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAD8SURBVHgB7VTRDYIwED0M/+gEwgTqBnUTnUCcwDiBMgGO4AbiBLqBbAAb4Lt4JqS2MZbyYcJL3kfvLn3c465EQNM0O7AS5uCYfEIEdBzIJ3DhzSBSkUeMQL/WWEQyQzwj34A9K7HtAab0jwioI2TcY3AOlswgCEq9KBWb2jy28sqQzyW3kd3SwTXqfUdIr+mKtQ+MtLOej2WXbP+P6y+oWaKrIiQ3KOE3cMfJiPoFd6y6iNTgHkzABdl3S7naxdjC71PrzAM0o08bp106ORtiV0Ns4ipSo4vaEC8NschZ5JfivqdrEBlEegY/K7y5pRZvn+/gWsvb9qQw1T4Bg1XDBEaoolAAAAAASUVORK5CYII=" />
-            </a>
-            <a href="https://www.instagram.com/iitroorkeemotorsports/?hl=en">
-              <img style="padding: 0 15px"
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHkSURBVHgBrVbtUcMwDFV6/U82qDsBYYMwAWWDbECYoGGCthO0G8AGCRMQJoiZoGUCIzUyEWnsfNB3p3Ntx+9JiqwmgA4YY2IcHtBCNAXDcELTaJ9oRRAE2vkkCjyhHc11sJbcgRDZ4JAK70r28Av6QZEvOPpIrBPHPUZ3siKJ8OSAFsJE4FnFHBYbuVnx4itMBDmHlqJFPN8KsZAWVmIhhokgJyUPC1ukcxA5xVwWHiJK5wqaKtTwt7pkukN6L3imZP4YRD4rj8jauKtxz94rjioT5yx3Phd82iGyxyHhKVVPwb8jji45ewxwh1E8ggMz8IDvQsLTHdqSyNiWOH/mPYW2hx6y3/A69ireyzznU5HGhYt75iGIoXnxB9dzGNkWmrRPSp3isfT2rRrvPN7CBCGLIV3ihsdvmCCkeaSyVeCHvYsljBXiy6t5unE9x5WpeFqMFmLY8l3xZVRCgC4pOZDx0kvff5AtwQ/HftbqBEdR9haHHu58aAtKOsitaOo5l0sheeG8FYb7kam7PQlH0APKEvO+nS+mEIrhSjB1k7VI7GJu02f6S3mISGiaVDecraiqoalxRNF+nxntyY8TWlh3nNcwDKpjbYcln7o8ys3/cVGNAThSAHVbGZs+DXUTvmhFP20T5N5YSua9AAAAAElFTkSuQmCC" />
-            </a>
-            <a href="https://twitter.com/iitrms_iitr?lang=en">
-              <img style="padding: 0 15px"
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFZSURBVHgBtZaBUYQwEEWXGwughHQgdkAHWgJWoB0cHagVMHagFUAHXgehg9MK1l3ZjMAld7sZ7s38CYEkP7tJAIANQMSG1JO8iK+bSDu3qJCewIj0Y4MUX6QH0l6um/VMmT0YkKi0tNKn3En/SsqWbr4oDRsqHOgYSbccLZVlGKBdzcov8h837dGGJ1XzAepEw27RcGnqUY+PBnFhEN4ErUyuzDDtU+mqSEflIEdD2xPTXVhTKngDfYKOEsKG0PEzr9xIOZBMx8XIMK/8RVoUBd8c4XoconeNa2rBr73Cy4Gj5dncwfYRfyRNBd4c75BKRx5vZ59SKkq0nb9LtKABt1tbDxZw+mR5zIcn7SAHnKJ+RRtsWOUacrQd2lAZFji9wJ3UneieVIONgfRIR29UtSbjZ8xfQ4+R/yGtMacz/GBp0tiRasigSEyAU85r4+D/a/ItOqhTmOAXwf8ye0m94ycAAAAASUVORK5CYII=" />
-            </a>
-            <a href="https://www.youtube.com/channel/UCX5M-zh5cSpROSOE2ciV1yQ">
-              <img style="padding: 0 15px"
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAVCAYAAAC6wOViAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEZSURBVHgBvZXRbcIwFEWfrf6TbuBOULpBs0k6QbtB2w3aCVomYISwAWyAmYBsYO6FBwoIkB2Dj3SxAzZHtuwXI2cIITjtut7XTq7TafZ4PhtjuoszIGqQFlmH2zPn/58K30MZ/ugzKl1GbN+tqC2ErwWFZGzxUUlZnil1CRMWmhweU1fKK/CC9k12V2IIo9SVboH4H3lC91vScVYygPgLDeWTlHlZUhV7pEG3jp2TLSVabaax47OkvONIiy4rTfSBfJDjIh0rc2g+kUbS8anSCkLKPiSjqFDqE8aPNTl4K8Mv+VBWBtvFbVpLOWqrb/ZfKQPv9OzwhBX/hPvS6qnfvcR7Ym41D0qlcfoT+yOJY6Vt18uClWs/YAMtU3Y1YUytaQAAAABJRU5ErkJggg==" />
-            </a>
-          </div>
-          © Copyright 2018 | Team IIT Roorkee Motorsports | All Rights
-          Reserved
         </div>
       </div>
     </div>
-  </div>
-  </div>
-  <script>
-    !(function (e) {
-      function r(r) {
-        for (
-          var n, i, l = r[0], f = r[1], a = r[2], c = 0, s = [];
-          c < l.length;
-          c++
-        )
-          (i = l[c]),
-            Object.prototype.hasOwnProperty.call(o, i) &&
-            o[i] &&
-            s.push(o[i][0]),
-            (o[i] = 0);
-        for (n in f)
-          Object.prototype.hasOwnProperty.call(f, n) && (e[n] = f[n]);
-        for (p && p(r); s.length;) s.shift()();
-        return u.push.apply(u, a || []), t();
-      }
-      function t() {
-        for (var e, r = 0; r < u.length; r++) {
-          for (var t = u[r], n = !0, l = 1; l < t.length; l++) {
-            var f = t[l];
-            0 !== o[f] && (n = !1);
-          }
-          n && (u.splice(r--, 1), (e = i((i.s = t[0]))));
+    <script>
+      !(function (e) {
+        function r(r) {
+          for (
+            var n, i, l = r[0], f = r[1], a = r[2], c = 0, s = [];
+            c < l.length;
+            c++
+          )
+            (i = l[c]),
+              Object.prototype.hasOwnProperty.call(o, i) &&
+                o[i] &&
+                s.push(o[i][0]),
+              (o[i] = 0);
+          for (n in f)
+            Object.prototype.hasOwnProperty.call(f, n) && (e[n] = f[n]);
+          for (p && p(r); s.length; ) s.shift()();
+          return u.push.apply(u, a || []), t();
         }
-        return e;
-      }
-      var n = {},
-        o = { 1: 0 },
-        u = [];
-      function i(r) {
-        if (n[r]) return n[r].exports;
-        var t = (n[r] = { i: r, l: !1, exports: {} });
-        return e[r].call(t.exports, t, t.exports, i), (t.l = !0), t.exports;
-      }
-      (i.m = e),
-        (i.c = n),
-        (i.d = function (e, r, t) {
-          i.o(e, r) ||
-            Object.defineProperty(e, r, { enumerable: !0, get: t });
-        }),
-        (i.r = function (e) {
-          "undefined" != typeof Symbol &&
-            Symbol.toStringTag &&
-            Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
-            Object.defineProperty(e, "__esModule", { value: !0 });
-        }),
-        (i.t = function (e, r) {
-          if ((1 & r && (e = i(e)), 8 & r)) return e;
-          if (4 & r && "object" == typeof e && e && e.__esModule) return e;
-          var t = Object.create(null);
-          if (
-            (i.r(t),
+        function t() {
+          for (var e, r = 0; r < u.length; r++) {
+            for (var t = u[r], n = !0, l = 1; l < t.length; l++) {
+              var f = t[l];
+              0 !== o[f] && (n = !1);
+            }
+            n && (u.splice(r--, 1), (e = i((i.s = t[0]))));
+          }
+          return e;
+        }
+        var n = {},
+          o = { 1: 0 },
+          u = [];
+        function i(r) {
+          if (n[r]) return n[r].exports;
+          var t = (n[r] = { i: r, l: !1, exports: {} });
+          return e[r].call(t.exports, t, t.exports, i), (t.l = !0), t.exports;
+        }
+        (i.m = e),
+          (i.c = n),
+          (i.d = function (e, r, t) {
+            i.o(e, r) ||
+              Object.defineProperty(e, r, { enumerable: !0, get: t });
+          }),
+          (i.r = function (e) {
+            "undefined" != typeof Symbol &&
+              Symbol.toStringTag &&
+              Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
+              Object.defineProperty(e, "__esModule", { value: !0 });
+          }),
+          (i.t = function (e, r) {
+            if ((1 & r && (e = i(e)), 8 & r)) return e;
+            if (4 & r && "object" == typeof e && e && e.__esModule) return e;
+            var t = Object.create(null);
+            if (
+              (i.r(t),
               Object.defineProperty(t, "default", { enumerable: !0, value: e }),
               2 & r && "string" != typeof e)
-          )
-            for (var n in e)
-              i.d(
-                t,
-                n,
-                function (r) {
-                  return e[r];
-                }.bind(null, n)
-              );
-          return t;
-        }),
-        (i.n = function (e) {
-          var r =
-            e && e.__esModule
-              ? function () {
-                return e.default;
-              }
-              : function () {
-                return e;
-              };
-          return i.d(r, "a", r), r;
-        }),
-        (i.o = function (e, r) {
-          return Object.prototype.hasOwnProperty.call(e, r);
-        }),
-        (i.p = "/iitrms-new/");
-      var l = (this.webpackJsonpiitrms = this.webpackJsonpiitrms || []),
-        f = l.push.bind(l);
-      (l.push = r), (l = l.slice());
-      for (var a = 0; a < l.length; a++) r(l[a]);
-      var p = f;
-      t();
-    })([]);
-  </script>
-  <script src="/iitrms-new/static/js/2.1e134fde.chunk.js"></script>
-  <script src="/iitrms-new/static/js/main.7ff762e8.chunk.js"></script>
-</body>
-<style>
-  @media (max-width:768px) {
+            )
+              for (var n in e)
+                i.d(
+                  t,
+                  n,
+                  function (r) {
+                    return e[r];
+                  }.bind(null, n)
+                );
+            return t;
+          }),
+          (i.n = function (e) {
+            var r =
+              e && e.__esModule
+                ? function () {
+                    return e.default;
+                  }
+                : function () {
+                    return e;
+                  };
+            return i.d(r, "a", r), r;
+          }),
+          (i.o = function (e, r) {
+            return Object.prototype.hasOwnProperty.call(e, r);
+          }),
+          (i.p = "/iitrms-new/");
+        var l = (this.webpackJsonpiitrms = this.webpackJsonpiitrms || []),
+          f = l.push.bind(l);
+        (l.push = r), (l = l.slice());
+        for (var a = 0; a < l.length; a++) r(l[a]);
+        var p = f;
+        t();
+      })([]);
+    </script>
+    <script src="/iitrms-new/static/js/2.1e134fde.chunk.js"></script>
+    <script src="/iitrms-new/static/js/main.7ff762e8.chunk.js"></script>
+  </body>
+  <style>
+    @media (max-width:768px){
     .blogs-heading {
       height: 10vh;
       padding-top: 3vh;
     }
   }
-</style>
-
+  </style>
 </html>
