@@ -8,11 +8,67 @@
   border-radius: 8px;
 }
 
-.member-image img{
-  height:250px;
-  width:200px;
+.member-image img {
+  height: 250px;
+  width: 200px;
   border-radius: 8px;
 }
+/* alumini section start from here */
+
+.alumini-member-image {
+  width: 230px;
+  height: 230px;
+  background: white;
+  border-radius: 115px;
+  background-size: cover;
+  background-position: center;
+}
+/*
+.alumini-member-image img {
+  height: 230px;
+  width: 230px;
+  border-radius: 115px;
+} */
+.alumini-member {
+  padding: 30px;
+  width: 240px;
+}
+.alumini-member-name {
+  font-size: 18px;
+  line-height: 18px;
+  font-family: Josefin Sans;
+
+  color: #a4cc3c;
+  text-align: center;
+  padding-top: 15px;
+}
+.alumini-member-position {
+  font-size: 16px;
+  line-height: 16px;
+  font-family: Josefin Sans;
+  color: white;
+  text-align: center;
+  padding: 8px 0px 0px 0px;
+}
+.alumini-member-company {
+  font-size: 16px;
+  line-height: 16px;
+  font-family: Josefin Sans;
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+}
+.alumini-member-contact {
+  width: inherit;
+  /* width: 100%; */
+  background-color: #393c49;
+  border-radius: 30px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* alumini section end here */
 .member-name {
   font-size: 18px;
   line-height: 18px;
@@ -38,13 +94,12 @@
   justify-content: space-evenly;
 }
 
-
-.member-contact img{
+.member-contact img {
   width: "50px";
   padding: "0px 10px";
 }
 
-.member-box{
+.member-box {
   display: "flex";
-  justify-content: "center"; 
+  justify-content: "center";
 }
