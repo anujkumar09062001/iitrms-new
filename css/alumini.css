@@ -1,17 +1,17 @@
 .alumini-all {
-    background-color: #232536;
-    padding: 100px 20vw 200px;
-    color: white;
+  background-color: #232536;
+  padding: 100px 20vw 200px;
+  color: white;
 }
 
 .alumini-heading {
-    font-family: Nimbus Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 36px;
-    margin-top: 50px;
-    margin-bottom: 30px;
+  font-family: Nimbus Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 /* Check */
@@ -29,7 +29,8 @@
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -51,8 +52,9 @@
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -87,7 +89,8 @@
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -98,24 +101,57 @@
   animation-name: fade;
   animation-duration: 1.5s;
 }
+/* start */
+
+.alumini-members {
+  padding: 120px 10vw;
+  background: #1d1f2d;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.alumini-members-members {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  /* justify-content:space-between; */
+  align-items: center;
+}
+
+/* end */
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 720px) {
-    .prev, .next {
-        font-size: 14px;
-        padding: 10px;
-    }
-    .dot {
-        height: 10px;
-        width: 10px;
-    }
+  .prev,
+  .next {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .dot {
+    height: 10px;
+    width: 10px;
+  }
 }
