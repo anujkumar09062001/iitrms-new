@@ -1,20 +1,14 @@
-.alumini-all {
-  background-color: #232536;
-  padding: 100px 20vw 200px;
-  color: white;
-}
-
-.alumini-heading {
+/* .alumini-heading {
+  background: #1D1F2D;
   font-family: Nimbus Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
   line-height: 36px;
-  margin-top: 50px;
-  margin-bottom: 30px;
-}
+  color: white;
+} */
 
-/* Check */
+/* Carousal Styling */
 
 /* Slideshow container */
 .slideshow-container {
@@ -101,6 +95,7 @@
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
 /* start */
 
 .alumini-members {
