@@ -16,8 +16,8 @@
 /* alumini section start from here */
 
 .alumini-member-image {
-  width: 230px;
-  height: 230px;
+  width: 200px;
+  height: 200px;
   background: white;
   border-radius: 115px;
   background-size: cover;
@@ -31,7 +31,7 @@
 } */
 .alumini-member {
   padding: 30px;
-  width: 240px;
+  width: 200px;
 }
 .alumini-member-name {
   font-size: 18px;
@@ -48,12 +48,14 @@
   font-family: Josefin Sans;
   color: white;
   text-align: center;
+
   padding: 8px 0px 0px 0px;
 }
 .alumini-member-company {
   font-size: 16px;
   line-height: 16px;
   font-family: Josefin Sans;
+  font-weight: bolder;
   color: white;
   text-align: center;
   padding: 8px 0;
